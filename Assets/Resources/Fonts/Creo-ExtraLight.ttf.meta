@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 0dcbe65e69eee6145b8ce44e15d7a017
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Creo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 38691abb50ee61a40b4b8301e99ed415, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

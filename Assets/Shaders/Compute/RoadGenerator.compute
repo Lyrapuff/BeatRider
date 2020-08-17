@@ -1,0 +1,14 @@
+﻿#pragma kernel generate
+
+#include "Assets/Shaders/Includes/Snoise.cginc"
+
+float offset = 0;
+uint size = 0;
+RWStructuredBuffer<float> heights;
+
+[numthreads(512,1,1)]
+void generate (uint id : SV_DispatchThreadID)
+{
+    float noise = snoise(float3(0.543, 0.5436, (id * 0.1 + offset) / 400)) * 10;
+    heights[id] = noise;
+}

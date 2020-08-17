@@ -1,0 +1,1893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Lyrapuff\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Lyrapuff\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_BeatRider.1768005302.00" t="ExcludeRecursive" />
+    <e p="G:\Unity\BeatRider" t="IncludeRecursive">
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="AngleSharp" t="Include">
+            <e p="Attributes" t="Include">
+              <e p="Accessors.cs" t="Include" />
+              <e p="DomAccessorAttribute.cs" t="Include" />
+              <e p="DomConstructorAttribute.cs" t="Include" />
+              <e p="DomDescriptionAttribute.cs" t="Include" />
+              <e p="DomExposedAttribute.cs" t="Include" />
+              <e p="DomHistoricalAttribute.cs" t="Include" />
+              <e p="DomInitDictAttribute.cs" t="Include" />
+              <e p="DomLenientThisAttribute.cs" t="Include" />
+              <e p="DomLiteralsAttribute.cs" t="Include" />
+              <e p="DomNameAttribute.cs" t="Include" />
+              <e p="DomNoInterfaceObjectAttribute.cs" t="Include" />
+              <e p="DomPutForwardsAttribute.cs" t="Include" />
+            </e>
+            <e p="AutoSelectedMarkupFormatter.cs" t="Include" />
+            <e p="BrowsingContext.cs" t="Include" />
+            <e p="BrowsingContextExtensions.cs" t="Include" />
+            <e p="Commands" t="Include">
+              <e p="ICommand.cs" t="Include" />
+            </e>
+            <e p="Common" t="Include">
+              <e p="AttachedProperty.cs" t="Include" />
+            </e>
+            <e p="Configuration.cs" t="Include" />
+            <e p="ConfigurationExtensions.cs" t="Include" />
+            <e p="Css" t="Include">
+              <e p="Colors.cs" t="Include" />
+              <e p="CombinatorSymbols.cs" t="Include" />
+              <e p="Converters.cs" t="Include" />
+              <e p="CssStyleFormatter.cs" t="Include" />
+              <e p="FeatureNames.cs" t="Include" />
+              <e p="FunctionNames.cs" t="Include" />
+              <e p="IPropertyValue.cs" t="Include" />
+              <e p="IValueConverter.cs" t="Include" />
+              <e p="Map.cs" t="Include" />
+              <e p="PrettyStyleFormatter.cs" t="Include" />
+              <e p="Priority.cs" t="Include" />
+              <e p="PropertyFlags.cs" t="Include" />
+              <e p="PropertyNames.cs" t="Include" />
+              <e p="PseudoClassNames.cs" t="Include" />
+              <e p="PseudoElementNames.cs" t="Include" />
+              <e p="RenderDevice.cs" t="Include" />
+              <e p="RuleNames.cs" t="Include" />
+              <e p="TransformMatrix.cs" t="Include" />
+              <e p="UnitNames.cs" t="Include" />
+              <e p="ValueConverters" t="Include">
+                <e p="AnyValueConverter.cs" t="Include" />
+                <e p="ArgumentsValueConverter.cs" t="Include" />
+                <e p="BorderRadiusConverter.cs" t="Include" />
+                <e p="ConstraintValueConverter.cs" t="Include" />
+                <e p="ContinuousValueConverter.cs" t="Include" />
+                <e p="DictionaryValueConverter.cs" t="Include" />
+                <e p="EndListValueConverter.cs" t="Include" />
+                <e p="FunctionValueConverter.cs" t="Include" />
+                <e p="GradientConverter.cs" t="Include" />
+                <e p="IdentifierValueConverter.cs" t="Include" />
+                <e p="ListValueConverter.cs" t="Include" />
+                <e p="OneOrMoreValueConverter.cs" t="Include" />
+                <e p="OptionValueConverter.cs" t="Include" />
+                <e p="OrderedOptionsConverter.cs" t="Include" />
+                <e p="OrValueConverter.cs" t="Include" />
+                <e p="PeriodicValueConverter.cs" t="Include" />
+                <e p="RequiredValueConverter.cs" t="Include" />
+                <e p="StartsWithValueConverter.cs" t="Include" />
+                <e p="StringsValueConverter.cs" t="Include" />
+                <e p="StringValueConverter.cs" t="Include" />
+                <e p="StructValueConverter.cs" t="Include" />
+                <e p="UnorderedOptionsConverter.cs" t="Include" />
+                <e p="UrlValueConverter.cs" t="Include" />
+              </e>
+              <e p="Values" t="Include">
+                <e p="Angle.cs" t="Include" />
+                <e p="Color.cs" t="Include" />
+                <e p="Counter.cs" t="Include" />
+                <e p="CubicBezierTimingFunction.cs" t="Include" />
+                <e p="Frequency.cs" t="Include" />
+                <e p="GradientStop.cs" t="Include" />
+                <e p="IGradient.cs" t="Include" />
+                <e p="IImageSource.cs" t="Include" />
+                <e p="ITimingFunction.cs" t="Include" />
+                <e p="ITransform.cs" t="Include" />
+                <e p="Length.cs" t="Include" />
+                <e p="LinearGradient.cs" t="Include" />
+                <e p="MatrixTransform.cs" t="Include" />
+                <e p="Number.cs" t="Include" />
+                <e p="Percent.cs" t="Include" />
+                <e p="PerspectiveTransform.cs" t="Include" />
+                <e p="Point.cs" t="Include" />
+                <e p="RadialGradient.cs" t="Include" />
+                <e p="Resolution.cs" t="Include" />
+                <e p="RotateTransform.cs" t="Include" />
+                <e p="ScaleTransform.cs" t="Include" />
+                <e p="Shadow.cs" t="Include" />
+                <e p="Shape.cs" t="Include" />
+                <e p="SkewTransform.cs" t="Include" />
+                <e p="StepsTimingFunction.cs" t="Include" />
+                <e p="Time.cs" t="Include" />
+                <e p="TranslateTransform.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Dom" t="Include">
+              <e p="Attr.cs" t="Include" />
+              <e p="CharacterData.cs" t="Include" />
+              <e p="Collections" t="Include">
+                <e p="HtmlAllCollection.cs" t="Include" />
+                <e p="HtmlCollection.cs" t="Include" />
+                <e p="HtmlFormControlsCollection.cs" t="Include" />
+                <e p="MediaList.cs" t="Include" />
+                <e p="NamedNodeMap.cs" t="Include" />
+                <e p="NodeIterator.cs" t="Include" />
+                <e p="NodeList.cs" t="Include" />
+                <e p="OptionsCollection.cs" t="Include" />
+                <e p="Range.cs" t="Include" />
+                <e p="SettableTokenList.cs" t="Include" />
+                <e p="StringList.cs" t="Include" />
+                <e p="StringMap.cs" t="Include" />
+                <e p="StyleCollection.cs" t="Include" />
+                <e p="TokenList.cs" t="Include" />
+                <e p="TreeWalker.cs" t="Include" />
+              </e>
+              <e p="Comment.cs" t="Include" />
+              <e p="Constants" t="Include">
+                <e p="AdjacentPosition.cs" t="Include" />
+                <e p="Alignment.cs" t="Include" />
+                <e p="CacheStatus.cs" t="Include" />
+                <e p="ContentEditableMode.cs" t="Include" />
+                <e p="CssRuleType.cs" t="Include" />
+                <e p="DirectionMode.cs" t="Include" />
+                <e p="DocumentPositions.cs" t="Include" />
+                <e p="DocumentReadyState.cs" t="Include" />
+                <e p="DomError.cs" t="Include" />
+                <e p="EventPhase.cs" t="Include" />
+                <e p="FilterResult.cs" t="Include" />
+                <e p="FilterSettings.cs" t="Include" />
+                <e p="HorizontalAlignment.cs" t="Include" />
+                <e p="KeyboardLocation.cs" t="Include" />
+                <e p="MediaControllerPlaybackState.cs" t="Include" />
+                <e p="MediaErrorCode.cs" t="Include" />
+                <e p="MediaNetworkState.cs" t="Include" />
+                <e p="MediaReadyState.cs" t="Include" />
+                <e p="MouseButton.cs" t="Include" />
+                <e p="MouseButtons.cs" t="Include" />
+                <e p="NodeType.cs" t="Include" />
+                <e p="QuirksMode.cs" t="Include" />
+                <e p="RangePosition.cs" t="Include" />
+                <e p="RangeType.cs" t="Include" />
+                <e p="Sandboxes.cs" t="Include" />
+                <e p="ShadowRootMode.cs" t="Include" />
+                <e p="SimpleChoice.cs" t="Include" />
+                <e p="TableFrames.cs" t="Include" />
+                <e p="TableRules.cs" t="Include" />
+                <e p="TextTrackMode.cs" t="Include" />
+                <e p="TrackReadyState.cs" t="Include" />
+                <e p="VerticalAlignment.cs" t="Include" />
+                <e p="Visibility.cs" t="Include" />
+                <e p="WheelMode.cs" t="Include" />
+                <e p="WordBreak.cs" t="Include" />
+              </e>
+              <e p="Css" t="Include">
+                <e p="ConditionFunctions" t="Include">
+                  <e p="AndCondition.cs" t="Include" />
+                  <e p="DeclarationCondition.cs" t="Include" />
+                  <e p="EmptyCondition.cs" t="Include" />
+                  <e p="GroupCondition.cs" t="Include" />
+                  <e p="NotCondition.cs" t="Include" />
+                  <e p="OrCondition.cs" t="Include" />
+                </e>
+                <e p="Constants" t="Include">
+                  <e p="AnimationDirection.cs" t="Include" />
+                  <e p="AnimationFillStyle.cs" t="Include" />
+                  <e p="BackgroundAttachment.cs" t="Include" />
+                  <e p="BackgroundRepeat.cs" t="Include" />
+                  <e p="BlendMode.cs" t="Include" />
+                  <e p="BorderRepeat.cs" t="Include" />
+                  <e p="BoxModel.cs" t="Include" />
+                  <e p="BreakMode.cs" t="Include" />
+                  <e p="ClearMode.cs" t="Include" />
+                  <e p="DisplayMode.cs" t="Include" />
+                  <e p="Floating.cs" t="Include" />
+                  <e p="FontSize.cs" t="Include" />
+                  <e p="FontStretch.cs" t="Include" />
+                  <e p="FontStyle.cs" t="Include" />
+                  <e p="FontVariant.cs" t="Include" />
+                  <e p="FontWeight.cs" t="Include" />
+                  <e p="HoverAbility.cs" t="Include" />
+                  <e p="LineStyle.cs" t="Include" />
+                  <e p="ListPosition.cs" t="Include" />
+                  <e p="ListStyle.cs" t="Include" />
+                  <e p="ObjectFitting.cs" t="Include" />
+                  <e p="OverflowMode.cs" t="Include" />
+                  <e p="OverflowWrap.cs" t="Include" />
+                  <e p="PlayState.cs" t="Include" />
+                  <e p="PointerAccuracy.cs" t="Include" />
+                  <e p="PositionMode.cs" t="Include" />
+                  <e p="ScriptingState.cs" t="Include" />
+                  <e p="StrokeLinecap.cs" t="Include" />
+                  <e p="StrokeLinejoin.cs" t="Include" />
+                  <e p="SystemCursor.cs" t="Include" />
+                  <e p="SystemFont.cs" t="Include" />
+                  <e p="TextAlignLast.cs" t="Include" />
+                  <e p="TextAnchor.cs" t="Include" />
+                  <e p="TextDecorationLine.cs" t="Include" />
+                  <e p="TextDecorationStyle.cs" t="Include" />
+                  <e p="TextJustify.cs" t="Include" />
+                  <e p="TextTransform.cs" t="Include" />
+                  <e p="UnicodeMode.cs" t="Include" />
+                  <e p="UpdateFrequency.cs" t="Include" />
+                  <e p="Whitespace.cs" t="Include" />
+                </e>
+                <e p="CssComment.cs" t="Include" />
+                <e p="CssMediaQueryList.cs" t="Include" />
+                <e p="CssMedium.cs" t="Include" />
+                <e p="CssNode.cs" t="Include" />
+                <e p="CssProperty.cs" t="Include" />
+                <e p="CssStyleDeclaration.cs" t="Include" />
+                <e p="CssStyleEngine.cs" t="Include" />
+                <e p="CssStyleSheet.cs" t="Include" />
+                <e p="CssValue.cs" t="Include" />
+                <e p="DocumentFunction.cs" t="Include" />
+                <e p="DocumentFunctions" t="Include">
+                  <e p="DomainFunction.cs" t="Include" />
+                  <e p="RegexpFunction.cs" t="Include" />
+                  <e p="UrlFunction.cs" t="Include" />
+                  <e p="UrlPrefixFunction.cs" t="Include" />
+                </e>
+                <e p="MediaFeature.cs" t="Include" />
+                <e p="MediaFeatures" t="Include">
+                  <e p="AspectRatioMediaFeature.cs" t="Include" />
+                  <e p="ColorIndexMediaFeature.cs" t="Include" />
+                  <e p="ColorMediaFeature.cs" t="Include" />
+                  <e p="DeviceAspectRatioMediaFeature.cs" t="Include" />
+                  <e p="DeviceHeightMediaFeature.cs" t="Include" />
+                  <e p="DevicePixelRatioFeature.cs" t="Include" />
+                  <e p="DeviceWidthMediaFeature.cs" t="Include" />
+                  <e p="GridMediaFeature.cs" t="Include" />
+                  <e p="HeightMediaFeature.cs" t="Include" />
+                  <e p="HoverMediaFeature.cs" t="Include" />
+                  <e p="MonochromeMediaFeature.cs" t="Include" />
+                  <e p="OrientationMediaFeature.cs" t="Include" />
+                  <e p="PointerMediaFeature.cs" t="Include" />
+                  <e p="ResolutionMediaFeature.cs" t="Include" />
+                  <e p="ScanMediaFeature.cs" t="Include" />
+                  <e p="ScriptingMediaFeature.cs" t="Include" />
+                  <e p="UnknownMediaFeature.cs" t="Include" />
+                  <e p="UpdateFrequencyMediaFeature.cs" t="Include" />
+                  <e p="WidthMediaFeature.cs" t="Include" />
+                </e>
+                <e p="Properties" t="Include">
+                  <e p="Animation" t="Include">
+                    <e p="CssAnimationDelayProperty.cs" t="Include" />
+                    <e p="CssAnimationDirectionProperty.cs" t="Include" />
+                    <e p="CssAnimationDurationProperty.cs" t="Include" />
+                    <e p="CssAnimationFillModeProperty.cs" t="Include" />
+                    <e p="CssAnimationIterationCountProperty.cs" t="Include" />
+                    <e p="CssAnimationNameProperty.cs" t="Include" />
+                    <e p="CssAnimationPlayStateProperty.cs" t="Include" />
+                    <e p="CssAnimationProperty.cs" t="Include" />
+                    <e p="CssAnimationTimingFunctionProperty.cs" t="Include" />
+                  </e>
+                  <e p="Background" t="Include">
+                    <e p="CssBackgroundAttachmentProperty.cs" t="Include" />
+                    <e p="CssBackgroundClipProperty.cs" t="Include" />
+                    <e p="CssBackgroundColorProperty.cs" t="Include" />
+                    <e p="CssBackgroundImageProperty.cs" t="Include" />
+                    <e p="CssBackgroundOriginProperty.cs" t="Include" />
+                    <e p="CssBackgroundPositionProperty.cs" t="Include" />
+                    <e p="CssBackgroundProperty.cs" t="Include" />
+                    <e p="CssBackgroundRepeatProperty.cs" t="Include" />
+                    <e p="CssBackgroundSizeProperty.cs" t="Include" />
+                  </e>
+                  <e p="Border" t="Include">
+                    <e p="CssBorderBottomColorProperty.cs" t="Include" />
+                    <e p="CssBorderBottomProperty.cs" t="Include" />
+                    <e p="CssBorderBottomStyleProperty.cs" t="Include" />
+                    <e p="CssBorderBottomWidthProperty.cs" t="Include" />
+                    <e p="CssBorderCollapseProperty.cs" t="Include" />
+                    <e p="CssBorderColorProperty.cs" t="Include" />
+                    <e p="CssBorderLeftColorProperty.cs" t="Include" />
+                    <e p="CssBorderLeftProperty.cs" t="Include" />
+                    <e p="CssBorderLeftStyleProperty.cs" t="Include" />
+                    <e p="CssBorderLeftWidthProperty.cs" t="Include" />
+                    <e p="CssBorderProperty.cs" t="Include" />
+                    <e p="CssBorderRightColorProperty.cs" t="Include" />
+                    <e p="CssBorderRightProperty.cs" t="Include" />
+                    <e p="CssBorderRightStyleProperty.cs" t="Include" />
+                    <e p="CssBorderRightWidthProperty.cs" t="Include" />
+                    <e p="CssBorderSpacingProperty.cs" t="Include" />
+                    <e p="CssBorderStyleProperty.cs" t="Include" />
+                    <e p="CssBorderTopColorProperty.cs" t="Include" />
+                    <e p="CssBorderTopProperty.cs" t="Include" />
+                    <e p="CssBorderTopStyleProperty.cs" t="Include" />
+                    <e p="CssBorderTopWidthProperty.cs" t="Include" />
+                    <e p="CssBorderWidthProperty.cs" t="Include" />
+                  </e>
+                  <e p="BorderImage" t="Include">
+                    <e p="CssBorderImageOutsetProperty.cs" t="Include" />
+                    <e p="CssBorderImageProperty.cs" t="Include" />
+                    <e p="CssBorderImageRepeatProperty.cs" t="Include" />
+                    <e p="CssBorderImageSliceProperty.cs" t="Include" />
+                    <e p="CssBorderImageSourceProperty.cs" t="Include" />
+                    <e p="CssBorderImageWidthProperty.cs" t="Include" />
+                  </e>
+                  <e p="BorderRadius" t="Include">
+                    <e p="CssBorderBottomLeftRadiusProperty.cs" t="Include" />
+                    <e p="CssBorderBottomRightRadiusProperty.cs" t="Include" />
+                    <e p="CssBorderRadiusProperty.cs" t="Include" />
+                    <e p="CssBorderTopLeftRadiusProperty.cs" t="Include" />
+                    <e p="CssBorderTopRightRadiusProperty.cs" t="Include" />
+                  </e>
+                  <e p="Box" t="Include">
+                    <e p="CssBoxDecorationBreak.cs" t="Include" />
+                    <e p="CssBoxShadowProperty.cs" t="Include" />
+                    <e p="CssMarginBottomProperty.cs" t="Include" />
+                    <e p="CssMarginLeftProperty.cs" t="Include" />
+                    <e p="CssMarginProperty.cs" t="Include" />
+                    <e p="CssMarginRightProperty.cs" t="Include" />
+                    <e p="CssMarginTopProperty.cs" t="Include" />
+                    <e p="CssPaddingBottomProperty.cs" t="Include" />
+                    <e p="CssPaddingLeftProperty.cs" t="Include" />
+                    <e p="CssPaddingProperty.cs" t="Include" />
+                    <e p="CssPaddingRightProperty .cs" t="Include" />
+                    <e p="CssPaddingTopProperty.cs" t="Include" />
+                  </e>
+                  <e p="Break" t="Include">
+                    <e p="CssBreakAfterProperty.cs" t="Include" />
+                    <e p="CssBreakBeforeProperty.cs" t="Include" />
+                    <e p="CssBreakInsideProperty.cs" t="Include" />
+                    <e p="CssPageBreakAfterProperty.cs" t="Include" />
+                    <e p="CssPageBreakBeforeProperty.cs" t="Include" />
+                    <e p="CssPageBreakInsideProperty.cs" t="Include" />
+                  </e>
+                  <e p="Columns" t="Include">
+                    <e p="CssColumnCountProperty.cs" t="Include" />
+                    <e p="CssColumnFillProperty.cs" t="Include" />
+                    <e p="CssColumnGapProperty.cs" t="Include" />
+                    <e p="CssColumnRuleColorProperty.cs" t="Include" />
+                    <e p="CssColumnRuleProperty.cs" t="Include" />
+                    <e p="CssColumnRuleStyleProperty.cs" t="Include" />
+                    <e p="CssColumnRuleWidthProperty.cs" t="Include" />
+                    <e p="CssColumnSpanProperty.cs" t="Include" />
+                    <e p="CssColumnsProperty.cs" t="Include" />
+                    <e p="CssColumnWidthProperty.cs" t="Include" />
+                  </e>
+                  <e p="Coordinate" t="Include">
+                    <e p="CssBottomProperty.cs" t="Include" />
+                    <e p="CssHeightProperty.cs" t="Include" />
+                    <e p="CssLeftProperty.cs" t="Include" />
+                    <e p="CssMaxHeightProperty.cs" t="Include" />
+                    <e p="CssMaxWidthProperty.cs" t="Include" />
+                    <e p="CssMinHeightProperty.cs" t="Include" />
+                    <e p="CssMinWidthProperty.cs" t="Include" />
+                    <e p="CssRightProperty .cs" t="Include" />
+                    <e p="CssTopProperty.cs" t="Include" />
+                    <e p="CssWidthProperty.cs" t="Include" />
+                  </e>
+                  <e p="CssCaptionSideProperty.cs" t="Include" />
+                  <e p="CssContentProperty.cs" t="Include" />
+                  <e p="CssCursorProperty.cs" t="Include" />
+                  <e p="CssEmptyCellsProperty.cs" t="Include" />
+                  <e p="CssFeatureProperty.cs" t="Include" />
+                  <e p="CssOrphansProperty.cs" t="Include" />
+                  <e p="CssQuotesProperty.cs" t="Include" />
+                  <e p="CssShorthandProperty.cs" t="Include" />
+                  <e p="CssTableLayoutProperty.cs" t="Include" />
+                  <e p="CssUnicodeBidiProperty.cs" t="Include" />
+                  <e p="CssUnknownProperty.cs" t="Include" />
+                  <e p="CssWidowsProperty.cs" t="Include" />
+                  <e p="Flow" t="Include">
+                    <e p="CssClearProperty.cs" t="Include" />
+                    <e p="CssDisplayProperty.cs" t="Include" />
+                    <e p="CssFloatProperty.cs" t="Include" />
+                    <e p="CssOverflowProperty.cs" t="Include" />
+                    <e p="CssPositionProperty.cs" t="Include" />
+                    <e p="CssZIndexProperty.cs" t="Include" />
+                  </e>
+                  <e p="Font" t="Include">
+                    <e p="CssColorProperty.cs" t="Include" />
+                    <e p="CssFontFamilyProperty.cs" t="Include" />
+                    <e p="CssFontProperty.cs" t="Include" />
+                    <e p="CssFontSizeAdjustProperty.cs" t="Include" />
+                    <e p="CssFontSizeProperty.cs" t="Include" />
+                    <e p="CssFontStretchProperty.cs" t="Include" />
+                    <e p="CssFontStyleProperty.cs" t="Include" />
+                    <e p="CssFontVariantProperty.cs" t="Include" />
+                    <e p="CssFontWeightProperty.cs" t="Include" />
+                    <e p="CssLetterSpacingProperty.cs" t="Include" />
+                    <e p="CssLineHeightProperty.cs" t="Include" />
+                    <e p="CssSrcProperty.cs" t="Include" />
+                    <e p="CssUnicodeRangeProperty.cs" t="Include" />
+                    <e p="CssWordSpacingProperty.cs" t="Include" />
+                  </e>
+                  <e p="List" t="Include">
+                    <e p="CssCounterIncrementProperty.cs" t="Include" />
+                    <e p="CssCounterResetProperty.cs" t="Include" />
+                    <e p="CssListStyleImageProperty.cs" t="Include" />
+                    <e p="CssListStylePositionProperty.cs" t="Include" />
+                    <e p="CssListStyleProperty.cs" t="Include" />
+                    <e p="CssListStyleTypeProperty.cs" t="Include" />
+                  </e>
+                  <e p="Outline" t="Include">
+                    <e p="CssOutlineColorProperty.cs" t="Include" />
+                    <e p="CssOutlineProperty.cs" t="Include" />
+                    <e p="CssOutlineStyleProperty.cs" t="Include" />
+                    <e p="CssOutlineWidthProperty.cs" t="Include" />
+                  </e>
+                  <e p="Sizing" t="Include">
+                    <e p="CssObjectFitProperty.cs" t="Include" />
+                    <e p="CssObjectPositionProperty.cs" t="Include" />
+                  </e>
+                  <e p="Stroke" t="Include">
+                    <e p="CssStrokeDasharrayProperty.cs" t="Include" />
+                    <e p="CssStrokeDashoffsetProperty.cs" t="Include" />
+                    <e p="CssStrokeLinecapProperty.cs" t="Include" />
+                    <e p="CssStrokeLinejoinProperty.cs" t="Include" />
+                    <e p="CssStrokeMiterlimitProperty.cs" t="Include" />
+                    <e p="CssStrokeOpacityProperty.cs" t="Include" />
+                    <e p="CssStrokeProperty.cs" t="Include" />
+                    <e p="CssStrokeWidthProperty.cs" t="Include" />
+                  </e>
+                  <e p="Text" t="Include">
+                    <e p="CssDirectionProperty.cs" t="Include" />
+                    <e p="CssOverflowWrapProperty.cs" t="Include" />
+                    <e p="CssTextAlignLastProperty.cs" t="Include" />
+                    <e p="CssTextAlignProperty.cs" t="Include" />
+                    <e p="CssTextAnchorProperty.cs" t="Include" />
+                    <e p="CssTextDecorationColorProperty.cs" t="Include" />
+                    <e p="CssTextDecorationLineProperty.cs" t="Include" />
+                    <e p="CssTextDecorationProperty.cs" t="Include" />
+                    <e p="CssTextDecorationStyleProperty.cs" t="Include" />
+                    <e p="CssTextIndentProperty.cs" t="Include" />
+                    <e p="CssTextJustifyProperty.cs" t="Include" />
+                    <e p="CssTextShadowProperty.cs" t="Include" />
+                    <e p="CssTextTransformProperty.cs" t="Include" />
+                    <e p="CssVerticalAlignProperty.cs" t="Include" />
+                    <e p="CssWhiteSpaceProperty.cs" t="Include" />
+                    <e p="CssWordBreakProperty.cs" t="Include" />
+                  </e>
+                  <e p="Transform" t="Include">
+                    <e p="CssPerspectiveOriginProperty.cs" t="Include" />
+                    <e p="CssPerspectiveProperty.cs" t="Include" />
+                    <e p="CssTransformOriginProperty.cs" t="Include" />
+                    <e p="CssTransformProperty.cs" t="Include" />
+                    <e p="CssTransformStyleProperty.cs" t="Include" />
+                  </e>
+                  <e p="Transition" t="Include">
+                    <e p="CssTransitionDelayProperty.cs" t="Include" />
+                    <e p="CssTransitionDurationProperty.cs" t="Include" />
+                    <e p="CssTransitionProperty.cs" t="Include" />
+                    <e p="CssTransitionPropertyProperty.cs" t="Include" />
+                    <e p="CssTransitionTimingFunctionProperty.cs" t="Include" />
+                  </e>
+                  <e p="Visibility" t="Include">
+                    <e p="CssBackfaceVisibilityProperty.cs" t="Include" />
+                    <e p="CssClipProperty.cs" t="Include" />
+                    <e p="CssOpacityProperty.cs" t="Include" />
+                    <e p="CssVisibilityProperty.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Rules" t="Include">
+                  <e p="CssCharsetRule.cs" t="Include" />
+                  <e p="CssConditionRule.cs" t="Include" />
+                  <e p="CssDeclarationRule.cs" t="Include" />
+                  <e p="CssDocumentRule.cs" t="Include" />
+                  <e p="CssFontFaceRule.cs" t="Include" />
+                  <e p="CssGroupingRule.cs" t="Include" />
+                  <e p="CssImportRule.cs" t="Include" />
+                  <e p="CssKeyframeRule.cs" t="Include" />
+                  <e p="CssKeyframesRule.cs" t="Include" />
+                  <e p="CssMediaRule.cs" t="Include" />
+                  <e p="CssNamespaceRule.cs" t="Include" />
+                  <e p="CssPageRule.cs" t="Include" />
+                  <e p="CssRule.cs" t="Include" />
+                  <e p="CssRuleList.cs" t="Include" />
+                  <e p="CssStyleRule.cs" t="Include" />
+                  <e p="CssSupportsRule.cs" t="Include" />
+                  <e p="CssUnknownRule.cs" t="Include" />
+                  <e p="CssViewportRule.cs" t="Include" />
+                </e>
+                <e p="Selector" t="Include">
+                  <e p="ChildSelector.cs" t="Include" />
+                  <e p="ComplexSelector.cs" t="Include" />
+                  <e p="CompoundSelector.cs" t="Include" />
+                  <e p="FirstChildSelector.cs" t="Include" />
+                  <e p="FirstColumnSelector.cs" t="Include" />
+                  <e p="FirstTypeSelector.cs" t="Include" />
+                  <e p="KeyframeSelector.cs" t="Include" />
+                  <e p="LastChildSelector.cs" t="Include" />
+                  <e p="LastColumnSelector.cs" t="Include" />
+                  <e p="LastTypeSelector.cs" t="Include" />
+                  <e p="ListSelector.cs" t="Include" />
+                  <e p="Selectors.cs" t="Include" />
+                  <e p="SimpleSelector.cs" t="Include" />
+                  <e p="UnknownSelector.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Document.cs" t="Include" />
+              <e p="DocumentFragment.cs" t="Include" />
+              <e p="DocumentType.cs" t="Include" />
+              <e p="DomEventHandler.cs" t="Include" />
+              <e p="DomException.cs" t="Include" />
+              <e p="DomImplementation.cs" t="Include" />
+              <e p="Element.cs" t="Include" />
+              <e p="Entity.cs" t="Include" />
+              <e p="EntityReference.cs" t="Include" />
+              <e p="Events" t="Include">
+                <e p="CompositionEvent.cs" t="Include" />
+                <e p="CssErrorEvent.cs" t="Include" />
+                <e p="CssParseEvent.cs" t="Include" />
+                <e p="CustomEvent.cs" t="Include" />
+                <e p="ErrorEvent.cs" t="Include" />
+                <e p="Event.cs" t="Include" />
+                <e p="FocusEvent.cs" t="Include" />
+                <e p="HashChangedEvent.cs" t="Include" />
+                <e p="HtmlErrorEvent.cs" t="Include" />
+                <e p="HtmlParseEvent.cs" t="Include" />
+                <e p="InputEvent.cs" t="Include" />
+                <e p="InteractivityEvent.cs" t="Include" />
+                <e p="KeyboardEvent.cs" t="Include" />
+                <e p="MediaQueryListEvent.cs" t="Include" />
+                <e p="MessageEvent.cs" t="Include" />
+                <e p="ModifierExtensions.cs" t="Include" />
+                <e p="MouseEvent.cs" t="Include" />
+                <e p="PageTransitionEvent.cs" t="Include" />
+                <e p="RequestEvent.cs" t="Include" />
+                <e p="TouchEvent.cs" t="Include" />
+                <e p="TrackEvent.cs" t="Include" />
+                <e p="UiEvent.cs" t="Include" />
+                <e p="WheelEvent.cs" t="Include" />
+              </e>
+              <e p="EventTarget.cs" t="Include" />
+              <e p="Html" t="Include">
+                <e p="HtmlAddressElement.cs" t="Include" />
+                <e p="HtmlAnchorElement.cs" t="Include" />
+                <e p="HtmlAppletElement.cs" t="Include" />
+                <e p="HtmlAreaElement.cs" t="Include" />
+                <e p="HtmlAudioElement.cs" t="Include" />
+                <e p="HtmlBaseElement.cs" t="Include" />
+                <e p="HtmlBaseFontElement.cs" t="Include" />
+                <e p="HtmlBgsoundElement.cs" t="Include" />
+                <e p="HtmlBigElement.cs" t="Include" />
+                <e p="HtmlBodyElement.cs" t="Include" />
+                <e p="HtmlBoldElement.cs" t="Include" />
+                <e p="HtmlBreakRowElement.cs" t="Include" />
+                <e p="HtmlButtonElement.cs" t="Include" />
+                <e p="HtmlCanvasElement.cs" t="Include" />
+                <e p="HtmlCodeElement.cs" t="Include" />
+                <e p="HtmlDataElement.cs" t="Include" />
+                <e p="HtmlDataListElement.cs" t="Include" />
+                <e p="HtmlDefinitionListElement.cs" t="Include" />
+                <e p="HtmlDetailsElement.cs" t="Include" />
+                <e p="HtmlDialogElement.cs" t="Include" />
+                <e p="HtmlDirectoryElement.cs" t="Include" />
+                <e p="HtmlDivElement.cs" t="Include" />
+                <e p="HtmlDocument.cs" t="Include" />
+                <e p="HtmlElement.cs" t="Include" />
+                <e p="HtmlEmbedElement.cs" t="Include" />
+                <e p="HtmlEmphasizeElement.cs" t="Include" />
+                <e p="HtmlFieldSetElement.cs" t="Include" />
+                <e p="HtmlFontElement.cs" t="Include" />
+                <e p="HtmlFormControlElement.cs" t="Include" />
+                <e p="HtmlFormControlElementWithState.cs" t="Include" />
+                <e p="HtmlFormElement.cs" t="Include" />
+                <e p="HtmlFrameElement.cs" t="Include" />
+                <e p="HtmlFrameElementBase.cs" t="Include" />
+                <e p="HtmlFrameOwnerElement.cs" t="Include" />
+                <e p="HtmlFrameSetElement.cs" t="Include" />
+                <e p="HtmlHeadElement.cs" t="Include" />
+                <e p="HtmlHeadingElement.cs" t="Include" />
+                <e p="HtmlHrElement.cs" t="Include" />
+                <e p="HtmlHtmlElement.cs" t="Include" />
+                <e p="HtmlIFrameElement.cs" t="Include" />
+                <e p="HtmlImageElement.cs" t="Include" />
+                <e p="HtmlInputElement.cs" t="Include" />
+                <e p="HtmlIsIndexElement.cs" t="Include" />
+                <e p="HtmlItalicElement.cs" t="Include" />
+                <e p="HtmlKeygenElement.cs" t="Include" />
+                <e p="HtmlLabelElement.cs" t="Include" />
+                <e p="HtmlLegendElement.cs" t="Include" />
+                <e p="HtmlLinkElement.cs" t="Include" />
+                <e p="HtmlListItemElement.cs" t="Include" />
+                <e p="HtmlMapElement.cs" t="Include" />
+                <e p="HtmlMarqueeElement.cs" t="Include" />
+                <e p="HtmlMediaElement.cs" t="Include" />
+                <e p="HtmlMenuElement.cs" t="Include" />
+                <e p="HtmlMenuItemElement.cs" t="Include" />
+                <e p="HtmlMetaElement.cs" t="Include" />
+                <e p="HtmlMeterElement.cs" t="Include" />
+                <e p="HtmlModElement.cs" t="Include" />
+                <e p="HtmlNoEmbedElement.cs" t="Include" />
+                <e p="HtmlNoFramesElement.cs" t="Include" />
+                <e p="HtmlNoNewlineElement.cs" t="Include" />
+                <e p="HtmlNoScriptElement.cs" t="Include" />
+                <e p="HtmlObjectElement.cs" t="Include" />
+                <e p="HtmlOptionElement.cs" t="Include" />
+                <e p="HtmlOptionsGroupElement.cs" t="Include" />
+                <e p="HtmlOrderedListElement.cs" t="Include" />
+                <e p="HtmlOutputElement.cs" t="Include" />
+                <e p="HtmlParagraphElement.cs" t="Include" />
+                <e p="HtmlParamElement.cs" t="Include" />
+                <e p="HtmlPictureElement.cs" t="Include" />
+                <e p="HtmlPlaintextElement.cs" t="Include" />
+                <e p="HtmlPreElement.cs" t="Include" />
+                <e p="HtmlProgressElement.cs" t="Include" />
+                <e p="HtmlQuoteElement.cs" t="Include" />
+                <e p="HtmlRbElement.cs" t="Include" />
+                <e p="HtmlRpElement.cs" t="Include" />
+                <e p="HtmlRtcElement.cs" t="Include" />
+                <e p="HtmlRtElement.cs" t="Include" />
+                <e p="HtmlRubyElement.cs" t="Include" />
+                <e p="HtmlScriptElement.cs" t="Include" />
+                <e p="HtmlSelectElement.cs" t="Include" />
+                <e p="HtmlSemanticElement.cs" t="Include" />
+                <e p="HtmlSlotElement.cs" t="Include" />
+                <e p="HtmlSmallElement.cs" t="Include" />
+                <e p="HtmlSourceElement.cs" t="Include" />
+                <e p="HtmlSpanElement.cs" t="Include" />
+                <e p="HtmlStrikeElement.cs" t="Include" />
+                <e p="HtmlStrongElement.cs" t="Include" />
+                <e p="HtmlStruckElement.cs" t="Include" />
+                <e p="HtmlStyleElement.cs" t="Include" />
+                <e p="HtmlTableCaptionElement.cs" t="Include" />
+                <e p="HtmlTableCellElement.cs" t="Include" />
+                <e p="HtmlTableColElement.cs" t="Include" />
+                <e p="HtmlTableColgroupElement.cs" t="Include" />
+                <e p="HtmlTableDataCellElement.cs" t="Include" />
+                <e p="HtmlTableElement.cs" t="Include" />
+                <e p="HtmlTableHeaderCellElement.cs" t="Include" />
+                <e p="HtmlTableRowElement.cs" t="Include" />
+                <e p="HtmlTableSectionElement.cs" t="Include" />
+                <e p="HtmlTeletypeTextElement.cs" t="Include" />
+                <e p="HtmlTemplateElement.cs" t="Include" />
+                <e p="HtmlTextAreaElement.cs" t="Include" />
+                <e p="HtmlTextFormControlElement.cs" t="Include" />
+                <e p="HtmlTimeElement.cs" t="Include" />
+                <e p="HtmlTitleElement.cs" t="Include" />
+                <e p="HtmlTrackElement.cs" t="Include" />
+                <e p="HtmlUnderlineElement.cs" t="Include" />
+                <e p="HtmlUnknownElement.cs" t="Include" />
+                <e p="HtmlUnorderedListElement.cs" t="Include" />
+                <e p="HtmlUrlBaseElement.cs" t="Include" />
+                <e p="HtmlVideoElement.cs" t="Include" />
+                <e p="HtmlWbrElement.cs" t="Include" />
+                <e p="HtmlXmpElement.cs" t="Include" />
+                <e p="ValidityState.cs" t="Include" />
+              </e>
+              <e p="IAttributeObserver.cs" t="Include" />
+              <e p="Internal" t="Include">
+                <e p="DefaultAttributeObserver.cs" t="Include" />
+              </e>
+              <e p="Io" t="Include">
+                <e p="FileList.cs" t="Include" />
+              </e>
+              <e p="Location.cs" t="Include" />
+              <e p="Mathml" t="Include">
+                <e p="MathAnnotationXmlElement.cs" t="Include" />
+                <e p="MathElement.cs" t="Include" />
+                <e p="MathIdentifierElement.cs" t="Include" />
+                <e p="MathNumberElement.cs" t="Include" />
+                <e p="MathOperatorElement.cs" t="Include" />
+                <e p="MathStringElement.cs" t="Include" />
+                <e p="MathTextElement.cs" t="Include" />
+              </e>
+              <e p="MutationCallback.cs" t="Include" />
+              <e p="MutationHost.cs" t="Include" />
+              <e p="MutationObserver.cs" t="Include" />
+              <e p="MutationRecord.cs" t="Include" />
+              <e p="Node.cs" t="Include" />
+              <e p="NodeFilter.cs" t="Include" />
+              <e p="Notation.cs" t="Include" />
+              <e p="ProcessingInstruction.cs" t="Include" />
+              <e p="PseudoElement.cs" t="Include" />
+              <e p="ShadowRoot.cs" t="Include" />
+              <e p="StyleSheetList.cs" t="Include" />
+              <e p="Svg" t="Include">
+                <e p="SvgCircleElement.cs" t="Include" />
+                <e p="SvgDescElement.cs" t="Include" />
+                <e p="SvgDocument.cs" t="Include" />
+                <e p="SvgElement.cs" t="Include" />
+                <e p="SvgForeignObjectElement.cs" t="Include" />
+                <e p="SvgSvgElement.cs" t="Include" />
+                <e p="SvgTitleElement.cs" t="Include" />
+              </e>
+              <e p="TextNode.cs" t="Include" />
+              <e p="Window.cs" t="Include" />
+              <e p="Xml" t="Include">
+                <e p="XmlDocument.cs" t="Include" />
+                <e p="XmlElement.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Extensions" t="Include">
+              <e p="ApiExtensions.cs" t="Include" />
+              <e p="AttrExtensions.cs" t="Include" />
+              <e p="CharExtensions.cs" t="Include" />
+              <e p="CollectionExtensions.cs" t="Include" />
+              <e p="ConfigurationExtensions.cs" t="Include" />
+              <e p="ContextExtensions.cs" t="Include" />
+              <e p="DocumentExtensions.cs" t="Include" />
+              <e p="ElementExtensions.cs" t="Include" />
+              <e p="EventLoopExtensions.cs" t="Include" />
+              <e p="EventTargetExtensions.cs" t="Include" />
+              <e p="FormatExtensions.cs" t="Include" />
+              <e p="FormDataSetExtensions.cs" t="Include" />
+              <e p="LegacyExtensions.cs" t="Include" />
+              <e p="NodeExtensions.cs" t="Include" />
+              <e p="ObjectExtensions.cs" t="Include" />
+              <e p="ParentNodeExtensions.cs" t="Include" />
+              <e p="PortableExtensions.cs" t="Include" />
+              <e p="QueryExtensions.cs" t="Include" />
+              <e p="RequesterExtensions.cs" t="Include" />
+              <e p="ResponseExtensions.cs" t="Include" />
+              <e p="SelectorExtensions.cs" t="Include" />
+              <e p="SilverlightExtensions.cs" t="Include" />
+              <e p="StringExtensions.cs" t="Include" />
+              <e p="StyleExtensions.cs" t="Include" />
+              <e p="StyleSheetExtensions.cs" t="Include" />
+              <e p="TokenizerExtensions.cs" t="Include" />
+              <e p="ValueConverterExtensions.cs" t="Include" />
+              <e p="ValueExtensions.cs" t="Include" />
+              <e p="WindowExtensions.cs" t="Include" />
+              <e p="XmlExtensions.cs" t="Include" />
+            </e>
+            <e p="Foundation" t="Include">
+              <e p="CreateDocumentOptions.cs" t="Include" />
+              <e p="Factory.cs" t="Include" />
+              <e p="Keywords.cs" t="Include" />
+              <e p="Pool.cs" t="Include" />
+              <e p="Punycode.cs" t="Include" />
+              <e p="Symbols.cs" t="Include" />
+              <e p="TaskEventLoop.cs" t="Include" />
+              <e p="TaskEx.cs" t="Include" />
+              <e p="TaskPriority.cs" t="Include" />
+              <e p="WeakReference.cs" t="Include" />
+            </e>
+            <e p="Html" t="Include">
+              <e p="AttributeNames.cs" t="Include" />
+              <e p="EventFlags.cs" t="Include" />
+              <e p="EventNames.cs" t="Include" />
+              <e p="FileDataSetEntry.cs" t="Include" />
+              <e p="FormControlState.cs" t="Include" />
+              <e p="FormDataSet.cs" t="Include" />
+              <e p="FormDataSetEntry.cs" t="Include" />
+              <e p="HtmlEntityService.cs" t="Include" />
+              <e p="HtmlMarkupFormatter.cs" t="Include" />
+              <e p="IFormDataSetVisitor.cs" t="Include" />
+              <e p="IFormSubmitter.cs" t="Include" />
+              <e p="InputTypeNames.cs" t="Include" />
+              <e p="InputTypes" t="Include">
+                <e p="BaseInputType.cs" t="Include" />
+                <e p="ButtonInputType.cs" t="Include" />
+                <e p="CheckedInputType.cs" t="Include" />
+                <e p="ColorInputType.cs" t="Include" />
+                <e p="DateInputType.cs" t="Include" />
+                <e p="DateTimeInputType.cs" t="Include" />
+                <e p="DatetimeLocalInputType.cs" t="Include" />
+                <e p="EmailInputType.cs" t="Include" />
+                <e p="FileInputType.cs" t="Include" />
+                <e p="ImageInputType.cs" t="Include" />
+                <e p="MonthInputType.cs" t="Include" />
+                <e p="NumberInputType.cs" t="Include" />
+                <e p="PatternInputType.cs" t="Include" />
+                <e p="SubmitInputType.cs" t="Include" />
+                <e p="TextInputType.cs" t="Include" />
+                <e p="TimeInputType.cs" t="Include" />
+                <e p="UrlInputType.cs" t="Include" />
+                <e p="WeekInputType.cs" t="Include" />
+              </e>
+              <e p="LinkRelNames.cs" t="Include" />
+              <e p="LinkRels" t="Include">
+                <e p="BaseLinkRelation.cs" t="Include" />
+                <e p="ImportLinkRelation.cs" t="Include" />
+                <e p="StyleSheetLinkRelation.cs" t="Include" />
+              </e>
+              <e p="NamespaceNames.cs" t="Include" />
+              <e p="NodeFlags.cs" t="Include" />
+              <e p="PrettyMarkupFormatter.cs" t="Include" />
+              <e p="SourceSet.cs" t="Include" />
+              <e p="Submitters" t="Include">
+                <e p="Json" t="Include">
+                  <e p="JsonArray.cs" t="Include" />
+                  <e p="JsonElement.cs" t="Include" />
+                  <e p="JsonObject.cs" t="Include" />
+                  <e p="JsonStep.cs" t="Include" />
+                  <e p="JsonValue.cs" t="Include" />
+                </e>
+                <e p="JsonFormDataSetVisitor.cs" t="Include" />
+                <e p="MultipartFormDataSetVisitor.cs" t="Include" />
+                <e p="PlaintextFormDataSetVisitor.cs" t="Include" />
+                <e p="UrlEncodedFormDataSetVisitor.cs" t="Include" />
+              </e>
+              <e p="TagNames.cs" t="Include" />
+              <e p="TextDataSetEntry.cs" t="Include" />
+            </e>
+            <e p="IBrowsingContext.cs" t="Include" />
+            <e p="ICancellable.cs" t="Include" />
+            <e p="IConfiguration.cs" t="Include" />
+            <e p="IEventLoop.cs" t="Include" />
+            <e p="IMarkupFormattable.cs" t="Include" />
+            <e p="IMarkupFormatter.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="Css" t="Include">
+                <e p="IConditionFunction.cs" t="Include" />
+                <e p="ICssCharsetRule.cs" t="Include" />
+                <e p="ICssComment.cs" t="Include" />
+                <e p="ICssConditionRule.cs" t="Include" />
+                <e p="ICssCounterStyleRule.cs" t="Include" />
+                <e p="ICssDocumentRule.cs" t="Include" />
+                <e p="ICssFontFaceRule.cs" t="Include" />
+                <e p="ICssFontFeatureValuesRule.cs" t="Include" />
+                <e p="ICssGroupingRule.cs" t="Include" />
+                <e p="ICssImportRule.cs" t="Include" />
+                <e p="ICssKeyframeRule.cs" t="Include" />
+                <e p="ICssKeyframesRule.cs" t="Include" />
+                <e p="ICssMarginRule.cs" t="Include" />
+                <e p="ICssMediaRule.cs" t="Include" />
+                <e p="ICssMedium.cs" t="Include" />
+                <e p="ICssNamespaceRule.cs" t="Include" />
+                <e p="ICssNode.cs" t="Include" />
+                <e p="ICssPageRule.cs" t="Include" />
+                <e p="ICssProperties .cs" t="Include" />
+                <e p="ICssProperty.cs" t="Include" />
+                <e p="ICssRule.cs" t="Include" />
+                <e p="ICssRuleCreator.cs" t="Include" />
+                <e p="ICssRuleList.cs" t="Include" />
+                <e p="ICssStyleDeclaration.cs" t="Include" />
+                <e p="ICssStyleRule.cs" t="Include" />
+                <e p="ICssStyleSheet.cs" t="Include" />
+                <e p="ICssSupportsRule.cs" t="Include" />
+                <e p="IDocumentFunction.cs" t="Include" />
+                <e p="IElementCssInlineStyle.cs" t="Include" />
+                <e p="IKeyframeSelector.cs" t="Include" />
+                <e p="IMediaFeature.cs" t="Include" />
+                <e p="IMediaList.cs" t="Include" />
+                <e p="IMediaQueryList.cs" t="Include" />
+                <e p="ISelector.cs" t="Include" />
+                <e p="IStyleUtilities.cs" t="Include" />
+              </e>
+              <e p="Events" t="Include">
+                <e p="IGlobalEventHandlers.cs" t="Include" />
+                <e p="IMessagePort.cs" t="Include" />
+                <e p="ITouchList.cs" t="Include" />
+                <e p="ITouchPoint.cs" t="Include" />
+                <e p="IWindowEventHandlers.cs" t="Include" />
+              </e>
+              <e p="Html" t="Include">
+                <e p="IHtmlAnchorElement.cs" t="Include" />
+                <e p="IHtmlAreaElement.cs" t="Include" />
+                <e p="IHtmlAudioElement.cs" t="Include" />
+                <e p="IHtmlBaseElement.cs" t="Include" />
+                <e p="IHtmlBodyElement.cs" t="Include" />
+                <e p="IHtmlBreakRowElement.cs" t="Include" />
+                <e p="IHtmlButtonElement.cs" t="Include" />
+                <e p="IHtmlCanvasElement.cs" t="Include" />
+                <e p="IHtmlCommandElement.cs" t="Include" />
+                <e p="IHtmlDataElement.cs" t="Include" />
+                <e p="IHtmlDataListElement.cs" t="Include" />
+                <e p="IHtmlDetailsElement.cs" t="Include" />
+                <e p="IHtmlDialogElement.cs" t="Include" />
+                <e p="IHtmlDivElement.cs" t="Include" />
+                <e p="IHtmlDocument.cs" t="Include" />
+                <e p="IHtmlElement.cs" t="Include" />
+                <e p="IHtmlEmbedElement.cs" t="Include" />
+                <e p="IHtmlFieldSetElement.cs" t="Include" />
+                <e p="IHtmlFormControlsCollection.cs" t="Include" />
+                <e p="IHtmlFormElement.cs" t="Include" />
+                <e p="IHtmlHeadElement.cs" t="Include" />
+                <e p="IHtmlHeadingElement.cs" t="Include" />
+                <e p="IHtmlHrElement.cs" t="Include" />
+                <e p="IHtmlHtmlElement.cs" t="Include" />
+                <e p="IHtmlImageElement.cs" t="Include" />
+                <e p="IHtmlInlineFrameElement.cs" t="Include" />
+                <e p="IHtmlInputElement.cs" t="Include" />
+                <e p="IHtmlKeygenElement.cs" t="Include" />
+                <e p="IHtmlLabelElement.cs" t="Include" />
+                <e p="IHtmlLegendElement.cs" t="Include" />
+                <e p="IHtmlLinkElement.cs" t="Include" />
+                <e p="IHtmlListItemElement.cs" t="Include" />
+                <e p="IHtmlMapElement.cs" t="Include" />
+                <e p="IHtmlMarqueeElement.cs" t="Include" />
+                <e p="IHtmlMediaElement.cs" t="Include" />
+                <e p="IHtmlMenuElement.cs" t="Include" />
+                <e p="IHtmlMenuItemElement.cs" t="Include" />
+                <e p="IHtmlMetaElement.cs" t="Include" />
+                <e p="IHtmlMeterElement.cs" t="Include" />
+                <e p="IHtmlModElement.cs" t="Include" />
+                <e p="IHtmlObjectElement.cs" t="Include" />
+                <e p="IHtmlOptionElement.cs" t="Include" />
+                <e p="IHtmlOptionsCollection.cs" t="Include" />
+                <e p="IHtmlOptionsGroupElement.cs" t="Include" />
+                <e p="IHtmlOrderedListElement.cs" t="Include" />
+                <e p="IHtmlOutputElement.cs" t="Include" />
+                <e p="IHtmlParagraphElement.cs" t="Include" />
+                <e p="IHtmlParamElement.cs" t="Include" />
+                <e p="IHtmlPreElement.cs" t="Include" />
+                <e p="IHtmlProgressElement.cs" t="Include" />
+                <e p="IHtmlQuoteElement.cs" t="Include" />
+                <e p="IHtmlScriptElement.cs" t="Include" />
+                <e p="IHtmlSelectElement.cs" t="Include" />
+                <e p="IHtmlSlotElement.cs" t="Include" />
+                <e p="IHtmlSourceElement.cs" t="Include" />
+                <e p="IHtmlSpanElement.cs" t="Include" />
+                <e p="IHtmlStyleElement.cs" t="Include" />
+                <e p="IHtmlTableCaptionElement.cs" t="Include" />
+                <e p="IHtmlTableCellElement.cs" t="Include" />
+                <e p="IHtmlTableColumnElement.cs" t="Include" />
+                <e p="IHtmlTableDataCellElement.cs" t="Include" />
+                <e p="IHtmlTableElement.cs" t="Include" />
+                <e p="IHtmlTableHeaderCellElement.cs" t="Include" />
+                <e p="IHtmlTableRowElement.cs" t="Include" />
+                <e p="IHtmlTableSectionElement.cs" t="Include" />
+                <e p="IHtmlTemplateElement.cs" t="Include" />
+                <e p="IHtmlTextAreaElement.cs" t="Include" />
+                <e p="IHtmlTimeElement.cs" t="Include" />
+                <e p="IHtmlTitleElement.cs" t="Include" />
+                <e p="IHtmlTrackElement.cs" t="Include" />
+                <e p="IHtmlUnknownElement.cs" t="Include" />
+                <e p="IHtmlUnorderedListElement.cs" t="Include" />
+                <e p="IHtmlVideoElement.cs" t="Include" />
+                <e p="ILabelabelElement.cs" t="Include" />
+                <e p="IValidation.cs" t="Include" />
+                <e p="IValidityState.cs" t="Include" />
+              </e>
+              <e p="IApplicationCache.cs" t="Include" />
+              <e p="IAttr.cs" t="Include" />
+              <e p="IBindable.cs" t="Include" />
+              <e p="ICharacterData.cs" t="Include" />
+              <e p="IChildNode.cs" t="Include" />
+              <e p="IComment.cs" t="Include" />
+              <e p="IDocument.cs" t="Include" />
+              <e p="IDocumentFragment.cs" t="Include" />
+              <e p="IDocumentStyle.cs" t="Include" />
+              <e p="IDocumentType.cs" t="Include" />
+              <e p="IDomException.cs" t="Include" />
+              <e p="IElement.cs" t="Include" />
+              <e p="IEventTarget.cs" t="Include" />
+              <e p="IHistory.cs" t="Include" />
+              <e p="IHtmlAllCollection.cs" t="Include" />
+              <e p="IHtmlCollection.cs" t="Include" />
+              <e p="IImplementation.cs" t="Include" />
+              <e p="ILinkImport.cs" t="Include" />
+              <e p="ILinkStyle.cs" t="Include" />
+              <e p="ILoadableElement.cs" t="Include" />
+              <e p="ILocation.cs" t="Include" />
+              <e p="IMutationRecord.cs" t="Include" />
+              <e p="INamedNodeMap.cs" t="Include" />
+              <e p="INode.cs" t="Include" />
+              <e p="INodeIterator.cs" t="Include" />
+              <e p="INodeList.cs" t="Include" />
+              <e p="INonDocumentTypeChildNode.cs" t="Include" />
+              <e p="INonElementParentNode.cs" t="Include" />
+              <e p="Io" t="Include">
+                <e p="IBlob.cs" t="Include" />
+                <e p="IFile.cs" t="Include" />
+                <e p="IFileList.cs" t="Include" />
+              </e>
+              <e p="IParentNode.cs" t="Include" />
+              <e p="IProcessingInstruction.cs" t="Include" />
+              <e p="IPseudoElement.cs" t="Include" />
+              <e p="IRange.cs" t="Include" />
+              <e p="ISettableTokenList.cs" t="Include" />
+              <e p="IShadowRoot.cs" t="Include" />
+              <e p="IStringList.cs" t="Include" />
+              <e p="IStringMap.cs" t="Include" />
+              <e p="IStyleSheet.cs" t="Include" />
+              <e p="IStyleSheetList.cs" t="Include" />
+              <e p="IText.cs" t="Include" />
+              <e p="ITokenList.cs" t="Include" />
+              <e p="ITreeWalker.cs" t="Include" />
+              <e p="IUrlUtilities.cs" t="Include" />
+              <e p="IWindow.cs" t="Include" />
+              <e p="IWindowTimers.cs" t="Include" />
+              <e p="Media" t="Include">
+                <e p="IAudioTrack.cs" t="Include" />
+                <e p="IAudioTrackList.cs" t="Include" />
+                <e p="ICanvasRenderingContext2D.cs" t="Include" />
+                <e p="IMediaController.cs" t="Include" />
+                <e p="IMediaError.cs" t="Include" />
+                <e p="IRenderingContext.cs" t="Include" />
+                <e p="ITextTrack.cs" t="Include" />
+                <e p="ITextTrackCue.cs" t="Include" />
+                <e p="ITextTrackCueList.cs" t="Include" />
+                <e p="ITextTrackList.cs" t="Include" />
+                <e p="ITimeRanges.cs" t="Include" />
+                <e p="IVideoTrack.cs" t="Include" />
+                <e p="IVideoTrackList.cs" t="Include" />
+              </e>
+              <e p="Navigator" t="Include">
+                <e p="INavigator.cs" t="Include" />
+                <e p="INavigatorContentUtilities.cs" t="Include" />
+                <e p="INavigatorId.cs" t="Include" />
+                <e p="INavigatorOnline.cs" t="Include" />
+                <e p="INavigatorStorageUtilities.cs" t="Include" />
+              </e>
+              <e p="Svg" t="Include">
+                <e p="ISvgCircleElement.cs" t="Include" />
+                <e p="ISvgDescriptionElement.cs" t="Include" />
+                <e p="ISvgDocument.cs" t="Include" />
+                <e p="ISvgElement.cs" t="Include" />
+                <e p="ISvgForeignObjectElement.cs" t="Include" />
+                <e p="ISvgSvgElement.cs" t="Include" />
+                <e p="ISvgTitleElement.cs" t="Include" />
+              </e>
+              <e p="Xml" t="Include">
+                <e p="IXmlDocument.cs" t="Include" />
+              </e>
+            </e>
+            <e p="IStyleFormattable.cs" t="Include" />
+            <e p="IStyleFormatter.cs" t="Include" />
+            <e p="Network" t="Include">
+              <e p="CorsRequest.cs" t="Include" />
+              <e p="CorsSetting.cs" t="Include" />
+              <e p="Default" t="Include">
+                <e p="BaseLoader.cs" t="Include" />
+                <e p="DataRequester.cs" t="Include" />
+                <e p="DocumentLoader.cs" t="Include" />
+                <e p="Download.cs" t="Include" />
+                <e p="HttpRequester.cs" t="Include" />
+                <e p="Request.cs" t="Include" />
+                <e p="ResourceLoader.cs" t="Include" />
+                <e p="Response.cs" t="Include" />
+              </e>
+              <e p="DocumentRequest.cs" t="Include" />
+              <e p="HeaderNames.cs" t="Include" />
+              <e p="HttpMethod.cs" t="Include" />
+              <e p="IDocumentLoader.cs" t="Include" />
+              <e p="IDownload.cs" t="Include" />
+              <e p="ILoader.cs" t="Include" />
+              <e p="IRequest.cs" t="Include" />
+              <e p="IRequester.cs" t="Include" />
+              <e p="IResourceLoader.cs" t="Include" />
+              <e p="IResponse.cs" t="Include" />
+              <e p="MimeType.cs" t="Include" />
+              <e p="MimeTypeNames.cs" t="Include" />
+              <e p="OriginBehavior.cs" t="Include" />
+              <e p="PortNumbers.cs" t="Include" />
+              <e p="ProtocolNames.cs" t="Include" />
+              <e p="RequestProcessors" t="Include">
+                <e p="BaseRequestProcessor.cs" t="Include" />
+                <e p="DocumentRequestProcessor.cs" t="Include" />
+                <e p="FrameRequestProcessor.cs" t="Include" />
+                <e p="ImageRequestProcessor.cs" t="Include" />
+                <e p="IRequestProcessor.cs" t="Include" />
+                <e p="MediaRequestProcessor.cs" t="Include" />
+                <e p="ObjectRequestProcessor.cs" t="Include" />
+                <e p="ResourceRequestProcessor.cs" t="Include" />
+                <e p="ScriptRequestProcessor.cs" t="Include" />
+                <e p="StyleSheetRequestProcessor.cs" t="Include" />
+              </e>
+              <e p="ResourceRequest.cs" t="Include" />
+              <e p="VirtualResponse.cs" t="Include" />
+            </e>
+            <e p="Parser" t="Include">
+              <e p="BaseTokenizer.cs" t="Include" />
+              <e p="Css" t="Include">
+                <e p="CssBuilder.cs" t="Include" />
+                <e p="CssCombinator.cs" t="Include" />
+                <e p="CssParseError.cs" t="Include" />
+                <e p="CssParser.cs" t="Include" />
+                <e p="CssParserExtensions.cs" t="Include" />
+                <e p="CssParserOptions.cs" t="Include" />
+                <e p="CssSelectorConstructor.cs" t="Include" />
+                <e p="CssTokenizer.cs" t="Include" />
+                <e p="CssTokenType.cs" t="Include" />
+                <e p="CssValueBuilder.cs" t="Include" />
+                <e p="Tokens" t="Include">
+                  <e p="CssColorToken.cs" t="Include" />
+                  <e p="CssCommentToken.cs" t="Include" />
+                  <e p="CssFunctionToken.cs" t="Include" />
+                  <e p="CssKeywordToken.cs" t="Include" />
+                  <e p="CssNumberToken.cs" t="Include" />
+                  <e p="CssRangeToken.cs" t="Include" />
+                  <e p="CssStringToken.cs" t="Include" />
+                  <e p="CssToken.cs" t="Include" />
+                  <e p="CssUnitToken.cs" t="Include" />
+                  <e p="CssUrlToken.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Html" t="Include">
+                <e p="HtmlDomBuilder.cs" t="Include" />
+                <e p="HtmlForeignExtensions.cs" t="Include" />
+                <e p="HtmlParseError.cs" t="Include" />
+                <e p="HtmlParseException.cs" t="Include" />
+                <e p="HtmlParseMode.cs" t="Include" />
+                <e p="HtmlParser.cs" t="Include" />
+                <e p="HtmlParserExtensions.cs" t="Include" />
+                <e p="HtmlParserOptions.cs" t="Include" />
+                <e p="HtmlTokenizer.cs" t="Include" />
+                <e p="HtmlTokenType.cs" t="Include" />
+                <e p="HtmlTreeMode.cs" t="Include" />
+                <e p="Tokens" t="Include">
+                  <e p="HtmlDoctypeToken.cs" t="Include" />
+                  <e p="HtmlTagToken.cs" t="Include" />
+                  <e p="HtmlToken.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Xml" t="Include">
+                <e p="Tokens" t="Include">
+                  <e p="XmlCDataToken.cs" t="Include" />
+                  <e p="XmlCharacterToken.cs" t="Include" />
+                  <e p="XmlCommentToken.cs" t="Include" />
+                  <e p="XmlDeclarationToken.cs" t="Include" />
+                  <e p="XmlDoctypeToken.cs" t="Include" />
+                  <e p="XmlEndOfFileToken.cs" t="Include" />
+                  <e p="XmlPIToken.cs" t="Include" />
+                  <e p="XmlTagToken.cs" t="Include" />
+                  <e p="XmlToken.cs" t="Include" />
+                </e>
+                <e p="XmlDomBuilder.cs" t="Include" />
+                <e p="XmlParseError.cs" t="Include" />
+                <e p="XmlParseException.cs" t="Include" />
+                <e p="XmlParser.cs" t="Include" />
+                <e p="XmlParserExtensions.cs" t="Include" />
+                <e p="XmlParserOptions.cs" t="Include" />
+                <e p="XmlTokenizer.cs" t="Include" />
+                <e p="XmlTokenType.cs" t="Include" />
+                <e p="XmlTreeMode.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Properties" t="Include">
+              <e p="AssemblyInfo.cs" t="Include" />
+            </e>
+            <e p="Services" t="Include">
+              <e p="Default" t="Include">
+                <e p="AttributeSelectorFactory.cs" t="Include" />
+                <e p="ContextFactory.cs" t="Include" />
+                <e p="CssPropertyFactory.cs" t="Include" />
+                <e p="DocumentFactory.cs" t="Include" />
+                <e p="EventFactory.cs" t="Include" />
+                <e p="HtmlElementFactory.cs" t="Include" />
+                <e p="InputTypeFactory.cs" t="Include" />
+                <e p="LinkRelationFactory.cs" t="Include" />
+                <e p="LocaleEncodingProvider.cs" t="Include" />
+                <e p="MathElementFactory.cs" t="Include" />
+                <e p="MediaFeatureFactory.cs" t="Include" />
+                <e p="MemoryCookieProvider.cs" t="Include" />
+                <e p="PseudoClassSelectorFactory.cs" t="Include" />
+                <e p="PseudoElementSelectorFactory.cs" t="Include" />
+                <e p="ServiceFactory.cs" t="Include" />
+                <e p="StylingService.cs" t="Include" />
+                <e p="SvgElementFactory.cs" t="Include" />
+              </e>
+              <e p="IAttributeSelectorFactory.cs" t="Include" />
+              <e p="ICommandProvider.cs" t="Include" />
+              <e p="IContextFactory.cs" t="Include" />
+              <e p="ICookieProvider.cs" t="Include" />
+              <e p="ICssPropertyFactory.cs" t="Include" />
+              <e p="IDocumentFactory.cs" t="Include" />
+              <e p="IElementFactory.cs" t="Include" />
+              <e p="IEncodingProvider.cs" t="Include" />
+              <e p="IEntityProvider.cs" t="Include" />
+              <e p="IEventFactory.cs" t="Include" />
+              <e p="IInputTypeFactory.cs" t="Include" />
+              <e p="IIntegrityProvider.cs" t="Include" />
+              <e p="ILinkRelationFactory.cs" t="Include" />
+              <e p="IMediaFeatureFactory.cs" t="Include" />
+              <e p="IPseudoClassSelectorFactory.cs" t="Include" />
+              <e p="IPseudoElementSelectorFactory.cs" t="Include" />
+              <e p="IRenderingService.cs" t="Include" />
+              <e p="IResourceService.cs" t="Include" />
+              <e p="IScriptingProvider.cs" t="Include" />
+              <e p="IServiceFactory.cs" t="Include" />
+              <e p="ISpellCheckService.cs" t="Include" />
+              <e p="IStylingProvider.cs" t="Include" />
+              <e p="Media" t="Include">
+                <e p="IAudioInfo.cs" t="Include" />
+                <e p="IImageInfo.cs" t="Include" />
+                <e p="IMediaInfo.cs" t="Include" />
+                <e p="IObjectInfo.cs" t="Include" />
+                <e p="IResourceInfo.cs" t="Include" />
+                <e p="IVideoInfo.cs" t="Include" />
+              </e>
+              <e p="Scripting" t="Include">
+                <e p="IScriptEngine.cs" t="Include" />
+                <e p="ScriptOptions.cs" t="Include" />
+              </e>
+              <e p="Styling" t="Include">
+                <e p="ICssStyleEngine.cs" t="Include" />
+                <e p="IStyleEngine.cs" t="Include" />
+                <e p="StyleOptions.cs" t="Include" />
+              </e>
+            </e>
+            <e p="TextEncoding.cs" t="Include" />
+            <e p="TextPosition.cs" t="Include" />
+            <e p="TextRange.cs" t="Include" />
+            <e p="TextSource.cs" t="Include" />
+            <e p="TextView.cs" t="Include" />
+            <e p="Url.cs" t="Include" />
+            <e p="Xhtml" t="Include">
+              <e p="XhtmlMarkupFormatter.cs" t="Include" />
+            </e>
+            <e p="Xml" t="Include">
+              <e p="XmlEntityService.cs" t="Include" />
+              <e p="XmlMarkupFormatter.cs" t="Include" />
+            </e>
+          </e>
+          <e p="DSPLib" t="Include">
+            <e p="DSPLib.cs" t="Include" />
+          </e>
+          <e p="MonoHttp" t="Include">
+            <e p="Helpers.cs" t="Include" />
+            <e p="HtmlEncoder.cs" t="Include" />
+            <e p="HttpUtility.cs" t="Include" />
+          </e>
+          <e p="Plugins.asmdef" t="Include" />
+          <e p="TaglibSharp" t="Include">
+            <e p="Aac" t="Include">
+              <e p="AudioHeader.cs" t="Include" />
+              <e p="BitStream.cs" t="Include" />
+              <e p="File.cs" t="Include" />
+            </e>
+            <e p="Aiff" t="Include">
+              <e p="File.cs" t="Include" />
+              <e p="StreamHeader.cs" t="Include" />
+            </e>
+            <e p="Ape" t="Include">
+              <e p="File.cs" t="Include" />
+              <e p="Footer.cs" t="Include" />
+              <e p="Item.cs" t="Include" />
+              <e p="StreamHeader.cs" t="Include" />
+              <e p="Tag.cs" t="Include" />
+            </e>
+            <e p="Asf" t="Include">
+              <e p="ContentDescriptionObject.cs" t="Include" />
+              <e p="ContentDescriptor.cs" t="Include" />
+              <e p="DescriptionRecord.cs" t="Include" />
+              <e p="ExtendedContentDescriptionObject.cs" t="Include" />
+              <e p="File.cs" t="Include" />
+              <e p="FilePropertiesObject.cs" t="Include" />
+              <e p="Guid.cs" t="Include" />
+              <e p="HeaderExtensionObject.cs" t="Include" />
+              <e p="HeaderObject.cs" t="Include" />
+              <e p="MetadataLibraryObject.cs" t="Include" />
+              <e p="Object.cs" t="Include" />
+              <e p="PaddingObject.cs" t="Include" />
+              <e p="StreamPropertiesObject.cs" t="Include" />
+              <e p="Tag.cs" t="Include" />
+              <e p="UnknownObject.cs" t="Include" />
+            </e>
+            <e p="Audible" t="Include">
+              <e p="File.cs" t="Include" />
+              <e p="Tag.cs" t="Include" />
+            </e>
+            <e p="ByteVector.cs" t="Include" />
+            <e p="ByteVectorList.cs" t="Include" />
+            <e p="CombinedTag.cs" t="Include" />
+            <e p="CorruptFileException.cs" t="Include" />
+            <e p="Debugger.cs" t="Include" />
+            <e p="Dsf" t="Include">
+              <e p="File.cs" t="Include" />
+              <e p="StreamHeader.cs" t="Include" />
+            </e>
+            <e p="File.cs" t="Include" />
+            <e p="FileTypes.cs" t="Include" />
+            <e p="Flac" t="Include">
+              <e p="Block.cs" t="Include" />
+              <e p="BlockHeader.cs" t="Include" />
+              <e p="File.cs" t="Include" />
+              <e p="Picture.cs" t="Include" />
+              <e p="StreamHeader.cs" t="Include" />
+            </e>
+            <e p="Genres.cs" t="Include" />
+            <e p="Gif" t="Include">
+              <e p="Codec.cs" t="Include" />
+              <e p="File.cs" t="Include" />
+              <e p="GifCommentTag.cs" t="Include" />
+            </e>
+            <e p="ICodec.cs" t="Include" />
+            <e p="Id3v1" t="Include">
+              <e p="StringHandler.cs" t="Include" />
+              <e p="Tag.cs" t="Include" />
+            </e>
+            <e p="Id3v2" t="Include">
+              <e p="EventTimeCode.cs" t="Include" />
+              <e p="EventType.cs" t="Include" />
+              <e p="ExtendedHeader.cs" t="Include" />
+              <e p="Footer.cs" t="Include" />
+              <e p="Frame.cs" t="Include" />
+              <e p="FrameFactory.cs" t="Include" />
+              <e p="FrameHeader.cs" t="Include" />
+              <e p="Frames" t="Include">
+                <e p="AttachmentFrame.cs" t="Include" />
+                <e p="CommentsFrame.cs" t="Include" />
+                <e p="EventTimeCodeFrame.cs" t="Include" />
+                <e p="MusicCdIdentifierFrame.cs" t="Include" />
+                <e p="PlayCountFrame.cs" t="Include" />
+                <e p="PopularimeterFrame.cs" t="Include" />
+                <e p="PrivateFrame.cs" t="Include" />
+                <e p="RelativeVolumeFrame.cs" t="Include" />
+                <e p="SynchronizedLyricsFrame.cs" t="Include" />
+                <e p="TermsOfUseFrame.cs" t="Include" />
+                <e p="TextIdentificationFrame.cs" t="Include" />
+                <e p="UniqueFileIdentifierFrame.cs" t="Include" />
+                <e p="UnknownFrame.cs" t="Include" />
+                <e p="UnsynchronisedLyricsFrame.cs" t="Include" />
+                <e p="UrlLinkFrame.cs" t="Include" />
+              </e>
+              <e p="FrameTypes.cs" t="Include" />
+              <e p="Header.cs" t="Include" />
+              <e p="SynchData.cs" t="Include" />
+              <e p="SynchedTextType.cs" t="Include" />
+              <e p="Tag.cs" t="Include" />
+              <e p="TimestampFormat.cs" t="Include" />
+            </e>
+            <e p="IFD" t="Include">
+              <e p="Entries" t="Include">
+                <e p="ByteIFDEntry.cs" t="Include" />
+                <e p="ByteVectorIFDEntry.cs" t="Include" />
+                <e p="LongArrayIFDEntry.cs" t="Include" />
+                <e p="LongIFDEntry.cs" t="Include" />
+                <e p="MakernoteIFDEntry.cs" t="Include" />
+                <e p="Rational.cs" t="Include" />
+                <e p="RationalArrayIFDEntry.cs" t="Include" />
+                <e p="RationalIFDEntry.cs" t="Include" />
+                <e p="SByteIFDEntry.cs" t="Include" />
+                <e p="ShortArrayIFDEntry.cs" t="Include" />
+                <e p="ShortIFDEntry.cs" t="Include" />
+                <e p="SLongArrayIFDEntry.cs" t="Include" />
+                <e p="SLongIFDEntry.cs" t="Include" />
+                <e p="SRational.cs" t="Include" />
+                <e p="SRationalArrayIFDEntry.cs" t="Include" />
+                <e p="SRationalIFDEntry.cs" t="Include" />
+                <e p="SShortArrayIFDEntry.cs" t="Include" />
+                <e p="SShortIFDEntry.cs" t="Include" />
+                <e p="StringIFDEntry.cs" t="Include" />
+                <e p="StripOffsetsIFDEntry.cs" t="Include" />
+                <e p="SubIFDArrayEntry.cs" t="Include" />
+                <e p="SubIFDEntry.cs" t="Include" />
+                <e p="ThumbnailDataIFDEntry.cs" t="Include" />
+                <e p="UndefinedIFDEntry.cs" t="Include" />
+                <e p="UserCommentIFDEntry.cs" t="Include" />
+              </e>
+              <e p="IFDDirectory.cs" t="Include" />
+              <e p="IFDEntry.cs" t="Include" />
+              <e p="IFDEntryType.cs" t="Include" />
+              <e p="IFDReader.cs" t="Include" />
+              <e p="IFDRenderer.cs" t="Include" />
+              <e p="IFDStructure.cs" t="Include" />
+              <e p="IFDTag.cs" t="Include" />
+              <e p="Makernotes" t="Include">
+                <e p="Nikon3MakernoteReader.cs" t="Include" />
+              </e>
+              <e p="Tags" t="Include">
+                <e p="CanonFileInfoEntryTag.cs" t="Include" />
+                <e p="CanonMakerNoteEntryTag.cs" t="Include" />
+                <e p="CanonPictureInfoEntryTag.cs" t="Include" />
+                <e p="ExifEntryTag.cs" t="Include" />
+                <e p="GPSEntryTag.cs" t="Include" />
+                <e p="IFDEntryTag.cs" t="Include" />
+                <e p="IOPEntryTag.cs" t="Include" />
+                <e p="Nikon3MakerNoteEntryTag.cs" t="Include" />
+                <e p="NikonIsoInfoEntryTag.cs" t="Include" />
+                <e p="NikonLensData3EntryTag.cs" t="Include" />
+                <e p="NikonPictureControlEntryTag.cs" t="Include" />
+                <e p="NikonPreviewMakerNoteEntryTag.cs" t="Include" />
+                <e p="NikonShotInfoEntryTag.cs" t="Include" />
+                <e p="NikonVibrationReductionEntryTag.cs" t="Include" />
+                <e p="NikonWorldTimeEntryTag.cs" t="Include" />
+                <e p="OlympusMakerNoteEntryTag.cs" t="Include" />
+                <e p="PanasonicMakerNoteEntryTag.cs" t="Include" />
+                <e p="PentaxMakerNoteEntryTag.cs" t="Include" />
+                <e p="SonyMakerNoteEntryTag.cs" t="Include" />
+              </e>
+            </e>
+            <e p="IIM" t="Include">
+              <e p="IIMReader.cs" t="Include" />
+              <e p="IIMTag.cs" t="Include" />
+            </e>
+            <e p="ILazy.cs" t="Include" />
+            <e p="Image" t="Include">
+              <e p="Codec.cs" t="Include" />
+              <e p="CombinedImageTag.cs" t="Include" />
+              <e p="File.cs" t="Include" />
+              <e p="ImageBlockFile.cs" t="Include" />
+              <e p="ImageOrientation.cs" t="Include" />
+              <e p="ImageTag.cs" t="Include" />
+              <e p="NoMetadata" t="Include">
+                <e p="File.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Jpeg" t="Include">
+              <e p="Codec.cs" t="Include" />
+              <e p="File.cs" t="Include" />
+              <e p="JpegCommentTag.cs" t="Include" />
+              <e p="Marker.cs" t="Include" />
+              <e p="Table.cs" t="Include" />
+            </e>
+            <e p="ListBase.cs" t="Include" />
+            <e p="Matroska" t="Include">
+              <e p="Attachment.cs" t="Include" />
+              <e p="AudioTrack.cs" t="Include" />
+              <e p="EBMLElement.cs" t="Include" />
+              <e p="EBMLIDs.cs" t="Include" />
+              <e p="EBMLreader.cs" t="Include" />
+              <e p="File.cs" t="Include" />
+              <e p="IUIDElement.cs" t="Include" />
+              <e p="MatroskaIDs.cs" t="Include" />
+              <e p="SimpleTag.cs" t="Include" />
+              <e p="SubtitleTrack.cs" t="Include" />
+              <e p="Tag.cs" t="Include" />
+              <e p="Tags.cs" t="Include" />
+              <e p="TargetType.cs" t="Include" />
+              <e p="Track.cs" t="Include" />
+              <e p="VideoTrack.cs" t="Include" />
+            </e>
+            <e p="Mpc" t="Include">
+              <e p="File.cs" t="Include" />
+              <e p="StreamHeader.cs" t="Include" />
+            </e>
+            <e p="Mpeg" t="Include">
+              <e p="AudioFile.cs" t="Include" />
+              <e p="AudioHeader.cs" t="Include" />
+              <e p="File.cs" t="Include" />
+              <e p="VBRIHeader.cs" t="Include" />
+              <e p="VideoHeader.cs" t="Include" />
+              <e p="XingHeader.cs" t="Include" />
+            </e>
+            <e p="Mpeg4" t="Include">
+              <e p="AppleTag.cs" t="Include" />
+              <e p="Box.cs" t="Include" />
+              <e p="Boxes" t="Include">
+                <e p="AppleAdditionalInfoBox.cs" t="Include" />
+                <e p="AppleAnnotationBox.cs" t="Include" />
+                <e p="AppleDataBox.cs" t="Include" />
+                <e p="AppleElementaryStreamDescriptor.cs" t="Include" />
+                <e p="AppleItemListBox.cs" t="Include" />
+                <e p="FullBox.cs" t="Include" />
+                <e p="IsoAudioSampleEntry.cs" t="Include" />
+                <e p="IsoChunkLargeOffsetBox.cs" t="Include" />
+                <e p="IsoChunkOffsetBox.cs" t="Include" />
+                <e p="IsoFreeSpaceBox.cs" t="Include" />
+                <e p="IsoHandlerBox.cs" t="Include" />
+                <e p="IsoMetaBox.cs" t="Include" />
+                <e p="IsoMovieHeaderBox.cs" t="Include" />
+                <e p="IsoSampleDescriptionBox.cs" t="Include" />
+                <e p="IsoSampleEntry.cs" t="Include" />
+                <e p="IsoSampleTableBox.cs" t="Include" />
+                <e p="IsoUserDataBox.cs" t="Include" />
+                <e p="IsoVisualSampleEntry.cs" t="Include" />
+                <e p="TextBox.cs" t="Include" />
+                <e p="UnknownBox.cs" t="Include" />
+                <e p="UrlBox.cs" t="Include" />
+              </e>
+              <e p="BoxFactory.cs" t="Include" />
+              <e p="BoxHeader.cs" t="Include" />
+              <e p="BoxTypes.cs" t="Include" />
+              <e p="File.cs" t="Include" />
+              <e p="FileParser.cs" t="Include" />
+            </e>
+            <e p="NonContainer" t="Include">
+              <e p="EndTag.cs" t="Include" />
+              <e p="File.cs" t="Include" />
+              <e p="StartTag.cs" t="Include" />
+              <e p="Tag.cs" t="Include" />
+            </e>
+            <e p="Ogg" t="Include">
+              <e p="BitStream.cs" t="Include" />
+              <e p="Codec.cs" t="Include" />
+              <e p="Codecs" t="Include">
+                <e p="Opus.cs" t="Include" />
+                <e p="Theora.cs" t="Include" />
+                <e p="Vorbis.cs" t="Include" />
+              </e>
+              <e p="File.cs" t="Include" />
+              <e p="GroupedComment.cs" t="Include" />
+              <e p="Page.cs" t="Include" />
+              <e p="PageHeader.cs" t="Include" />
+              <e p="Paginator.cs" t="Include" />
+              <e p="XiphComment.cs" t="Include" />
+            </e>
+            <e p="Picture.cs" t="Include" />
+            <e p="PictureLazy.cs" t="Include" />
+            <e p="Png" t="Include">
+              <e p="Codec.cs" t="Include" />
+              <e p="File.cs" t="Include" />
+              <e p="PngTag.cs" t="Include" />
+            </e>
+            <e p="Properties.cs" t="Include" />
+            <e p="ReadOnlyByteVector.cs" t="Include" />
+            <e p="Riff" t="Include">
+              <e p="AviHeaderList.cs" t="Include" />
+              <e p="AviStream.cs" t="Include" />
+              <e p="BitmapInfoHeader.cs" t="Include" />
+              <e p="DivXTag.cs" t="Include" />
+              <e p="File.cs" t="Include" />
+              <e p="InfoTag.cs" t="Include" />
+              <e p="List.cs" t="Include" />
+              <e p="ListTag.cs" t="Include" />
+              <e p="MovieIdTag.cs" t="Include" />
+              <e p="WaveFormatEx.cs" t="Include" />
+            </e>
+            <e p="StringList.cs" t="Include" />
+            <e p="SupportedMimeType.cs" t="Include" />
+            <e p="Tag.cs" t="Include" />
+            <e p="Tiff" t="Include">
+              <e p="Arw" t="Include">
+                <e p="File.cs" t="Include" />
+              </e>
+              <e p="BaseTiffFile.cs" t="Include" />
+              <e p="Codec.cs" t="Include" />
+              <e p="Cr2" t="Include">
+                <e p="File.cs" t="Include" />
+              </e>
+              <e p="Dng" t="Include">
+                <e p="File.cs" t="Include" />
+              </e>
+              <e p="File.cs" t="Include" />
+              <e p="Nef" t="Include">
+                <e p="File.cs" t="Include" />
+              </e>
+              <e p="Pef" t="Include">
+                <e p="File.cs" t="Include" />
+              </e>
+              <e p="Rw2" t="Include">
+                <e p="File.cs" t="Include" />
+                <e p="IFDReader.cs" t="Include" />
+                <e p="IFDTag.cs" t="Include" />
+              </e>
+            </e>
+            <e p="UnsupportedFormatException.cs" t="Include" />
+            <e p="WavPack" t="Include">
+              <e p="File.cs" t="Include" />
+              <e p="StreamHeader.cs" t="Include" />
+            </e>
+            <e p="Xmp" t="Include">
+              <e p="XmlNodeExtensions.cs" t="Include" />
+              <e p="XmpNode.cs" t="Include" />
+              <e p="XmpNodeType.cs" t="Include" />
+              <e p="XmpNodeVisitor.cs" t="Include" />
+              <e p="XmpTag.cs" t="Include" />
+            </e>
+          </e>
+          <e p="YoutubeExplode" t="Include">
+            <e p="Exceptions" t="Include">
+              <e p="VideoRequiresPurchaseException.cs" t="Include" />
+              <e p="VideoUnavailableException.cs" t="Include" />
+              <e p="VideoUnplayableException.cs" t="Include" />
+            </e>
+            <e p="Internal" t="Include">
+              <e p="Extensions.cs" t="Include" />
+              <e p="Guards.cs" t="Include" />
+              <e p="Helpers" t="Include">
+                <e p="AudioEncodingHelper.cs" t="Include" />
+                <e p="ContainerHelper.cs" t="Include" />
+                <e p="VideoEncodingHelper.cs" t="Include" />
+                <e p="VideoQualityHelper.cs" t="Include" />
+              </e>
+              <e p="HttpClientEx.cs" t="Include" />
+              <e p="Parsers" t="Include">
+                <e p="ChannelPageParser.cs" t="Include" />
+                <e p="ClosedCaptionTrackAjaxParser.cs" t="Include" />
+                <e p="DashManifestParser.cs" t="Include" />
+                <e p="PlayerResponseParser.cs" t="Include" />
+                <e p="PlaylistAjaxParser.cs" t="Include" />
+                <e p="VideoInfoParser.cs" t="Include" />
+                <e p="VideoWatchPageParser.cs" t="Include" />
+              </e>
+              <e p="ResharperAnnotations.cs" t="Include" />
+              <e p="SegmentedHttpStream.cs" t="Include" />
+              <e p="UrlEx.cs" t="Include" />
+            </e>
+            <e p="IYoutubeClient.cs" t="Include" />
+            <e p="Models" t="Include">
+              <e p="Channel.cs" t="Include" />
+              <e p="ClosedCaptions" t="Include">
+                <e p="ClosedCaption.cs" t="Include" />
+                <e p="ClosedCaptionTrack.cs" t="Include" />
+                <e p="ClosedCaptionTrackInfo.cs" t="Include" />
+                <e p="Extensions.cs" t="Include" />
+                <e p="Language.cs" t="Include" />
+              </e>
+              <e p="Extensions.cs" t="Include" />
+              <e p="MediaStreams" t="Include">
+                <e p="AudioEncoding.cs" t="Include" />
+                <e p="AudioStreamInfo.cs" t="Include" />
+                <e p="Container.cs" t="Include" />
+                <e p="Extensions.cs" t="Include" />
+                <e p="MediaStream.cs" t="Include" />
+                <e p="MediaStreamInfo.cs" t="Include" />
+                <e p="MediaStreamInfoSet.cs" t="Include" />
+                <e p="MuxedStreamInfo.cs" t="Include" />
+                <e p="VideoEncoding.cs" t="Include" />
+                <e p="VideoQuality.cs" t="Include" />
+                <e p="VideoResolution.cs" t="Include" />
+                <e p="VideoStreamInfo.cs" t="Include" />
+              </e>
+              <e p="Playlist.cs" t="Include" />
+              <e p="PlaylistType.cs" t="Include" />
+              <e p="Statistics.cs" t="Include" />
+              <e p="ThumbnailSet.cs" t="Include" />
+              <e p="Video.cs" t="Include" />
+            </e>
+            <e p="YoutubeClient.Channel.cs" t="Include" />
+            <e p="YoutubeClient.ClosedCaptionTrack.cs" t="Include" />
+            <e p="YoutubeClient.cs" t="Include" />
+            <e p="YoutubeClient.MediaStream.cs" t="Include" />
+            <e p="YoutubeClient.Playlist.cs" t="Include" />
+            <e p="YoutubeClient.Search.cs" t="Include" />
+            <e p="YoutubeClient.Static.cs" t="Include" />
+            <e p="YoutubeClient.Video.cs" t="Include" />
+          </e>
+          <e p="YouTubeSearch" t="Include">
+            <e p="API" t="Include">
+              <e p="ChannelItemsSearch.cs" t="Include" />
+              <e p="ChannelSearch.cs" t="Include" />
+              <e p="ChannelSearchComponents.cs" t="Include" />
+              <e p="Decipherer.cs" t="Include" />
+              <e p="DownloadUrlResolver.cs" t="Include" />
+              <e p="Model.cs" t="Include" />
+              <e p="PlaylistItemsSearch.cs" t="Include" />
+              <e p="PlaylistItemsSearchComponents.cs" t="Include" />
+              <e p="PlaylistSearch.cs" t="Include" />
+              <e p="PlaylistSearchComponents.cs" t="Include" />
+              <e p="VideoSearch.cs" t="Include" />
+              <e p="VideoSearchComponents.cs" t="Include" />
+            </e>
+            <e p="Constants" t="Include">
+              <e p="VideoInfo.cs" t="Include" />
+            </e>
+            <e p="Download" t="Include">
+              <e p="VideoDownloader.cs" t="Include" />
+            </e>
+            <e p="Exception" t="Include">
+              <e p="ParseException.cs" t="Include" />
+              <e p="VideoNotAvailableException.cs" t="Include" />
+            </e>
+            <e p="Helper" t="Include">
+              <e p="Helper.cs" t="Include" />
+            </e>
+            <e p="Http" t="Include">
+              <e p="HttpHelper.cs" t="Include" />
+            </e>
+            <e p="Log" t="Include">
+              <e p="Log.cs" t="Include" />
+            </e>
+            <e p="Type" t="Include">
+              <e p="AdaptiveType.cs" t="Include" />
+              <e p="AudioType.cs" t="Include" />
+              <e p="VideoType.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="Utilities.cs" t="Include" />
+            </e>
+            <e p="Web" t="Include">
+              <e p="Web.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Game" t="Include">
+            <e p="AnalyzingTest.cs" t="Include" />
+            <e p="AudioTest.cs" t="Include" />
+            <e p="Camera" t="Include">
+              <e p="CameraSwitcher.cs" t="Include" />
+              <e p="FollowPlayerCamera.cs" t="Include" />
+            </e>
+            <e p="Configuration.cs" t="Include" />
+            <e p="FakeBoundingBox.cs" t="Include" />
+            <e p="Game.asmdef" t="Include" />
+            <e p="GameTracker" t="Include">
+              <e p="GameResult.cs" t="Include" />
+              <e p="ResultTracker.cs" t="Include" />
+            </e>
+            <e p="Inputs" t="Include">
+              <e p="PCPlayerInput.cs" t="Include" />
+            </e>
+            <e p="Movement" t="Include">
+              <e p="ForwardMovement.cs" t="Include" />
+              <e p="Player" t="Include">
+                <e p="PlayerMovement.cs" t="Include" />
+              </e>
+              <e p="RoadConnector.cs" t="Include" />
+            </e>
+            <e p="Player" t="Include">
+              <e p="DeathChecker.cs" t="Include" />
+              <e p="PointIncrementer.cs" t="Include" />
+            </e>
+            <e p="RepetitiveGame.cs" t="Include" />
+            <e p="Road" t="Include">
+              <e p="RoadConnector.cs" t="Include" />
+              <e p="RoadGenerator.cs" t="Include" />
+              <e p="RoadMovement.cs" t="Include" />
+            </e>
+            <e p="Services" t="Include">
+              <e p="Implementations" t="Include">
+                <e p="BackService.cs" t="Include" />
+                <e p="GameSettingsService.cs" t="Include" />
+                <e p="GameStatusService.cs" t="Include" />
+                <e p="PauseService.cs" t="Include" />
+                <e p="SceneService.cs" t="Include" />
+                <e p="TrackProcessorService.cs" t="Include" />
+              </e>
+              <e p="Toolbox.cs" t="Include" />
+            </e>
+            <e p="World" t="Include">
+              <e p="Audio" t="Include">
+                <e p="AudioCrushedAnimation.cs" t="Include" />
+                <e p="AudioPause.cs" t="Include" />
+                <e p="AudioScale.cs" t="Include" />
+                <e p="AudioSkyColor.cs" t="Include" />
+                <e p="AudioSpeed.cs" t="Include" />
+                <e p="AudioStatus.cs" t="Include" />
+                <e p="PrecalculatedAudioAnalyzer.cs" t="Include" />
+                <e p="RealtimeAudioAnalyzer.cs" t="Include" />
+                <e p="SmoothRestart.cs" t="Include" />
+                <e p="SpeedOverTime.cs" t="Include" />
+              </e>
+              <e p="ContinueWorldAnimation.cs" t="Include" />
+              <e p="EnableOnStart.cs" t="Include" />
+              <e p="Environments" t="Include">
+                <e p="Forest" t="Include">
+                  <e p="AudioColor.cs" t="Include" />
+                  <e p="AudioPatricles.cs" t="Include" />
+                </e>
+              </e>
+              <e p="ObjectManagement" t="Include">
+                <e p="LineSpawner.cs" t="Include" />
+                <e p="Spawning" t="Include">
+                  <e p="StateMachineSpawner.cs" t="Include" />
+                  <e p="States" t="Include">
+                    <e p="PatternSpawnerState.cs" t="Include" />
+                    <e p="RandomSpawnerState.cs" t="Include" />
+                    <e p="SpawnerState.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="TimedSpawner.cs" t="Include" />
+              </e>
+              <e p="RoadHeight.cs" t="Include" />
+              <e p="RoadMovement.cs" t="Include" />
+              <e p="RoadTransformations.cs" t="Include" />
+            </e>
+          </e>
+          <e p="General" t="Include">
+            <e p="Audio" t="Include">
+              <e p="AnalyzedAudioObject.cs" t="Include" />
+              <e p="IAudioAnalyzer.cs" t="Include" />
+              <e p="NullAudioAnalyzer.cs" t="Include" />
+              <e p="TestAudioAnalyzer.cs" t="Include" />
+            </e>
+            <e p="AudioTracks" t="Include">
+              <e p="AudioTrack.cs" t="Include" />
+              <e p="Searching" t="Include">
+                <e p="ITrackSearcher.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Behaviours" t="Include">
+              <e p="ExtendedBehaviour.cs" t="Include" />
+              <e p="SingletonBehaviour.cs" t="Include" />
+            </e>
+            <e p="General.asmdef" t="Include" />
+            <e p="Inputs" t="Include">
+              <e p="IPlayerInput.cs" t="Include" />
+              <e p="NullPlayerInput.cs" t="Include" />
+            </e>
+            <e p="ObjectManagement" t="Include">
+              <e p="Pooling" t="Include">
+                <e p="IObjectPool.cs" t="Include" />
+                <e p="ObjectCleaner.cs" t="Include" />
+                <e p="ObjectPool.cs" t="Include" />
+                <e p="PoolObject.cs" t="Include" />
+                <e p="TrackedObject.cs" t="Include" />
+              </e>
+              <e p="Spawning" t="Include">
+                <e p="IObjectSpawner.cs" t="Include" />
+                <e p="ObjectType.cs" t="Include" />
+                <e p="SpawnerPattern.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Services" t="Include">
+              <e p="Back" t="Include">
+                <e p="IBack.cs" t="Include" />
+                <e p="NullBack.cs" t="Include" />
+              </e>
+              <e p="GameStatus" t="Include">
+                <e p="GameStatusChangeType.cs" t="Include" />
+                <e p="IGameStatus.cs" t="Include" />
+                <e p="NullGameStatus.cs" t="Include" />
+              </e>
+              <e p="Pause" t="Include">
+                <e p="IPause.cs" t="Include" />
+                <e p="NullPause.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Storage" t="Include">
+              <e p="GameData.cs" t="Include" />
+              <e p="GameDataStorage.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="CanvasManagement" t="Include">
+                <e p="ICanvasSwitcher.cs" t="Include" />
+                <e p="NullCanvasSwitcher.cs" t="Include" />
+                <e p="SwitchableCanvas.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="UI" t="Include">
+            <e p="AudioTracks" t="Include">
+              <e p="Loading.cs" t="Include" />
+              <e p="Searching" t="Include">
+                <e p="SearchField.cs" t="Include" />
+                <e p="SearchResults.cs" t="Include" />
+                <e p="SearchTrackTest.cs" t="Include" />
+                <e p="YouTubeTrackSearcher.cs" t="Include" />
+              </e>
+              <e p="TrackHistory.cs" t="Include" />
+            </e>
+            <e p="Buttons" t="Include">
+              <e p="AnimatorStateButton.cs" t="Include" />
+              <e p="ChangeGameStatusButton.cs" t="Include" />
+              <e p="ChangeLanguageButton.cs" t="Include" />
+              <e p="LoadSceneButton.cs" t="Include" />
+              <e p="OpenCanvasButton.cs" t="Include" />
+              <e p="SwitchButton.cs" t="Include" />
+            </e>
+            <e p="CanvasManagement" t="Include">
+              <e p="CanvasSwitchAnimation.cs" t="Include" />
+              <e p="CanvasSwitcher.cs" t="Include" />
+              <e p="OpenCanvasOnBack.cs" t="Include" />
+            </e>
+            <e p="Continue" t="Include">
+              <e p="Continue.cs" t="Include" />
+              <e p="ContinueAnimation.cs" t="Include" />
+              <e p="ContinueTimer.cs" t="Include" />
+            </e>
+            <e p="Game" t="Include">
+              <e p="ProgressSlider.cs" t="Include" />
+              <e p="RepeatCount.cs" t="Include" />
+            </e>
+            <e p="GameConfiguration" t="Include">
+              <e p="Configurator.cs" t="Include" />
+              <e p="OptionSwitcher.cs" t="Include" />
+            </e>
+            <e p="GameOver" t="Include">
+              <e p="GameResultList.cs" t="Include" />
+              <e p="ResultItem.cs" t="Include" />
+            </e>
+            <e p="Menu" t="Include">
+              <e p="PointsDisplay.cs" t="Include" />
+            </e>
+            <e p="Popups" t="Include">
+              <e p="Buttons" t="Include">
+                <e p="ClosePopupButton.cs" t="Include" />
+              </e>
+              <e p="IPopup.cs" t="Include" />
+              <e p="IPopupFactory.cs" t="Include" />
+              <e p="NullPopupFactory.cs" t="Include" />
+              <e p="Popup.cs" t="Include" />
+              <e p="PopupFactory.cs" t="Include" />
+              <e p="PopupOption.cs" t="Include" />
+            </e>
+            <e p="UI.asmdef" t="Include" />
+          </e>
+        </e>
+        <e p="SmallTail" t="Include">
+          <e p="SmallTail" t="Include">
+            <e p="Localization" t="Include">
+              <e p="Language.cs" t="Include" />
+              <e p="Locale.cs" t="Include" />
+              <e p="LocalizationService.cs" t="Include" />
+              <e p="LocalizedUIText.cs" t="Include" />
+            </e>
+            <e p="SmallTail.asmdef" t="Include" />
+          </e>
+          <e p="SmallTail.Editor" t="Include">
+            <e p="Localization" t="Include">
+              <e p="KeySelectionWindow.cs" t="Include" />
+              <e p="LocalizationEditorWindow.cs" t="Include" />
+              <e p="LocalizedUITextEditor.cs" t="Include" />
+            </e>
+            <e p="SmallTail.Editor.asmdef" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="BeatRider.sln" t="IncludeFlat" />
+      <e p="Framework.csproj" t="IncludeRecursive" />
+      <e p="Game.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Plugins.csproj" t="IncludeRecursive" />
+      <e p="SmallTail.csproj" t="IncludeRecursive" />
+      <e p="SmallTail.Editor.csproj" t="IncludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="UI.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>
