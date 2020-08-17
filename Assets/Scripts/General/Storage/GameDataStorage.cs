@@ -32,6 +32,8 @@ namespace General.Storage
 
         private void Load()
         {
+            PlayerPrefs.DeleteAll();
+            
             if (!PlayerPrefs.HasKey("gamedata"))
             {
                 _gameData = new GameData();

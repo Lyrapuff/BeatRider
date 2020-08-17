@@ -9,7 +9,7 @@ using Task = System.Threading.Tasks.Task;
 
 namespace UI.AudioTracks.Searching
 {
-    public class YouTubeTrackSearcher : ExtendedBehaviour, ITrackSearcher
+    public class YouTubeTrackSearcher : ExtendedBehaviour, ITrackSearcher<YoutubeSearchResult>
     {
         private IYoutubeClient _youtubeClient;
         
@@ -18,18 +18,18 @@ namespace UI.AudioTracks.Searching
             _youtubeClient = new YoutubeClient();
         }
 
-        public async Task Search(string query, Action<List<AudioTrack>> onSearchCompleted)
+        public async Task Search(string query, Action<List<YoutubeSearchResult>> onSearchCompleted)
         {
-            List<AudioTrack> _tracks = new List<AudioTrack>();
+            List<YoutubeSearchResult> _tracks = new List<YoutubeSearchResult>();
 
             IReadOnlyList<Video> videos = await _youtubeClient.SearchVideosAsync(query, 1);
 
             foreach (Video video in videos)
             {
-                _tracks.Add(new AudioTrack
+                _tracks.Add(new YoutubeSearchResult
                 {
                     Title = video.Title,
-                    PreviewURL = video.Thumbnails.StandardResUrl,
+                    Thumbnail = video.Thumbnails.StandardResUrl,
                     VideoURL = video.GetUrl(),
                     Id = video.Id
                 });

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using General.AudioTracks;
+using General.AudioTracks.Searching;
 using General.Behaviours;
 using UI.AudioTracks.Searching;
 using UnityEngine;
@@ -50,7 +51,7 @@ namespace UI.AudioTracks
             _searching = true;
         }
 
-        private void SearchCompletedHandle(List<AudioTrack> tracks)
+        private void SearchCompletedHandle(List<YoutubeSearchResult> tracks)
         {
             _searching = false;
         }

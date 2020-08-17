@@ -10,30 +10,23 @@ namespace General.Audio
 {
     public class TestAudioAnalyzer
     {
-        public void Analyze(AudioClip audioClip, Action<AnalyzedAudioObject> onAnalyzed)
+        public void Analyze(float[] wave, int channels, int samples, Action<AnalyzedAudio> onAnalyzed)
         {
-            int channels = audioClip.channels;
-            int samples = audioClip.samples;
-            int frequency = audioClip.frequency;
-            float length = audioClip.length;
+            AnalyzedAudio analyzedAudio = new AnalyzedAudio();
 
-            float[] multiChannelSamples = new float[samples * channels];
-            audioClip.GetData(multiChannelSamples, 0);
-
-            AnalyzedAudioObject analyzedAudio = new AnalyzedAudioObject();
-            
             Task.Run(() =>
             {
                 try
                 {
-                    float[] combinedSamples = new float[samples];
+                    float[] combinedSamples = new float[wave.Length];
 
+                    
                     int processed = 0;
                     float average = 0f;
 
-                    for (int i = 0; i < multiChannelSamples.Length; i++)
+                    for (int i = 0; i < wave.Length; i++)
                     {
-                        average += multiChannelSamples[i];
+                        average += wave[i];
 
                         if ((i + 1) % channels == 0)
                         {
@@ -60,7 +53,7 @@ namespace General.Audio
                         {
                             continue;
                         }
-                        
+
                         Array.Copy(combinedSamples, i * spectrumSampleSize, sampleChunk, 0, spectrumSampleSize);
 
                         double[] windowCoefs =
@@ -74,15 +67,15 @@ namespace General.Audio
 
                         float[] currentSpectrum = scaledFFTSpectrum.Select(x => (float) x).ToArray();
                         float[] bands = new float[analyzedAudio.Take];
-                        
+
                         int count = 0;
-            
+
                         for (int j = 0; j < bands.Length; j++)
                         {
                             float sampleCount = (int) Mathf.Pow(2, j + 1);
 
                             float averageValue = 0f;
-                
+
                             for (int k = 0; k < sampleCount; k++)
                             {
                                 averageValue += currentSpectrum[count] * (count + 1);
@@ -93,7 +86,7 @@ namespace General.Audio
 
                             bands[j] = averageValue;
                         }
-                        
+
                         averages.Add(bands.Average());
                     }
 
@@ -114,6 +107,19 @@ namespace General.Audio
                     Debug.Log(e);
                 }
             });
+        }
+
+        public void Analyze(AudioClip audioClip, Action<AnalyzedAudio> onAnalyzed)
+        {
+            int channels = audioClip.channels;
+            int samples = audioClip.samples;
+            int frequency = audioClip.frequency;
+            float length = audioClip.length;
+
+            float[] multiChannelSamples = new float[samples * channels];
+            audioClip.GetData(multiChannelSamples, 0);
+
+            Analyze(multiChannelSamples, channels, samples, onAnalyzed);
         }
     }
 }

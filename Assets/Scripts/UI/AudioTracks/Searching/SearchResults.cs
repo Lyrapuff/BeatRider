@@ -2,8 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Game;
+using Game.Services;
+using Game.Services.Implementations;
 using General.AudioTracks;
+using General.AudioTracks.Searching;
 using General.Behaviours;
+using General.Services.GameStatus;
+using TMPro;
+using UI.PCUI.AudioTracks;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,11 +18,19 @@ namespace UI.AudioTracks.Searching
 {
     public class SearchResults : ExtendedBehaviour
     {
-        [SerializeField] private GameObject _trackPrefab;
+        [SerializeField] private TrackElement _trackPrefab;
         [SerializeField] private SearchField _searchField;
 
+        private SceneService _scene;
+        private GameSettingsService _gameSettings;
+        private GameStatusService _gameStatus;
+        
         private void OnEnable()
         {
+            _scene = Toolbox.Instance.GetService<SceneService>();
+            _gameStatus = Toolbox.Instance.GetService<GameStatusService>();
+            _gameSettings = Toolbox.Instance.GetService<GameSettingsService>();
+            
             _searchField.OnSearchCompleted += SearchCompletedHandle;
             _searchField.OnSearchStarted += DeleteTracks;
         }
@@ -26,15 +41,24 @@ namespace UI.AudioTracks.Searching
             _searchField.OnSearchStarted -= DeleteTracks;
         }
 
-        private void SearchCompletedHandle(List<AudioTrack> tracks)
+        private void SearchCompletedHandle(List<YoutubeSearchResult> tracks)
         {
-            foreach (AudioTrack audioTrack in tracks)
+            foreach (YoutubeSearchResult searchResult in tracks)
             {
-                GameObject instance = Instantiate(_trackPrefab, transform);
-                instance.GetComponentInChildren<Text>().text = audioTrack.Title;
-                instance.GetComponent<SearchTrackTest>().Track = audioTrack;
+                TrackElement instance = Instantiate(_trackPrefab, transform);
+                instance.SetResult(searchResult);
+                
+                instance.GetComponent<TrackButton>().OnProcessed = audioTrack =>
+                {
+                    _gameSettings.Clip = audioTrack.AudioClip;
+                    _gameSettings.AnalyzedAudio = audioTrack.AnalyzedAudio;
+                    
+                    _gameStatus.Change(GameStatusChangeType.Started, _gameSettings.Configuration);
+                    Configuration.Instance = _gameSettings.Configuration;
+                    _scene.LoadScene(1);
+                };
 
-                StartCoroutine(SetImage(instance.transform.GetChild(1).GetComponent<Image>(), audioTrack.PreviewURL));
+                //StartCoroutine(SetImage(instance.transform.GetChild(1).GetComponent<Image>(), audioTrack.PreviewURL));
             }
         }
 
@@ -44,15 +68,6 @@ namespace UI.AudioTracks.Searching
             {
                 Destroy(t.gameObject);
             }
-        }
-
-        private IEnumerator SetImage(Image image, string url)
-        {
-            WWW www = new WWW(url);
-            
-            yield return www;
-            
-            image.sprite = Sprite.Create(www.texture, new Rect(0, 0, www.texture.width, www.texture.height), new Vector2(0, 0));
         }
     }
 }

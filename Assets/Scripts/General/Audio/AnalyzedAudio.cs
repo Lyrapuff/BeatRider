@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace General.Audio
 {
     [Serializable]
-    public class AnalyzedAudioObject
+    public class AnalyzedAudio
     {
         public int StoreEvery = 4;
         public int Take = 5;

@@ -1739,15 +1739,18 @@
           </e>
           <e p="General" t="Include">
             <e p="Audio" t="Include">
-              <e p="AnalyzedAudioObject.cs" t="Include" />
+              <e p="AnalyzedAudio.cs" t="Include" />
               <e p="IAudioAnalyzer.cs" t="Include" />
               <e p="NullAudioAnalyzer.cs" t="Include" />
               <e p="TestAudioAnalyzer.cs" t="Include" />
             </e>
             <e p="AudioTracks" t="Include">
+              <e p="AudioPlaylist.cs" t="Include" />
               <e p="AudioTrack.cs" t="Include" />
               <e p="Searching" t="Include">
+                <e p="ISearchResult.cs" t="Include" />
                 <e p="ITrackSearcher.cs" t="Include" />
+                <e p="YoutubeSearchResult.cs" t="Include" />
               </e>
             </e>
             <e p="Behaviours" t="Include">
@@ -1809,7 +1812,6 @@
                 <e p="SearchTrackTest.cs" t="Include" />
                 <e p="YouTubeTrackSearcher.cs" t="Include" />
               </e>
-              <e p="TrackHistory.cs" t="Include" />
             </e>
             <e p="Buttons" t="Include">
               <e p="AnimatorStateButton.cs" t="Include" />
@@ -1843,6 +1845,27 @@
             </e>
             <e p="Menu" t="Include">
               <e p="PointsDisplay.cs" t="Include" />
+            </e>
+            <e p="PCUI" t="Include">
+              <e p="AudioTracks" t="Include">
+                <e p="ProcessingContext.cs" t="Include" />
+                <e p="Processors" t="Include">
+                  <e p="DirectoryEnsureCreatedProcessor.cs" t="Include" />
+                  <e p="SpectrumProcessor.cs" t="Include" />
+                  <e p="ThumbnailDownloadProcessor.cs" t="Include" />
+                  <e p="TrackAnalyzeProcessor.cs" t="Include" />
+                  <e p="TrackDownloadProcessor.cs" t="Include" />
+                  <e p="TrackPCMProcessor.cs" t="Include" />
+                  <e p="TrackProcessor.cs" t="Include" />
+                </e>
+                <e p="TrackButton.cs" t="Include" />
+                <e p="TrackElement.cs" t="Include" />
+              </e>
+              <e p="Buttons" t="Include">
+                <e p="MenuButton" t="Include">
+                  <e p="MenuButtonAnimator.cs" t="Include" />
+                </e>
+              </e>
             </e>
             <e p="Popups" t="Include">
               <e p="Buttons" t="Include">

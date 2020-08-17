@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 
 namespace General.AudioTracks.Searching
 {
-    public interface ITrackSearcher
+    public interface ITrackSearcher<T> where T : ISearchResult
     {
-        Task Search(string query, Action<List<AudioTrack>> onSearchCompleted);
+        Task Search(string query, Action<List<T>> onSearchCompleted);
     }
 }

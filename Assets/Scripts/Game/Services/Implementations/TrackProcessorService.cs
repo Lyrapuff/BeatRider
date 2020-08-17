@@ -10,7 +10,7 @@ namespace Game.Services.Implementations
 {
     public class TrackProcessorService : ExtendedBehaviour
     {
-        public void Process(string path, Action<AudioClip, AnalyzedAudioObject> onProcessed)
+        public void Process(string path, Action<AudioClip, AnalyzedAudio> onProcessed)
         {
             Bass.BASS_Init(-1, 44100, BASSInit.BASS_DEVICE_DEFAULT, IntPtr.Zero);
 
@@ -62,7 +62,7 @@ namespace Game.Services.Implementations
                 
                 using (StreamReader reader = new StreamReader(path + "spectrum.bytes"))
                 {
-                    AnalyzedAudioObject analyzedAudio = formatter.Deserialize(reader.BaseStream) as AnalyzedAudioObject;
+                    AnalyzedAudio analyzedAudio = formatter.Deserialize(reader.BaseStream) as AnalyzedAudio;
                     
                     onProcessed?.Invoke(clip, analyzedAudio);
                 }

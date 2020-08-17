@@ -1,7 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="" />
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioPlaylist.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioPlaylist.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/ISearchResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/ISearchResult.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/YoutubeSearchResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/YoutubeSearchResult.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/ProcessingContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/ProcessingContext.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/DirectoryEnsureCreatedProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/DirectoryEnsureCreatedProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/SpectrumProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/SpectrumProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/ThumbnailDownloadProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/ThumbnailDownloadProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/TrackAnalyzeProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/TrackAnalyzeProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/TrackDownloadProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/TrackDownloadProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/TrackPCMProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/TrackPCMProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/TrackProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/TrackProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/TrackButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/TrackButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/TrackElement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/TrackElement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/Buttons/MenuButton/MenuButtonAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Configuration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Configuration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/GameSettingsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/GameSettingsService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/TrackProcessorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/TrackProcessorService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Audio/AnalyzedAudioObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Audio/AnalyzedAudio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Audio/AnalyzedAudioObject.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Audio/AnalyzedAudio.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Audio/TestAudioAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Audio/TestAudioAnalyzer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioTrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioTrack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioTrack.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioTrack.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/ITrackSearcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/ITrackSearcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameDataStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameDataStorage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Loading.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Loading.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchField.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchResults.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchResults.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchTrackTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchTrackTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/YouTubeTrackSearcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/YouTubeTrackSearcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/TrackHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/TrackHistory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UI.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UI.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +86,51 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/Audio/AudioPlaylist.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioPlaylist.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioSearchResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/AudioSearchResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/Audio/AnalyzedAudio.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/TrackHistory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/Standard/PCUI/Shine.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/ISearcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/ITrackSearcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchField.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Loading.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/YouTubeSearchResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/ISearchResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/YoutubeSearchResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/YouTubeTrackSearcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchTrackTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/Buttons/MenuButton/MenuButtonAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/TrackChoose.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/YouTubeTrackDownloader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/TrackSearchResult.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/TrackElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/TrackProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/ProcessingContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/ProcessingOutput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/DirectoryEnsureCreatedProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/ProcessingContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/TrackDownloadProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/ThumbnailDownloadProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/TrackPCMProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/TrackAnalyzeProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioTrack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/TrackButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Configuration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/GameSettingsService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameDataStorage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchResults.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/Audio/TestAudioAnalyzer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/Processors/SpectrumProcessor.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1gDaa7f8Ji5jvhJ69bcl5G0GJ6S" />
   <component name="ProjectViewState">
@@ -19,7 +141,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="RiderUnityFileTemplatesSettings" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -41,6 +163,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="" />
@@ -49,11 +172,40 @@
       <option name="presentableId" value="Default" />
       <updated>1597651684134</updated>
       <workItem from="1597651696330" duration="12000" />
+      <workItem from="1597654449307" duration="17180000" />
+      <workItem from="1597678664072" duration="40000" />
+      <workItem from="1597678725841" duration="5271000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="762" y="200" key="RiderGenerateDialog" timestamp="1597654513676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="762" y="200" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597654513676" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1597655692904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597655692904" />
   </component>
 </project>

@@ -11,6 +11,7 @@ using General.Storage;
 using General.UI.CanvasManagement;
 using Game.Services;
 using Game.Services.Implementations;
+using General.AudioTracks.Searching;
 using SmallTail.Localization;
 using UI.Popups;
 using UnityEngine;
@@ -20,7 +21,7 @@ namespace UI.AudioTracks.Searching
 {
     public class SearchTrackTest : ExtendedBehaviour
     {
-        public AudioTrack Track;
+        public YoutubeSearchResult searchResult;
 
         private GameSettingsService _gameSettings;
         private TrackProcessorService _trackProcessor;
@@ -28,7 +29,7 @@ namespace UI.AudioTracks.Searching
         private IPopupFactory _popupFactory;
 
         private IPopup _processingPopup;
-        private AnalyzedAudioObject _analyzedAudio;
+        private AnalyzedAudio _analyzedAudio;
         private AudioClip _clip;
         
         private void Awake()
@@ -50,7 +51,7 @@ namespace UI.AudioTracks.Searching
             {
                 if (optionName == LocalizationService.GetValue("ui_popup_yes"))
                 {
-                    IEnumerable<VideoInfo> infos = DownloadUrlResolver.GetDownloadUrls(Track.VideoURL);
+                    IEnumerable<VideoInfo> infos = DownloadUrlResolver.GetDownloadUrls(searchResult.VideoURL);
 
                     VideoInfo info = infos
                         .Where(i => i.VideoType != VideoType.Mp4)
@@ -67,7 +68,7 @@ namespace UI.AudioTracks.Searching
                         DownloadUrlResolver.DecryptDownloadUrl(info);
                     }
 
-                    string path = Application.persistentDataPath + "/trackcache/" + Track.Id + "/";
+                    string path = Application.persistentDataPath + "/trackcache/" + searchResult.Id + "/";
 
                     if (!Directory.Exists(path))
                     {
@@ -83,7 +84,7 @@ namespace UI.AudioTracks.Searching
                         
                         using (WebClient client = new WebClient()) 
                         {
-                            client.DownloadFile(new Uri(Track.PreviewURL), path + "thumbnail.jpeg");
+                            client.DownloadFile(new Uri(searchResult.Thumbnail), path + "thumbnail.jpeg");
                         }
                         
                         VideoDownloader downloader = new VideoDownloader();
@@ -115,7 +116,7 @@ namespace UI.AudioTracks.Searching
             _trackProcessor.Process(path, OnProcessed);
         }
         
-        private void OnProcessed(AudioClip clip, AnalyzedAudioObject analyzedAudio)
+        private void OnProcessed(AudioClip clip, AnalyzedAudio analyzedAudio)
         {
             _clip = clip;
             _analyzedAudio = analyzedAudio;
@@ -126,50 +127,13 @@ namespace UI.AudioTracks.Searching
             if (_analyzedAudio != null)
             {
                 _processingPopup.CloseSilent();
-                
-                UpdateHistory();
-                
+
                 _gameSettings.Clip = _clip;
                 _gameSettings.AnalyzedAudio = _analyzedAudio;
                 
                 _canvasSwitcher.Open("GameConfiguration");
 
                 _analyzedAudio = null;
-            }
-        }
-
-        private void UpdateHistory()
-        {
-            GameData gameData = GameDataStorage.Instance.GetData();
-
-            List<AudioTrack> tracks = gameData.TrackHistory;
-
-            if (!tracks.Any(x => x.Id == Track.Id))
-            {
-                tracks.Add(Track);
-
-                if (tracks.Count > 30)
-                {
-                    tracks.RemoveAt(0);
-                }
-
-                gameData.TrackHistory = tracks;
-
-                GameDataStorage.Instance.SetData(gameData);
-            }
-            else
-            {
-                AudioTrack clone = tracks.FirstOrDefault(x => x.Id == Track.Id);
-
-                if (clone != null)
-                {
-                    tracks.Remove(clone);
-                    tracks.Add(clone);
-
-                    gameData.TrackHistory = tracks;
-
-                    GameDataStorage.Instance.SetData(gameData);
-                }
             }
         }
     }
