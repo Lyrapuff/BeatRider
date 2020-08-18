@@ -1851,6 +1851,7 @@
                 <e p="ProcessingContext.cs" t="Include" />
                 <e p="Processors" t="Include">
                   <e p="DirectoryEnsureCreatedProcessor.cs" t="Include" />
+                  <e p="ProcessingPipeline.cs" t="Include" />
                   <e p="SpectrumProcessor.cs" t="Include" />
                   <e p="ThumbnailDownloadProcessor.cs" t="Include" />
                   <e p="TrackAnalyzeProcessor.cs" t="Include" />

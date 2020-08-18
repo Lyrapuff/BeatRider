@@ -14,11 +14,18 @@ namespace UI.PCUI.AudioTracks.Processors
         {
             string path = Context.Path;
 
-            if (!File.Exists(path + "spectrum.bytes"))
+            if (!File.Exists(path + "thumbnail.jpeg"))
             {
                 using (WebClient client = new WebClient())
                 {
-                    client.DownloadFile(new Uri(searchResult.Thumbnail), path + "thumbnail.jpeg");
+                    try
+                    {
+                        client.DownloadFile(new Uri(searchResult.Thumbnail), path + "thumbnail.jpeg");
+                    }
+                    catch
+                    {
+                        //ignore
+                    }
                 }
             }
 

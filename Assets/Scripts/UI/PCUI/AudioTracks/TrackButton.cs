@@ -9,12 +9,10 @@ namespace UI.PCUI.AudioTracks
     public class TrackButton : MonoBehaviour
     {
         public Action<AudioTrack> OnProcessed { get; set; }
-        
-        [SerializeField] private TrackProcessor[] _processors;
 
-        private ProcessingContext _context;
+        [SerializeField] private ProcessingPipeline _pipeline;
+
         private TrackElement _trackElement;
-        private int _processorIndex = -1;
 
         private void Awake()
         {
@@ -23,47 +21,24 @@ namespace UI.PCUI.AudioTracks
 
         public void Interact()
         {
-            if (_processorIndex < 0)
-            {
-                _context = new ProcessingContext();
-                _processorIndex = 0;
-            }
-            
-            if (_processorIndex < _processors.Length)
-            {
-                TrackProcessor processor = _processors[_processorIndex];
-                processor.Context = _context;
-                processor.Process(_trackElement.SearchResult, success =>
-                {
-                    if (success)
-                    {
-                        _processorIndex++;
-                        Interact();
-                    }
-                    else
-                    {
-                        Debug.Log("Error: " + _processorIndex);
-                        // TODO: Error message
-                    }
-                });
-            }
+            _pipeline.Process(_trackElement.SearchResult);
         }
 
         private void Update()
         {
-            if (_processorIndex >= _processors.Length && _processorIndex >= 0)
+            if (_pipeline.Status == ProcessingStatus.Success)
             {
-                _processorIndex = -1;
+                ProcessingContext context = _pipeline.Context;
                 
-                AudioClip clip = AudioClip.Create("test", _context.Samples, 2, _context.Frequency, false);
-                clip.SetData(_context.Wave, 0);
+                AudioClip clip = AudioClip.Create("test", context.Samples, 2, context.Frequency, false);
+                clip.SetData(context.Wave, 0);
 
                 AudioTrack track = new AudioTrack
                 {
                     Title = _trackElement.SearchResult.Title,
                     Id = _trackElement.SearchResult.Id,
                     AudioClip = clip,
-                    AnalyzedAudio = _context.AnalyzedAudio
+                    AnalyzedAudio = context.AnalyzedAudio
                 };
                 
                 OnProcessed?.Invoke(track);

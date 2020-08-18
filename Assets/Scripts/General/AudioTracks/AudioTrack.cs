@@ -10,5 +10,7 @@ namespace General.AudioTracks
         public AudioClip AudioClip { get; set; }
         public AnalyzedAudio AnalyzedAudio { get; set; }
         public Sprite Thumbnail { get; set; }
+        
+        
     }
 }

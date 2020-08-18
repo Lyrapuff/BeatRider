@@ -27,10 +27,13 @@ public class DeathChecker : ExtendedBehaviour
 
             GameData gameData = GameDataStorage.Instance.GetData();
 
+#if UNITY_ANDROID
             if (gameData.VibrationEnabled)
             {
                 Handheld.Vibrate();
             }
+#endif
+            
         }
     }
 }
