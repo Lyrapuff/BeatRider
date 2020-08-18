@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using General.AudioTracks.Searching;
 using UnityEngine;
 
-namespace UI.PCUI.AudioTracks.Processors
+namespace General.AudioTracks.Processing
 {
     [CreateAssetMenu(menuName = "Tracks/Processor/Thumbnail downloader")]
     public class ThumbnailDownloadProcessor : TrackProcessor
@@ -20,7 +20,7 @@ namespace UI.PCUI.AudioTracks.Processors
                 {
                     try
                     {
-                        client.DownloadFile(new Uri(searchResult.Thumbnail), path + "thumbnail.jpeg");
+                        client.DownloadFile(new Uri(searchResult.ThumbnailPath), path + "thumbnail.jpeg");
                     }
                     catch
                     {

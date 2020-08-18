@@ -1,6 +1,6 @@
 ﻿using General.Audio;
 
-namespace UI.PCUI.AudioTracks
+namespace General.AudioTracks.Processing
 {
     public class ProcessingContext
     {

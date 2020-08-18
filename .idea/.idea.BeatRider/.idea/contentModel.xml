@@ -1747,6 +1747,17 @@
             <e p="AudioTracks" t="Include">
               <e p="AudioPlaylist.cs" t="Include" />
               <e p="AudioTrack.cs" t="Include" />
+              <e p="Processing" t="Include">
+                <e p="DirectoryEnsureCreatedProcessor.cs" t="Include" />
+                <e p="ProcessingContext.cs" t="Include" />
+                <e p="ProcessingPipeline.cs" t="Include" />
+                <e p="SpectrumProcessor.cs" t="Include" />
+                <e p="ThumbnailDownloadProcessor.cs" t="Include" />
+                <e p="TrackAnalyzeProcessor.cs" t="Include" />
+                <e p="TrackDownloadProcessor.cs" t="Include" />
+                <e p="TrackPCMProcessor.cs" t="Include" />
+                <e p="TrackProcessor.cs" t="Include" />
+              </e>
               <e p="Searching" t="Include">
                 <e p="ISearchResult.cs" t="Include" />
                 <e p="ITrackSearcher.cs" t="Include" />
@@ -1848,17 +1859,6 @@
             </e>
             <e p="PCUI" t="Include">
               <e p="AudioTracks" t="Include">
-                <e p="ProcessingContext.cs" t="Include" />
-                <e p="Processors" t="Include">
-                  <e p="DirectoryEnsureCreatedProcessor.cs" t="Include" />
-                  <e p="ProcessingPipeline.cs" t="Include" />
-                  <e p="SpectrumProcessor.cs" t="Include" />
-                  <e p="ThumbnailDownloadProcessor.cs" t="Include" />
-                  <e p="TrackAnalyzeProcessor.cs" t="Include" />
-                  <e p="TrackDownloadProcessor.cs" t="Include" />
-                  <e p="TrackPCMProcessor.cs" t="Include" />
-                  <e p="TrackProcessor.cs" t="Include" />
-                </e>
                 <e p="TrackButton.cs" t="Include" />
                 <e p="TrackElement.cs" t="Include" />
               </e>

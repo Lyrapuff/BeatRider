@@ -84,7 +84,7 @@ namespace UI.AudioTracks.Searching
                         
                         using (WebClient client = new WebClient()) 
                         {
-                            client.DownloadFile(new Uri(searchResult.Thumbnail), path + "thumbnail.jpeg");
+                            client.DownloadFile(new Uri(searchResult.ThumbnailPath), path + "thumbnail.jpeg");
                         }
                         
                         VideoDownloader downloader = new VideoDownloader();

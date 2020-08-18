@@ -10,6 +10,8 @@ namespace Game.World.ObjectManagement
 {
     public class LineSpawner : ExtendedBehaviour
     {
+        [SerializeField] private float _range;
+        [SerializeField] private float _speed;
         [SerializeField] private SpawnSetting[] _spawnSettings;
         
         private List<SpawnedObject> _pool = new List<SpawnedObject>();
@@ -30,7 +32,7 @@ namespace Game.World.ObjectManagement
             if (_timeToSpawn <= 0f)
             {
                 SpawnSetting spawnSetting = GetRandomSpawnSetting();
-                _timeToSpawn = Spawn(spawnSetting);
+                _timeToSpawn = Spawn(spawnSetting) / _speed;
             }
         }
 
@@ -79,7 +81,7 @@ namespace Game.World.ObjectManagement
                 instance = go.transform;
             }
 
-            instance.localPosition = new Vector3(Random.Range(-25f, 25f), 0f, 0f);
+            instance.localPosition = new Vector3(Random.Range(-_range, _range), 0f, 0f);
             instance.localEulerAngles = new Vector3(0f, Random.Range(0f, 360f), 0f);
             instance.localScale = Vector3.one * Random.Range(0.85f, 1.15f);
             

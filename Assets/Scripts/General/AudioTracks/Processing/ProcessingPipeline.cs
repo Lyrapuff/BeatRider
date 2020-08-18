@@ -2,7 +2,7 @@
 using General.AudioTracks.Searching;
 using UnityEngine;
 
-namespace UI.PCUI.AudioTracks.Processors
+namespace General.AudioTracks.Processing
 {
     [Serializable]
     public class ProcessingPipeline

@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using General.AudioTracks.Searching;
 using UnityEngine;
 
-namespace UI.PCUI.AudioTracks.Processors
+namespace General.AudioTracks.Processing
 {
     public abstract class TrackProcessor : ScriptableObject
     {

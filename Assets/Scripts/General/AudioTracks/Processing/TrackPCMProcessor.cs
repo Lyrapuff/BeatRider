@@ -5,7 +5,7 @@ using General.AudioTracks.Searching;
 using Un4seen.Bass;
 using UnityEngine;
 
-namespace UI.PCUI.AudioTracks.Processors
+namespace General.AudioTracks.Processing
 {
     [CreateAssetMenu(menuName = "Tracks/Processor/PCM")]
     public class TrackPCMProcessor : TrackProcessor

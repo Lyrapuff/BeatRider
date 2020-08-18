@@ -29,7 +29,7 @@ namespace UI.AudioTracks.Searching
                 _tracks.Add(new YoutubeSearchResult
                 {
                     Title = video.Title,
-                    Thumbnail = video.Thumbnails.StandardResUrl,
+                    ThumbnailPath = video.Thumbnails.StandardResUrl,
                     VideoURL = video.GetUrl(),
                     Id = video.Id
                 });

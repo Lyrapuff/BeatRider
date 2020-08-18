@@ -7,7 +7,7 @@ using General.AudioTracks.Searching;
 using UnityEngine;
 using YouTubeSearch;
 
-namespace UI.PCUI.AudioTracks.Processors
+namespace General.AudioTracks.Processing
 {
     [CreateAssetMenu(menuName = "Tracks/Processor/Audio downloader")]
     public class TrackDownloadProcessor : TrackProcessor

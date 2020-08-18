@@ -21,7 +21,7 @@ namespace UI.PCUI.AudioTracks
 
             _title.text = searchResult.Title;
 
-            StartCoroutine(SetImage(_image, searchResult.Thumbnail));
+            StartCoroutine(SetImage(_image, searchResult.ThumbnailPath));
         }
         
         private IEnumerator SetImage(Image image, string url)

@@ -6,7 +6,7 @@ using General.Audio;
 using General.AudioTracks.Searching;
 using UnityEngine;
 
-namespace UI.PCUI.AudioTracks.Processors
+namespace General.AudioTracks.Processing
 {
     [CreateAssetMenu(menuName = "Tracks/Processor/Spectrum loader")]
     public class SpectrumProcessor : TrackProcessor
