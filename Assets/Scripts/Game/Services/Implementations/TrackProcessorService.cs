@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-using General.Audio;
+using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using Un4seen.Bass;
 using UnityEngine;
@@ -42,9 +42,9 @@ namespace Game.Services.Implementations
 
             if (!File.Exists(path + "spectrum.bytes"))
             {
-                TestAudioAnalyzer testAudioAnalyzer = new TestAudioAnalyzer();
+                AudioAnalyzer audioAnalyzer = new AudioAnalyzer();
 
-                testAudioAnalyzer.Analyze(clip, analyzedAudio =>
+                audioAnalyzer.Analyze(clip, analyzedAudio =>
                 {
                     onProcessed?.Invoke(clip, analyzedAudio);
 

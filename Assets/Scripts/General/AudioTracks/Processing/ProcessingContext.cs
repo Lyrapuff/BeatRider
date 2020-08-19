@@ -1,4 +1,4 @@
-﻿using General.Audio;
+﻿using General.AudioTracks.Analyzing;
 
 namespace General.AudioTracks.Processing
 {

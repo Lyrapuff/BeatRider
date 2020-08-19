@@ -1738,20 +1738,21 @@
             </e>
           </e>
           <e p="General" t="Include">
-            <e p="Audio" t="Include">
-              <e p="AnalyzedAudio.cs" t="Include" />
-              <e p="IAudioAnalyzer.cs" t="Include" />
-              <e p="NullAudioAnalyzer.cs" t="Include" />
-              <e p="TestAudioAnalyzer.cs" t="Include" />
-            </e>
             <e p="AudioTracks" t="Include">
-              <e p="AudioPlayer.cs" t="Include" />
-              <e p="AudioPlaylist.cs" t="Include" />
+              <e p="Analyzing" t="Include">
+                <e p="AnalyzedAudio.cs" t="Include" />
+                <e p="AudioAnalyzer.cs" t="Include" />
+                <e p="IAudioAnalyzer.cs" t="Include" />
+                <e p="NullAudioAnalyzer.cs" t="Include" />
+              </e>
               <e p="AudioTrack.cs" t="Include" />
               <e p="AudioUtil.cs" t="Include" />
               <e p="Effects" t="Include">
                 <e p="AudioColorEffect.cs" t="Include" />
                 <e p="MaterialColorEffect.cs" t="Include" />
+              </e>
+              <e p="Playing" t="Include">
+                <e p="AudioPlayer.cs" t="Include" />
               </e>
               <e p="Processing" t="Include">
                 <e p="DirectoryEnsureCreatedProcessor.cs" t="Include" />
@@ -1765,9 +1766,14 @@
                 <e p="TrackProcessor.cs" t="Include" />
               </e>
               <e p="Searching" t="Include">
+                <e p="Imeplementation" t="Include">
+                  <e p="YouTube" t="Include">
+                    <e p="YoutubeSearchResult.cs" t="Include" />
+                    <e p="YouTubeTrackSearcher.cs" t="Include" />
+                  </e>
+                </e>
                 <e p="ISearchResult.cs" t="Include" />
-                <e p="ITrackSearcher.cs" t="Include" />
-                <e p="YoutubeSearchResult.cs" t="Include" />
+                <e p="TrackSearcher.cs" t="Include" />
               </e>
               <e p="SpectrumReader.cs" t="Include" />
             </e>
@@ -1824,16 +1830,28 @@
               </e>
             </e>
           </e>
-          <e p="UI" t="Include">
-            <e p="AudioTracks" t="Include">
-              <e p="Loading.cs" t="Include" />
-              <e p="Searching" t="Include">
-                <e p="SearchField.cs" t="Include" />
-                <e p="SearchResults.cs" t="Include" />
-                <e p="SearchTrackTest.cs" t="Include" />
-                <e p="YouTubeTrackSearcher.cs" t="Include" />
+          <e p="Menu" t="Include">
+            <e p="Menu.asmdef" t="Include" />
+            <e p="PCUI" t="Include">
+              <e p="AudioTracks" t="Include">
+                <e p="Searching" t="Include">
+                  <e p="SearchInputField.cs" t="Include" />
+                  <e p="SearchResults.cs" t="Include" />
+                </e>
+                <e p="TrackButton.cs" t="Include" />
+                <e p="TrackElement.cs" t="Include" />
+              </e>
+              <e p="Buttons" t="Include">
+                <e p="MenuButton" t="Include">
+                  <e p="MenuButtonAnimator.cs" t="Include" />
+                </e>
+              </e>
+              <e p="EnvironmentPreview" t="Include">
+                <e p="MouseRotate.cs" t="Include" />
               </e>
             </e>
+          </e>
+          <e p="UI" t="Include">
             <e p="Buttons" t="Include">
               <e p="AnimatorStateButton.cs" t="Include" />
               <e p="ChangeGameStatusButton.cs" t="Include" />
@@ -1867,20 +1885,6 @@
             <e p="Menu" t="Include">
               <e p="PointsDisplay.cs" t="Include" />
             </e>
-            <e p="PCUI" t="Include">
-              <e p="AudioTracks" t="Include">
-                <e p="TrackButton.cs" t="Include" />
-                <e p="TrackElement.cs" t="Include" />
-              </e>
-              <e p="Buttons" t="Include">
-                <e p="MenuButton" t="Include">
-                  <e p="MenuButtonAnimator.cs" t="Include" />
-                </e>
-              </e>
-              <e p="EnvironmentPreview" t="Include">
-                <e p="MouseRotate.cs" t="Include" />
-              </e>
-            </e>
             <e p="Popups" t="Include">
               <e p="Buttons" t="Include">
                 <e p="ClosePopupButton.cs" t="Include" />
@@ -1896,33 +1900,40 @@
           </e>
         </e>
         <e p="SmallTail" t="Include">
-          <e p="SmallTail" t="Include">
+          <e p="SmallTail.Localization" t="Include">
             <e p="Localization" t="Include">
               <e p="Language.cs" t="Include" />
               <e p="Locale.cs" t="Include" />
               <e p="LocalizationService.cs" t="Include" />
               <e p="LocalizedUIText.cs" t="Include" />
             </e>
-            <e p="SmallTail.asmdef" t="Include" />
+            <e p="SmallTail.Localization.asmdef" t="Include" />
           </e>
-          <e p="SmallTail.Editor" t="Include">
+          <e p="SmallTail.Localization.Editor" t="Include">
             <e p="Localization" t="Include">
               <e p="KeySelectionWindow.cs" t="Include" />
               <e p="LocalizationEditorWindow.cs" t="Include" />
               <e p="LocalizedUITextEditor.cs" t="Include" />
             </e>
-            <e p="SmallTail.Editor.asmdef" t="Include" />
+            <e p="SmallTail.Localization.Editor.asmdef" t="Include" />
+          </e>
+          <e p="SmallTail.Preload" t="Include">
+            <e p="Preload.cs" t="Include" />
+            <e p="PreloadSettings.cs" t="Include" />
+            <e p="SmallTail.Preload.asmdef" t="Include" />
           </e>
         </e>
       </e>
       <e p="BeatRider.sln" t="IncludeFlat" />
-      <e p="Framework.csproj" t="IncludeRecursive" />
       <e p="Game.csproj" t="IncludeRecursive" />
+      <e p="General.csproj" t="IncludeRecursive" />
+      <e p="Menu.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Plugins.csproj" t="IncludeRecursive" />
-      <e p="SmallTail.csproj" t="IncludeRecursive" />
-      <e p="SmallTail.Editor.csproj" t="IncludeRecursive" />
+      <e p="SmallTail.Localization.csproj" t="IncludeRecursive" />
+      <e p="SmallTail.Localization.Editor.csproj" t="IncludeRecursive" />
+      <e p="SmallTail.Preload.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
       <e p="UI.csproj" t="IncludeRecursive" />
     </e>

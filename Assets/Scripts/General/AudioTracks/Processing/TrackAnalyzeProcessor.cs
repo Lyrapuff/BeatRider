@@ -2,7 +2,7 @@
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading.Tasks;
-using General.Audio;
+using General.AudioTracks.Analyzing;
 using General.AudioTracks.Searching;
 using UnityEngine;
 
@@ -17,9 +17,9 @@ namespace General.AudioTracks.Processing
             
             if (!File.Exists(path + "spectrum.bytes"))
             {
-                TestAudioAnalyzer testAudioAnalyzer = new TestAudioAnalyzer();
+                AudioAnalyzer audioAnalyzer = new AudioAnalyzer();
 
-                testAudioAnalyzer.Analyze(Context.Wave, Context.Channels, Context.Samples, analyzedAudio =>
+                audioAnalyzer.Analyze(Context.Wave, Context.Channels, Context.Samples, analyzedAudio =>
                 {
                     Context.AnalyzedAudio = analyzedAudio;
                     

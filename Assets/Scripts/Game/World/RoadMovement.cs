@@ -1,5 +1,5 @@
 ﻿using System;
-using General.Audio;
+using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using General.Services.GameStatus;
 using General.Services.Pause;

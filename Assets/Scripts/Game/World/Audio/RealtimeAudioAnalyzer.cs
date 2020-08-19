@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using General.Audio;
+using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using General.Services.GameStatus;
 using UnityEngine;
@@ -13,6 +13,7 @@ namespace Game.World.Audio
         public float SpeedMultiplier { get; set; } = 0f;
         public float Speed => SpeedMultiplier;
         public float PureSpeed => SpeedMultiplier;
+        public float[] Band { get; }
 
         [SerializeField] private int _skip;
         [SerializeField] private int _take;

@@ -6,7 +6,7 @@ namespace System.Threading.Tasks
 
     /// <summary>
     /// Simple wrapper for static methods of Task, which are missing in older
-    /// versions of the .NET-Framework.
+    /// versions of the .NET-General.
     /// </summary>
     static class TaskEx
     {

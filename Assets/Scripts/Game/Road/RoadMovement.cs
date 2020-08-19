@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using General.Audio;
+using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using General.Services.GameStatus;
 using Game.Services;

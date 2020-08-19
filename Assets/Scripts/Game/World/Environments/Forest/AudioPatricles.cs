@@ -1,4 +1,4 @@
-﻿using General.Audio;
+﻿using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using UnityEngine;
 using UnityEngine.VFX;

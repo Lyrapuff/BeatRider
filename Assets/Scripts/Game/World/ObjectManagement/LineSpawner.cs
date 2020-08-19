@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using General.Audio;
+using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using UnityEngine;
 using Random = UnityEngine.Random;

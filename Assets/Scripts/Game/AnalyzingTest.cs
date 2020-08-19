@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using General.Audio;
+using General.AudioTracks.Analyzing;
 using UnityEngine;
 
 namespace Game
@@ -22,7 +22,7 @@ namespace Game
         {
             _audioSource = FindObjectOfType<AudioSource>();
             
-            TestAudioAnalyzer testAudioAnalyzer = new TestAudioAnalyzer();
+            AudioAnalyzer audioAnalyzer = new AudioAnalyzer();
             /*
             testAudioAnalyzer.Analyze(_audioClip, result =>
             {

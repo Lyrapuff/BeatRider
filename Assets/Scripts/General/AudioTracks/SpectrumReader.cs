@@ -1,4 +1,5 @@
-﻿using General.Audio;
+﻿using General.AudioTracks.Analyzing;
+using General.AudioTracks.Playing;
 using General.Behaviours;
 using UnityEngine;
 
@@ -10,21 +11,27 @@ namespace General.AudioTracks
         public float SpeedMultiplier { get; set; } = 6f;
         public float Speed { get; private set; }
         public float PureSpeed { get; private set; }
-        
-        private AudioPlayer _player;
+        public float[] Band { get; private set;}
+
+        private AudioPlayer _audioPlayer;
         private AudioSource _audioSource;
         
         private void Awake()
         {
-            _player = GetComponent<AudioPlayer>();
+            _audioPlayer = FindObjectOfType<AudioPlayer>();
+
             _audioSource = GetComponent<AudioSource>();
         }
 
         private void Update()
         {
-            if (_player.Track != null)
+            if (_audioPlayer.Track != null)
             {
-                float average = _player.Track.AnalyzedAudio.Averages[GetIndexFromTime() / 1024 / _player.Track.AnalyzedAudio.StoreEvery];
+                int index = GetIndexFromTime() / 1024 / _audioPlayer.Track.AnalyzedAudio.StoreEvery;
+
+                float average = _audioPlayer.Track.AnalyzedAudio.Averages[index];
+
+                Band = _audioPlayer.Track.AnalyzedAudio.Bands[index];
                 
                 Speed = average * SpeedMultiplier + 1f;
                 PureSpeed = average;
@@ -33,6 +40,7 @@ namespace General.AudioTracks
         
         public int GetIndexFromTime()
         {
+            //todo fix
             float time = _audioSource.time;
             float lengthPerSample = _audioSource.clip.length / _audioSource.clip.samples;
             return Mathf.FloorToInt (time / lengthPerSample);
