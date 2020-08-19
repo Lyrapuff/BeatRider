@@ -15,13 +15,13 @@ namespace Game.World.Audio
 
         private void Awake()
         {
-            _audioAnalyzer = GetComponent<IAudioAnalyzer>();
+            _audioAnalyzer = FindComponentOfInterface<IAudioAnalyzer, NullAudioAnalyzer>();
         }
 
         private void Update()
         {
             float value = _material.GetFloat(Vector123Caafb7);
-            float speed = _audioAnalyzer.PureSpeed * 2f;
+            float speed = _audioAnalyzer.PureSpeed;
             _material.SetFloat(Vector123Caafb7, Mathf.Lerp(value, speed + 1f, 0.05f));
         }
     }

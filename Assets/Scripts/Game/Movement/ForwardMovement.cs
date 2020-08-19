@@ -26,7 +26,7 @@ namespace Game.Movement
 
         private void Update()
         {
-            if (_pause.Paused || _gameStatus.Status != GameStatusChangeType.Started && _gameStatus.Status != GameStatusChangeType.Continued)
+            if (_pause.Paused || _gameStatus.Status == GameStatusChangeType.Crushed)
             {
                 return;
             }

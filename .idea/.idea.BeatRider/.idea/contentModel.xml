@@ -1745,8 +1745,14 @@
               <e p="TestAudioAnalyzer.cs" t="Include" />
             </e>
             <e p="AudioTracks" t="Include">
+              <e p="AudioPlayer.cs" t="Include" />
               <e p="AudioPlaylist.cs" t="Include" />
               <e p="AudioTrack.cs" t="Include" />
+              <e p="AudioUtil.cs" t="Include" />
+              <e p="Effects" t="Include">
+                <e p="AudioColorEffect.cs" t="Include" />
+                <e p="MaterialColorEffect.cs" t="Include" />
+              </e>
               <e p="Processing" t="Include">
                 <e p="DirectoryEnsureCreatedProcessor.cs" t="Include" />
                 <e p="ProcessingContext.cs" t="Include" />
@@ -1763,6 +1769,7 @@
                 <e p="ITrackSearcher.cs" t="Include" />
                 <e p="YoutubeSearchResult.cs" t="Include" />
               </e>
+              <e p="SpectrumReader.cs" t="Include" />
             </e>
             <e p="Behaviours" t="Include">
               <e p="ExtendedBehaviour.cs" t="Include" />
@@ -1803,6 +1810,9 @@
               </e>
             </e>
             <e p="Storage" t="Include">
+              <e p="Cache" t="Include">
+                <e p="SessionCache.cs" t="Include" />
+              </e>
               <e p="GameData.cs" t="Include" />
               <e p="GameDataStorage.cs" t="Include" />
             </e>
@@ -1866,6 +1876,9 @@
                 <e p="MenuButton" t="Include">
                   <e p="MenuButtonAnimator.cs" t="Include" />
                 </e>
+              </e>
+              <e p="EnvironmentPreview" t="Include">
+                <e p="MouseRotate.cs" t="Include" />
               </e>
             </e>
             <e p="Popups" t="Include">

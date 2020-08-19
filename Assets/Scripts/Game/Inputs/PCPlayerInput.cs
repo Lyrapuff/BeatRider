@@ -59,15 +59,20 @@ namespace Game.Inputs
                 }
 
                 Direction = 0f;
-                
+
                 return;
             }
-
+            
             if (Input.GetMouseButton(0))
             {
                 Direction = Input.mousePosition.x > Screen.width * 0.5f ? 1f : -1f;
             }
-            
+            else
+            {
+                float horizontal = Input.GetAxisRaw("Horizontal");
+                Direction = horizontal;
+            }
+
             if (Input.GetMouseButtonUp(0))
             {
                 Direction = 0f;

@@ -7,8 +7,8 @@ namespace Game
     {
         public static Configuration Instance { get; set; }
 
-        public GameSpeedType GameSpeed { get; set; } = GameSpeedType.Normal;
-        public TrafficType Traffic { get; set; } = TrafficType.Medium;
+        public GameSpeedType GameSpeed { get; set; } = GameSpeedType.Fast;
+        public TrafficType Traffic { get; set; } = TrafficType.Heavy;
 
         [Serializable]
         public enum GameSpeedType

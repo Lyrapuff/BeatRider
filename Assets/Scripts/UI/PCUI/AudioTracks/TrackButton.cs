@@ -29,9 +29,8 @@ namespace UI.PCUI.AudioTracks
             if (_pipeline.Status == ProcessingStatus.Success)
             {
                 ProcessingContext context = _pipeline.Context;
-                
-                AudioClip clip = AudioClip.Create("test", context.Samples, 2, context.Frequency, false);
-                clip.SetData(context.Wave, 0);
+
+                AudioClip clip = AudioUtil.AssembleClip(context);
 
                 AudioTrack track = new AudioTrack
                 {
