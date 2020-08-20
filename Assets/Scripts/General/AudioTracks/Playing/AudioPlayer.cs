@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
+using System.Threading.Tasks;
 using General.AudioTracks.Processing;
 using UnityEngine;
 
@@ -67,7 +67,7 @@ namespace General.AudioTracks.Playing
 
         public void Prepare(AudioTrack track)
         {
-            _preparingPipeline.Process(track);
+            Task.Run(() => _preparingPipeline.Process(track)).ConfigureAwait(false);
         }
 
         public void PrepareAndPlay(AudioTrack track)
@@ -125,6 +125,13 @@ namespace General.AudioTracks.Playing
             {
                 PlayRandom();
             }
+        }
+        
+        public int GetIndexFromTime()
+        {
+            float time = _audioSource.time;
+            float lengthPerSample = _audioSource.clip.length / _audioSource.clip.samples;
+            return Mathf.FloorToInt (time / lengthPerSample);
         }
     }
 }

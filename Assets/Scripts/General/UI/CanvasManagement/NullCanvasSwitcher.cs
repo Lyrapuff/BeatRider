@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace General.UI.CanvasManagement
+namespace General.UI.Popups.CanvasManagement
 {
     public class NullCanvasSwitcher : ICanvasSwitcher
     {

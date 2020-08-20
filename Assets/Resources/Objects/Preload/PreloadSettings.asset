@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreloadedObjects:
   - {fileID: 3196068739172604289, guid: f03b0ff54fbb3dd489234e1f0be79901, type: 3}
+  - {fileID: 8575311607367585345, guid: fd60227985a23a94e928405b3c079181, type: 3}

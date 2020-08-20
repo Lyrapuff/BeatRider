@@ -1,6 +1,6 @@
 ﻿using General.Behaviours;
 using SmallTail.Localization;
-using UI.Popups;
+using General.UI.Popups;
 
 namespace UI.Buttons
 {

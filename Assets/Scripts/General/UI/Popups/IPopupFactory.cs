@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UI.Popups
+namespace General.UI.Popups
 {
     public interface IPopupFactory
     {

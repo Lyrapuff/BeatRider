@@ -3,7 +3,7 @@ using System.Collections;
 using General.Behaviours;
 using UnityEngine;
 
-namespace General.UI.CanvasManagement
+namespace General.UI.Popups.CanvasManagement
 {
     [RequireComponent(typeof(Canvas))]
     public class SwitchableCanvas : ExtendedBehaviour

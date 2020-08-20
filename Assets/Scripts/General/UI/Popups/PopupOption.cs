@@ -3,7 +3,7 @@ using General.Behaviours;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace UI.Popups
+namespace General.UI.Popups
 {
     [RequireComponent(typeof(Button))]
     public class PopupOption : ExtendedBehaviour

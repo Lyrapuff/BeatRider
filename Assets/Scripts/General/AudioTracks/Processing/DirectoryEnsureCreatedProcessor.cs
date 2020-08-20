@@ -9,20 +9,16 @@ namespace General.AudioTracks.Processing
     [CreateAssetMenu(menuName = "Tracks/Processor/Directory ensure created")]
     public class DirectoryEnsureCreatedProcessor : TrackProcessor
     {
-        public override Task Process(ISearchResult searchResult, Action<bool> OnProcessed)
+        public override void Process(ISearchResult searchResult, Action<bool> OnProcessed)
         {
-            string path = Application.persistentDataPath + "/playlist/" + searchResult.Id + "/";
-            
-            if (!Directory.Exists(path))
-            {
-                Directory.CreateDirectory(path);
-            }
+            Context.Path += searchResult.Id + "/";
 
-            Context.Path = path;
+            if (!Directory.Exists(Context.Path))
+            {
+                Directory.CreateDirectory(Context.Path);
+            }
             
             OnProcessed?.Invoke(true);
-            
-            return Task.CompletedTask;
         }
     }
 }

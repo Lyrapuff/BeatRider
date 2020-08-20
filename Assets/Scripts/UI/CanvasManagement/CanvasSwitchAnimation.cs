@@ -1,5 +1,5 @@
 ﻿using General.Behaviours;
-using General.UI.CanvasManagement;
+using General.UI.Popups.CanvasManagement;
 using UnityEngine;
 
 namespace UI.CanvasManagement

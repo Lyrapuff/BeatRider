@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections;
 using General.Behaviours;
-using Game.Services;
-using Game.Services.Implementations;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace UI.Popups
+namespace General.UI.Popups
 {
     [RequireComponent(typeof(Animator))]
     public class Popup : ExtendedBehaviour, IPopup

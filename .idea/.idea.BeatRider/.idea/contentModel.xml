@@ -1749,6 +1749,7 @@
               <e p="AudioUtil.cs" t="Include" />
               <e p="Effects" t="Include">
                 <e p="AudioColorEffect.cs" t="Include" />
+                <e p="ImageColorEffect.cs" t="Include" />
                 <e p="MaterialColorEffect.cs" t="Include" />
               </e>
               <e p="Playing" t="Include">
@@ -1816,11 +1817,10 @@
               </e>
             </e>
             <e p="Storage" t="Include">
-              <e p="Cache" t="Include">
-                <e p="SessionCache.cs" t="Include" />
-              </e>
               <e p="GameData.cs" t="Include" />
               <e p="GameDataStorage.cs" t="Include" />
+              <e p="GameStorage.cs" t="Include" />
+              <e p="IGameStorage.cs" t="Include" />
             </e>
             <e p="UI" t="Include">
               <e p="CanvasManagement" t="Include">
@@ -1828,12 +1828,27 @@
                 <e p="NullCanvasSwitcher.cs" t="Include" />
                 <e p="SwitchableCanvas.cs" t="Include" />
               </e>
+              <e p="Popups" t="Include">
+                <e p="Buttons" t="Include">
+                  <e p="ClosePopupButton.cs" t="Include" />
+                </e>
+                <e p="IPopup.cs" t="Include" />
+                <e p="IPopupFactory.cs" t="Include" />
+                <e p="NullPopupFactory.cs" t="Include" />
+                <e p="Popup.cs" t="Include" />
+                <e p="PopupFactory.cs" t="Include" />
+                <e p="PopupOption.cs" t="Include" />
+              </e>
+              <e p="Windows" t="Include">
+                <e p="Window.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="Menu" t="Include">
             <e p="Menu.asmdef" t="Include" />
             <e p="PCUI" t="Include">
               <e p="AudioTracks" t="Include">
+                <e p="CurrentTrack.cs" t="Include" />
                 <e p="Searching" t="Include">
                   <e p="SearchInputField.cs" t="Include" />
                   <e p="SearchResults.cs" t="Include" />
@@ -1884,17 +1899,6 @@
             </e>
             <e p="Menu" t="Include">
               <e p="PointsDisplay.cs" t="Include" />
-            </e>
-            <e p="Popups" t="Include">
-              <e p="Buttons" t="Include">
-                <e p="ClosePopupButton.cs" t="Include" />
-              </e>
-              <e p="IPopup.cs" t="Include" />
-              <e p="IPopupFactory.cs" t="Include" />
-              <e p="NullPopupFactory.cs" t="Include" />
-              <e p="Popup.cs" t="Include" />
-              <e p="PopupFactory.cs" t="Include" />
-              <e p="PopupOption.cs" t="Include" />
             </e>
             <e p="UI.asmdef" t="Include" />
           </e>

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace UI.Popups
+namespace General.UI.Popups
 {
     public class NullPopupFactory : IPopupFactory
     {

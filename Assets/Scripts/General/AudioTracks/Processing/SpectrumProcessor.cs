@@ -11,7 +11,7 @@ namespace General.AudioTracks.Processing
     [CreateAssetMenu(menuName = "Tracks/Processor/Spectrum loader")]
     public class SpectrumProcessor : TrackProcessor
     {
-        public override Task Process(ISearchResult searchResult, Action<bool> OnProcessed)
+        public override void Process(ISearchResult searchResult, Action<bool> OnProcessed)
         {
             string path = Context.Path;
             
@@ -32,8 +32,6 @@ namespace General.AudioTracks.Processing
             {
                 OnProcessed?.Invoke(true);
             }
-
-            return Task.CompletedTask;
         }
     }
 }

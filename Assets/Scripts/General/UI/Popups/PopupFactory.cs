@@ -2,7 +2,7 @@
 using General.Behaviours;
 using UnityEngine;
 
-namespace UI.Popups
+namespace General.UI.Popups
 {
     public class PopupFactory : ExtendedBehaviour, IPopupFactory
     {

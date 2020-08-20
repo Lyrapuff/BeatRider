@@ -19,248 +19,76 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="Environment Preview">
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Animations/PCUI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Animations/PCUI/Buttons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/Creo-ExtraBold SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Fonts/Creo-ExtraBold SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Materials/PCUI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Materials/PCUI/Buttons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Materials/PCUI/Buttons/ShinyButton.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Materials/PCUI/Buttons/ShinyButton.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Processors.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Processors/DirectoryEnsureCreatedProcessor.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Processors/DirectoryEnsureCreatedProcessor.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Processors/SpectrumProcessor.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Processors/SpectrumProcessor.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Processors/ThumbnailDownloadProcessor.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Processors/ThumbnailDownloadProcessor.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Processors/TrackAnalyzeProcessor.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Processors/TrackAnalyzeProcessor.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Processors/TrackDownloadProcessor.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Processors/TrackDownloadProcessor.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Processors/TrackPCMProcessor.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Processors/TrackPCMProcessor.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Searchers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Searchers/YouTubeTrackSearcher.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/AudioTrack/Searchers/YouTubeTrackSearcher.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/Preload.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/Preload/PreloadSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/Preload/PreloadSettings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Buttons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Buttons/MenuButton.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Buttons/MenuButton.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/TrackList.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/TrackList/YouTubeTrack.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/TrackList/YouTubeTrack.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Backgrounds/BackgroundRounded20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Backgrounds/BackgroundRounded20.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/WorldTexture.renderTexture" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/WorldTexture.renderTexture.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.lighting" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.lighting.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playing.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playing/AudioPlayer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playing/AudioPlayer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/Imeplementation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/Imeplementation/YouTube.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/TrackSearcher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/Menu.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/Menu.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Searching.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Searching/SearchInputField.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Searching/SearchResults.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Searching/SearchResults.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/Buttons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/Buttons/MenuButton.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/Buttons/MenuButton/MenuButtonAnimator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/EnvironmentPreview/MouseRotate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shaders/Standard/PCUI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shaders/Standard/PCUI/Shine.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shaders/Standard/PCUI/Shine.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/Preload.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/Preload.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/PreloadSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/PreloadSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/SmallTail.Preload.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/SmallTail.Preload.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="a lot of stuff is better now">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/ImageColorEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/ImageColorEffect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameStorage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameStorage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/IGameStorage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/IGameStorage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Window.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Window.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/CurrentTrack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/CurrentTrack.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AngleSharp/Foundation/TaskEx.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/AngleSharp/Foundation/TaskEx.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CarDefault.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CarDefault.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/YouTubeSearch/Http/HttpHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/YouTubeSearch/Http/HttpHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Objects/Preload/PreloadSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Objects/Preload/PreloadSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Patterns/Pattern01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Patterns/Pattern01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/TrackList/YouTubeTrack.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/TrackList/YouTubeTrack.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/WorldTexture.renderTexture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/WorldTexture.renderTexture.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AnalyzingTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AnalyzingTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameTracker/ResultTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameTracker/ResultTracker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Movement/ForwardMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Movement/ForwardMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Road/RoadMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Road/RoadMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/GameSettingsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/GameSettingsService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/TrackProcessorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/TrackProcessorService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioScale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioScale.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioSkyColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioSkyColor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioSpeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioSpeed.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/PrecalculatedAudioAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/PrecalculatedAudioAnalyzer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/RealtimeAudioAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/RealtimeAudioAnalyzer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/SpeedOverTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/SpeedOverTime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/ContinueWorldAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/ContinueWorldAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Environments/Forest/AudioColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/Environments/Forest/AudioColor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Environments/Forest/AudioPatricles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/Environments/Forest/AudioPatricles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/ObjectManagement/LineSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/ObjectManagement/LineSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/ObjectManagement/TimedSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/ObjectManagement/TimedSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/RoadMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/RoadMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Audio.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Audio/AnalyzedAudio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AnalyzedAudio.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Audio/AnalyzedAudio.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AnalyzedAudio.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Audio/IAudioAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/IAudioAnalyzer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Audio/IAudioAnalyzer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/IAudioAnalyzer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Audio/NullAudioAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/NullAudioAnalyzer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Audio/NullAudioAnalyzer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/NullAudioAnalyzer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Audio/TestAudioAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Audio/TestAudioAnalyzer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioPlayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioPlayer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioPlaylist.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioPlaylist.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioTrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioTrack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Player/DeathChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Player/DeathChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/AudioColorEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/AudioColorEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playing/AudioPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playing/AudioPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/DirectoryEnsureCreatedProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/DirectoryEnsureCreatedProcessor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/SpectrumProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/SpectrumProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ThumbnailDownloadProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ThumbnailDownloadProcessor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackAnalyzeProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackAnalyzeProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/ITrackSearcher.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/ITrackSearcher.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/TrackSearcher.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/YoutubeSearchResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/Imeplementation/YouTube/YoutubeSearchResult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/YoutubeSearchResult.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/Imeplementation/YouTube/YoutubeSearchResult.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackDownloadProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackDownloadProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackPCMProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackPCMProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackProcessor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/General.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/General.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Loading.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Loading.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Searching/SearchInputField.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchField.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchResults.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchResults.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchTrackTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchTrackTest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/YouTubeTrackSearcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/Imeplementation/YouTube/YouTubeTrackSearcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/YouTubeTrackSearcher.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/Imeplementation/YouTube/YouTubeTrackSearcher.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/TrackButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/TrackButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/TrackElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/TrackElement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/Buttons/MenuButton/MenuButtonAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/Buttons/MenuButton/MenuButtonAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/EnvironmentPreview.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/EnvironmentPreview.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/EnvironmentPreview/MouseRotate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/EnvironmentPreview/MouseRotate.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/EnvironmentPreview/MouseRotate.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Editor/Localization.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/Localization.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Editor/Localization/KeySelectionWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/Localization/KeySelectionWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Editor/Localization/KeySelectionWindow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/Localization/KeySelectionWindow.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Editor/Localization/LocalizationEditorWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/Localization/LocalizationEditorWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Editor/Localization/LocalizationEditorWindow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/Localization/LocalizationEditorWindow.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Editor/Localization/LocalizedUITextEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/Localization/LocalizedUITextEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Editor/Localization/LocalizedUITextEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/Localization/LocalizedUITextEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Editor/SmallTail.Editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/SmallTail.Localization.Editor.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Editor/SmallTail.Editor.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/SmallTail.Localization.Editor.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail/Localization.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail/Localization/Language.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/Language.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail/Localization/Language.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/Language.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail/Localization/Locale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/Locale.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail/Localization/Locale.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/Locale.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail/Localization/LocalizationService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/LocalizationService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail/Localization/LocalizationService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/LocalizationService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail/Localization/LocalizedUIText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/LocalizedUIText.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail/Localization/LocalizedUIText.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/LocalizedUIText.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail/SmallTail.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/SmallTail.Localization.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail/SmallTail.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/SmallTail.Localization.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/Cache.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/Cache/SessionCache.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/Cache/SessionCache.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/UI/CanvasManagement/ICanvasSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/CanvasManagement/ICanvasSwitcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/UI/CanvasManagement/NullCanvasSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/CanvasManagement/NullCanvasSwitcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/UI/CanvasManagement/SwitchableCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/CanvasManagement/SwitchableCanvas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/ChangeLanguageButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/ChangeLanguageButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/OpenCanvasButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/OpenCanvasButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/CanvasSwitchAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/CanvasSwitchAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/CanvasSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/CanvasSwitcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/OpenCanvasOnBack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/OpenCanvasOnBack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/Continue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/Continue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/ContinueTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/ContinueTimer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameConfiguration/Configurator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameConfiguration/Configurator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/Buttons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Buttons.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/Buttons/ClosePopupButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Buttons/ClosePopupButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/Buttons/ClosePopupButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Buttons/ClosePopupButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/IPopup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/IPopup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/IPopup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/IPopup.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/IPopupFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/IPopupFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/IPopupFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/IPopupFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/NullPopupFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/NullPopupFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/NullPopupFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/NullPopupFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/Popup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Popup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/Popup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Popup.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/PopupFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/PopupFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/PopupFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/PopupFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/PopupOption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/PopupOption.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/PopupOption.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/PopupOption.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,23 +103,11 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2E6610ED-2984-4F85-A379-24F81509FE5D/e4/84f3515f/YieldInstruction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2E6610ED-2984-4F85-A379-24F81509FE5D/60/fac507b7/UnityEvent`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2E6610ED-2984-4F85-A379-24F81509FE5D/00/fd58d242/Application.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Road/RoadMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioSkyColor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/Environment/MouseRotation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Inputs/PCPlayerInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Configuration.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/EnvironmentPreview/MouseRotate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/Audio/IAudioAnalyzer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/RealtimeAudioAnalyzer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/Audio/NullAudioAnalyzer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/Audio/AnalyzedAudio.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/Audio/TestAudioAnalyzer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AuidoLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AuidoLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/PrecalculatedAudioAnalyzer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchResults.cs" />
@@ -309,7 +125,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Searching/SearchInputField.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Searching/SearchResults.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AnalyzedAudio.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/Test.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioPlaylist.cs" />
         <option value="$PROJECT_DIR$/General.csproj" />
@@ -319,17 +134,31 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/General/PreloadedApiTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/PreloadApiUser.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/DirectoryEnsureCreatedProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/Preload.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/AudioColorEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/ImageColorEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playing/AudioPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/YouTubeSearch/Http/HttpHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackDownloadProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/SpectrumProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ThumbnailDownloadProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackAnalyzeProcessor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackDownloadProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackPCMProcessor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackProcessor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playing/AudioPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" />
-        <option value="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/Preload.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/DirectoryEnsureCreatedProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/StartGameDebug.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/Models/GameConfiguration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/Cache/CacheModifier.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/IGameStorage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameStorage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/GameConfigurator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/CurrentTrack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfigurator/Loading.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Popup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Window.cs" />
       </list>
     </option>
   </component>
@@ -342,7 +171,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="RiderUnityFileTemplatesSettings" />
+    <property name="settings.editor.selected.configurable" value="discord-application" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
@@ -391,7 +220,8 @@
       <workItem from="1597754515425" duration="15050000" />
       <workItem from="1597831064875" duration="8765000" />
       <workItem from="1597842643666" duration="5780000" />
-      <workItem from="1597849115398" duration="7776000" />
+      <workItem from="1597849115398" duration="7828000" />
+      <workItem from="1597916026514" duration="6784000" />
     </task>
     <task id="LOCAL-00001" summary="Audio processors">
       <created>1597684295436</created>
@@ -421,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597828813318</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="a lot of stuff is better now">
+      <created>1597857058541</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597857058541</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,21 +284,22 @@
     <MESSAGE value="Reworked processors" />
     <MESSAGE value="Playlist loading" />
     <MESSAGE value="Environment Preview" />
-    <option name="LAST_COMMIT_MESSAGE" value="Environment Preview" />
+    <MESSAGE value="a lot of stuff is better now" />
+    <option name="LAST_COMMIT_MESSAGE" value="a lot of stuff is better now" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="762" y="200" key="RiderGenerateDialog" timestamp="1597824985511">
+    <state x="762" y="200" key="RiderGenerateDialog" timestamp="1597920136754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="762" y="200" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597824985511" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1597655692904">
+    <state x="762" y="200" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597920136754" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1597917801725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597655692904" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597828816043">
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597917801725" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597857062061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597828816043" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597857062061" />
     <state x="616" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1597825213462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

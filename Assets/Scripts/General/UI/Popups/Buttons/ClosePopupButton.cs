@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UI.Popups.Buttons
+namespace General.UI.Popups.Buttons
 {
     public class ClosePopupButton : MonoBehaviour
     {

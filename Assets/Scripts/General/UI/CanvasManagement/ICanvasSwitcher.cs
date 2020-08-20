@@ -1,4 +1,4 @@
-﻿namespace General.UI.CanvasManagement
+﻿namespace General.UI.Popups.CanvasManagement
 {
     public interface ICanvasSwitcher
     {

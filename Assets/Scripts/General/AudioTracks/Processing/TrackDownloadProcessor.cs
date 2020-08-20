@@ -12,7 +12,7 @@ namespace General.AudioTracks.Processing
     [CreateAssetMenu(menuName = "Tracks/Processor/Audio downloader")]
     public class TrackDownloadProcessor : TrackProcessor
     {
-        public override Task Process(ISearchResult searchResult, Action<bool> OnProcessed)
+        public override void Process(ISearchResult searchResult, Action<bool> OnProcessed)
         {
             string url = $"https://www.youtube.com/watch?v={searchResult.Id}";
             
@@ -30,7 +30,7 @@ namespace General.AudioTracks.Processing
                 if (info == null)
                 {
                     OnProcessed?.Invoke(false);
-                    return Task.CompletedTask;
+                    return;
                 }
 
                 if (info.RequiresDecryption)
@@ -50,8 +50,6 @@ namespace General.AudioTracks.Processing
             {
                 OnProcessed?.Invoke(true);
             }
-            
-            return Task.CompletedTask;
         }
     }
 }

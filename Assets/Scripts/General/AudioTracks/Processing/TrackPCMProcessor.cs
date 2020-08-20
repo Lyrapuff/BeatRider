@@ -10,7 +10,7 @@ namespace General.AudioTracks.Processing
     [CreateAssetMenu(menuName = "Tracks/Processor/PCM")]
     public class TrackPCMProcessor : TrackProcessor
     {
-        public override Task Process(ISearchResult searchResult, Action<bool> OnProcessed)
+        public override void Process(ISearchResult searchResult, Action<bool> OnProcessed)
         {
             string path = Context.Path;
 
@@ -53,8 +53,6 @@ namespace General.AudioTracks.Processing
             {
                 OnProcessed?.Invoke(false);
             }
-
-            return Task.CompletedTask;
         }
     }
 }

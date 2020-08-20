@@ -1,6 +1,6 @@
 ﻿using General.Behaviours;
 using General.Services.GameStatus;
-using General.UI.CanvasManagement;
+using General.UI.Popups.CanvasManagement;
 using Game.Services;
 using Game.Services.Implementations;
 

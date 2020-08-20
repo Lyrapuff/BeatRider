@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
 using MonoHttp;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -13,18 +15,18 @@ namespace YouTubeSearch
     {
         public static string DownloadString(string url)
         {
-            using (UnityWebRequest client = UnityWebRequest.Get(url))
-            {
-                UnityWebRequestAsyncOperation req = client.SendWebRequest();
+            WebRequest request = WebRequest.Create(url);
+            HttpWebResponse response = (HttpWebResponse) request.GetResponse();
+            
+            Stream dataStream = response.GetResponseStream();
 
-                while (!req.isDone)
-                {
-                    Thread.Sleep(100);
-                }
-                
-                string text = client.downloadHandler.text;
-                return text;
+            if (dataStream != null)
+            {
+                StreamReader reader = new StreamReader(dataStream);
+                return reader.ReadToEnd();
             }
+
+            return "";
         }
 
         public static string HtmlDecode(string value)

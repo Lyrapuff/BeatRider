@@ -9,6 +9,6 @@ namespace General.AudioTracks.Processing
     {
         public ProcessingContext Context { get; set; }
         
-        public abstract Task Process(ISearchResult searchResult, Action<bool> OnProcessed);
+        public abstract void Process(ISearchResult searchResult, Action<bool> OnProcessed);
     }
 }

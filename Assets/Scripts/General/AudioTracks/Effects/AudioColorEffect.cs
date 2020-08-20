@@ -8,6 +8,7 @@ namespace General.AudioTracks.Effects
     public class AudioColorEffect : MonoBehaviour
     {
         public Action<Color> OnColorChanged { get; set; }
+        public Color CurrentColor { get; private set; }
         
         [SerializeField] private float _threshold;
         [SerializeField] private Color[] _colors;
@@ -49,6 +50,7 @@ namespace General.AudioTracks.Effects
             }
 
             StartCoroutine(ChangeColor(color));
+            CurrentColor = color;
                 
             _lastChange = Time.time;
         }

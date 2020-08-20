@@ -11,7 +11,7 @@ namespace General.AudioTracks.Processing
     [CreateAssetMenu(menuName = "Tracks/Processor/Analyzer")]
     public class TrackAnalyzeProcessor : TrackProcessor
     {
-        public override Task Process(ISearchResult searchResult, Action<bool> OnProcessed)
+        public override void Process(ISearchResult searchResult, Action<bool> OnProcessed)
         {
             string path = Context.Path;
             
@@ -19,26 +19,23 @@ namespace General.AudioTracks.Processing
             {
                 AudioAnalyzer audioAnalyzer = new AudioAnalyzer();
 
-                audioAnalyzer.Analyze(Context.Wave, Context.Channels, Context.Samples, analyzedAudio =>
-                {
-                    Context.AnalyzedAudio = analyzedAudio;
-                    
-                    OnProcessed?.Invoke(true);
-                    
-                    BinaryFormatter formatter = new BinaryFormatter();
+                AnalyzedAudio analyzedAudio = audioAnalyzer.Analyze(Context.Wave, Context.Channels, Context.Samples);
 
-                    using (FileStream file = new FileStream(path + "/spectrum.bytes", FileMode.Create))
-                    {
-                        formatter.Serialize(file, analyzedAudio);
-                    }
-                });
+                Context.AnalyzedAudio = analyzedAudio;
+                
+                OnProcessed?.Invoke(true);
+                    
+                BinaryFormatter formatter = new BinaryFormatter();
+
+                using (FileStream file = new FileStream(path + "/spectrum.bytes", FileMode.Create))
+                {
+                    formatter.Serialize(file, analyzedAudio);
+                }
             }
             else
             {
                 OnProcessed?.Invoke(true);
             }
-            
-            return Task.CompletedTask;
         }
     }
 }
