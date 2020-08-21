@@ -221,7 +221,6 @@ GameObject:
   - component: {fileID: 7279827759914998299}
   - component: {fileID: 271852470939958887}
   - component: {fileID: -1514606433719904429}
-  - component: {fileID: 4235247096312267332}
   m_Layer: 0
   m_Name: YouTubeTrack
   m_TagString: Untagged
@@ -294,9 +293,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4235247096312267332}
-        m_TargetAssemblyTypeName: UI.PCUI.AudioTracks.TrackButton, UI
-        m_MethodName: Interact
+      - m_Target: {fileID: -1514606433719904429}
+        m_TargetAssemblyTypeName: Menu.PCUI.AudioTracks.TrackElement, Menu
+        m_MethodName: Select
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -340,18 +339,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _title: {fileID: 6151248423271682221}
   _image: {fileID: 903057246097633815}
---- !u!114 &4235247096312267332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6151248423592028982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df386a1b49ae48d698bc96755376eb9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6151248423849161047
 GameObject:
   m_ObjectHideFlags: 0

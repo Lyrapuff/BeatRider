@@ -1,13 +1,12 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace UI.PCUI.Buttons.MenuButton
+namespace UI.PCUI.AudioTracks
 {
     [RequireComponent(typeof(RectTransform))]
-    public class MenuButtonAnimator : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+    public class CarouselButtonAnimator : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         [Header("Size")]
         [SerializeField] private VerticalLayoutGroup _layoutGroup;
@@ -36,10 +35,20 @@ namespace UI.PCUI.Buttons.MenuButton
 
         private void OnEnable()
         {
-            OnPointerExit(null);
+            Hide();
         }
 
         public void OnPointerEnter(PointerEventData eventData)
+        {
+            Show();
+        }
+
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            Hide();
+        }
+
+        private void Show()
         {
             if (_animation != null)
             {
@@ -53,7 +62,7 @@ namespace UI.PCUI.Buttons.MenuButton
             _shinyImage.material = _cachedMaterial;
         }
 
-        public void OnPointerExit(PointerEventData eventData)
+        private void Hide()
         {
             if (_animation != null)
             {

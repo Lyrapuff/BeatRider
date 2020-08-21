@@ -24,8 +24,9 @@ namespace Game.World.ObjectManagement.Spawning.States
             }
 
             List<Vector3> positions = new List<Vector3>();
-            int count = 0;
+            int count = Random.Range(1, 4);
             
+            /*
             switch (Configuration.Instance.Traffic)
             {
                 case Configuration.TrafficType.Light:
@@ -38,6 +39,9 @@ namespace Game.World.ObjectManagement.Spawning.States
                     count = Random.Range(1, 4);
                     break;
             }
+            */
+            
+            // TODO: fix
 
             for (int i = 0; i < count; i++)
             {

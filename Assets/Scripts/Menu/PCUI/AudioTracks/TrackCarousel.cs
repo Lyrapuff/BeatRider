@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using General.AudioTracks;
 using UnityEngine;
 
@@ -6,10 +7,13 @@ namespace Menu.PCUI.AudioTracks
 {
     public class TrackCarousel : MonoBehaviour
     {
-        [SerializeField] private TrackElement _trackPrefab;
+        public Action<TrackElement> OnSelected { get; set; }
         
-        private List<TrackElement> _tracks = new List<TrackElement>();
+        [SerializeField] private TrackElement _trackPrefab;
 
+        private List<TrackElement> _tracks = new List<TrackElement>();
+        private TrackElement _selected;
+        
         public void LoadTracks(IEnumerable<IAudioTrack> tracks)
         {
             foreach (IAudioTrack track in tracks)
@@ -17,6 +21,8 @@ namespace Menu.PCUI.AudioTracks
                 TrackElement instance = Instantiate(_trackPrefab, transform);
                 instance.SetResult(track);
                 
+                instance.OnSelected += HandleSelected;
+
                 _tracks.Add(instance);
             }
         }
@@ -27,8 +33,14 @@ namespace Menu.PCUI.AudioTracks
             {
                 Destroy(trackElement.gameObject);
             }
-            
+
             _tracks.Clear();
+        }
+
+        private void HandleSelected(TrackElement trackElement)
+        {
+            _selected = trackElement;
+            OnSelected?.Invoke(_selected);
         }
     }
 }

@@ -403,17 +403,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &1029164398 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 474025590849796233, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-  m_PrefabInstance: {fileID: 474025590368515559}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1041016265
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,23 +621,8 @@ PrefabInstance:
       propertyPath: m_Transition
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5768086907851257787, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-      propertyPath: _layoutGroup
-      value: 
-      objectReference: {fileID: 1814833862}
-    - target: {fileID: 5768086907851257787, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-      propertyPath: _shinyImage
-      value: 
-      objectReference: {fileID: 2068707700}
-    - target: {fileID: 5768086907851257787, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-      propertyPath: _shineSpeed
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768086907851257787, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-      propertyPath: _shineAmount
-      value: 0.2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
 --- !u!224 &1304833737 stripped
 RectTransform:
@@ -966,23 +940,8 @@ PrefabInstance:
       propertyPath: m_Transition
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5768086907851257787, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-      propertyPath: _layoutGroup
-      value: 
-      objectReference: {fileID: 1814833862}
-    - target: {fileID: 5768086907851257787, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-      propertyPath: _shinyImage
-      value: 
-      objectReference: {fileID: 1930044668}
-    - target: {fileID: 5768086907851257787, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-      propertyPath: _shineSpeed
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768086907851257787, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-      propertyPath: _shineAmount
-      value: 0.2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
 --- !u!224 &1792071441 stripped
 RectTransform:
@@ -1221,17 +1180,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.00024414062, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 1, y: 0.5}
---- !u!114 &1930044668 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 474025590849796233, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-  m_PrefabInstance: {fileID: 1792071440}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1953796993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,17 +1275,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 86760568c70149a3971dbecd780a3944, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2068707700 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 474025590849796233, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-  m_PrefabInstance: {fileID: 1304833736}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &474025590368515559
@@ -1535,21 +1472,5 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 5494835037910450088, guid: aa2f9974772ac934bbbf4672595048ee, type: 3}
-    - target: {fileID: 5768086907851257787, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-      propertyPath: _layoutGroup
-      value: 
-      objectReference: {fileID: 1814833862}
-    - target: {fileID: 5768086907851257787, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-      propertyPath: _shinyImage
-      value: 
-      objectReference: {fileID: 1029164398}
-    - target: {fileID: 5768086907851257787, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-      propertyPath: _shineAmount
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768086907851257787, guid: af61f5755c4945c4d8528073682b8e42, type: 3}
-      propertyPath: _shineSpeed
-      value: 50
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af61f5755c4945c4d8528073682b8e42, type: 3}

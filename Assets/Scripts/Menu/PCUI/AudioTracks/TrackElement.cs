@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using General.AudioTracks;
 using General.AudioTracks.Searching;
 using TMPro;
@@ -9,20 +10,26 @@ namespace Menu.PCUI.AudioTracks
 {
     public class TrackElement : MonoBehaviour
     {
+        public Action<TrackElement> OnSelected { get; set; }
         public IAudioTrack Track => _track;
         
         [SerializeField] private TMP_Text _title;
         [SerializeField] private Image _image;
-        
-        private IAudioTrack _track;
 
+        private IAudioTrack _track;
+        
         public void SetResult(IAudioTrack track)
         {
             _track = track;
-
+            
             _title.text = track.Title;
 
             StartCoroutine(SetImage(_image, track.Thumbnail));
+        }
+
+        public void Select()
+        {
+            OnSelected?.Invoke(this);
         }
         
         private IEnumerator SetImage(Image image, string url)

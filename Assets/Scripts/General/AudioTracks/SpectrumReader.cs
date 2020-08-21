@@ -1,8 +1,11 @@
 ﻿using General.AudioTracks.Analyzing;
 using General.Behaviours;
+using General.Storage;
+using UnityEngine;
 
 namespace General.AudioTracks
 {
+    [RequireComponent(typeof(AudioSource))]
     public class SpectrumReader : ExtendedBehaviour, IAudioAnalyzer
     {
         public float SpeedMultiplier { get; set; } = 6f;
@@ -10,23 +13,40 @@ namespace General.AudioTracks
         public float PureSpeed { get; private set; }
         public float[] Band { get; private set;}
 
-        /*
+        private AudioSource _audioSource;
+        private AudioTrack _track;
+
+        private void Awake()
+        {
+            _audioSource = GetComponent<AudioSource>();
+            
+            IStorage storage = FindComponentOfInterface<IStorage>();
+            _track = storage.Get<AudioTrack>("SelectedTrack");
+
+            _audioSource.clip = _track.AudioClip;
+            _audioSource.Play();
+        }
         
         private void Update()
         {
-            if (_audioPlayer.Track != null)
+            if (_track != null)
             {
-                int index = _audioPlayer.GetIndexFromTime() / 1024 / _audioPlayer.Track.AnalyzedAudio.StoreEvery;
+                int index = GetIndexFromTime() / 1024 / _track.AnalyzedAudio.StoreEvery;
 
-                float average = _audioPlayer.Track.AnalyzedAudio.Averages[index];
+                float average = _track.AnalyzedAudio.Averages[index];
 
-                Band = _audioPlayer.Track.AnalyzedAudio.Bands[index];
+                Band = _track.AnalyzedAudio.Bands[index];
                 
                 Speed = average * SpeedMultiplier + 1f;
                 PureSpeed = average;
             }
         }
         
-        */
+        public int GetIndexFromTime()
+        {
+            float time = _audioSource.time;
+            float lengthPerSample = _audioSource.clip.length / _audioSource.clip.samples;
+            return Mathf.FloorToInt (time / lengthPerSample);
+        }
     }
 }

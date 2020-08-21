@@ -1753,6 +1753,8 @@
                 <e p="MaterialColorEffect.cs" t="Include" />
               </e>
               <e p="IAudioTrack.cs" t="Include" />
+              <e p="IPlaylist.cs" t="Include" />
+              <e p="Playlist.cs" t="Include" />
               <e p="Processing" t="Include">
                 <e p="ProcessingContext.cs" t="Include" />
                 <e p="ProcessingPipeline.cs" t="Include" />
@@ -1823,8 +1825,8 @@
             <e p="Storage" t="Include">
               <e p="GameData.cs" t="Include" />
               <e p="GameDataStorage.cs" t="Include" />
-              <e p="GameStorage.cs" t="Include" />
-              <e p="IGameStorage.cs" t="Include" />
+              <e p="IStorage.cs" t="Include" />
+              <e p="Storage.cs" t="Include" />
             </e>
             <e p="UI" t="Include">
               <e p="CanvasManagement" t="Include">
@@ -1860,21 +1862,25 @@
             <e p="Menu.asmdef" t="Include" />
             <e p="PCUI" t="Include">
               <e p="AudioTracks" t="Include">
+                <e p="CarouselButtonAnimator.cs" t="Include" />
+                <e p="Processing" t="Include">
+                  <e p="CarouselTrackProcessor.cs" t="Include" />
+                </e>
                 <e p="Searching" t="Include">
                   <e p="SearchInputField.cs" t="Include" />
                   <e p="SearchResults.cs" t="Include" />
                 </e>
-                <e p="TrackButton.cs" t="Include" />
                 <e p="TrackCarousel.cs" t="Include" />
                 <e p="TrackElement.cs" t="Include" />
               </e>
-              <e p="Buttons" t="Include">
-                <e p="MenuButton" t="Include">
-                  <e p="MenuButtonAnimator.cs" t="Include" />
-                </e>
-              </e>
               <e p="EnvironmentPreview" t="Include">
                 <e p="MouseRotate.cs" t="Include" />
+              </e>
+              <e p="GameConfiguration" t="Include">
+                <e p="Buttons" t="Include">
+                  <e p="StartGameButton.cs" t="Include" />
+                </e>
+                <e p="CurrentTrack.cs" t="Include" />
               </e>
             </e>
           </e>

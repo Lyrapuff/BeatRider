@@ -7,7 +7,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace General.Storage
 {
-    public class GameStorage : ExtendedBehaviour, IGameStorage
+    public class Storage : ExtendedBehaviour, IStorage
     {
         private Dictionary<string, StoredObject> _storage = new Dictionary<string, StoredObject>();
 
@@ -69,6 +69,16 @@ namespace General.Storage
             }
 
             return null;
+        }
+
+        public T GetOrCreate<T>(string key) where T : class, new()
+        {
+            if (!_storage.ContainsKey(key))
+            {
+                Store(key, new T());
+            }
+            
+            return Get<T>(key);
         }
     }
 

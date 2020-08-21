@@ -8,30 +8,29 @@ namespace General.AudioTracks.Processing
     [Serializable]
     public class ProcessingPipeline
     {
-        public ProcessingStatus Status { get; private set; } = ProcessingStatus.Idle;
-        public ProcessingContext Context { get; private set; }
-
+        public Action<ProcessingContext> OnProcessed { get; set; }
+        
         [SerializeField] private TrackProcessor[] _processors;
 
+        private ProcessingContext _context;
         private int _processorIndex;
 
-        public Task Process(AudioTrack track, string path)
+        public Task Process(IAudioTrack track, string path)
         {
             try
             {
-                if (Status == ProcessingStatus.Idle)
+                if (_processorIndex == 0)
                 {
-                    Status = ProcessingStatus.Processing;
-                    Context = new ProcessingContext();
-                    Context.Path = path;
-                    
+                    _context = new ProcessingContext();
+                    _context.Path = path;
+
                     _processorIndex = 0;
                 }
 
                 if (_processorIndex < _processors.Length)
                 {
                     TrackProcessor processor = _processors[_processorIndex];
-                    processor.Context = Context;
+                    processor.Context = _context;
 
                     processor.Process(track, success =>
                     {
@@ -42,7 +41,6 @@ namespace General.AudioTracks.Processing
                         }
                         else
                         {
-                            Status = ProcessingStatus.Error;
                             Debug.Log("Error: " + _processorIndex);
                             // TODO: Error message
                         }
@@ -50,7 +48,8 @@ namespace General.AudioTracks.Processing
                 }
                 else
                 {
-                    Status = ProcessingStatus.Success;
+                    _processorIndex = 0;
+                    OnProcessed?.Invoke(_context);
                 }
             }
             catch (Exception e)
@@ -60,18 +59,5 @@ namespace General.AudioTracks.Processing
 
             return Task.CompletedTask;
         }
-
-        public void Reset()
-        {
-            Status = ProcessingStatus.Idle;
-        }
-    }
-
-    public enum ProcessingStatus
-    {
-        Idle,
-        Processing,
-        Success,
-        Error
     }
 }
