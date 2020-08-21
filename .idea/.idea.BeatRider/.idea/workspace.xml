@@ -19,76 +19,33 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="a lot of stuff is better now">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/ImageColorEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/ImageColorEffect.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameStorage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameStorage.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/IGameStorage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/IGameStorage.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Window.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Window.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/CurrentTrack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/CurrentTrack.cs.meta" afterDir="false" />
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="well, i did at least something">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Buttons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Buttons/CloseAllWindowsButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Buttons/CloseAllWindowsButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Buttons/CloseWindowButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Buttons/CloseWindowButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Buttons/OpenWindowButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Buttons/OpenWindowButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/IWindowFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/IWindowFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/WindowAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/WindowAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/WindowFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/WindowFactory.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/YouTubeSearch/Http/HttpHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/YouTubeSearch/Http/HttpHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/UI/Content.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/UI/Content.controller.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Objects/Preload/PreloadSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Objects/Preload/PreloadSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Patterns/Pattern01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Patterns/Pattern01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/TrackList/YouTubeTrack.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/TrackList/YouTubeTrack.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/WorldTexture.renderTexture" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/WorldTexture.renderTexture.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Player/DeathChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Player/DeathChecker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/AudioColorEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/AudioColorEffect.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playing/AudioPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playing/AudioPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/DirectoryEnsureCreatedProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/DirectoryEnsureCreatedProcessor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/SpectrumProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/SpectrumProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ThumbnailDownloadProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ThumbnailDownloadProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackAnalyzeProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackAnalyzeProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackDownloadProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackDownloadProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackPCMProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackPCMProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/Cache.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/Cache/SessionCache.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/Cache/SessionCache.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/UI/CanvasManagement/ICanvasSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/CanvasManagement/ICanvasSwitcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/UI/CanvasManagement/NullCanvasSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/CanvasManagement/NullCanvasSwitcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/UI/CanvasManagement/SwitchableCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/CanvasManagement/SwitchableCanvas.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/ChangeLanguageButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/ChangeLanguageButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/OpenCanvasButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/OpenCanvasButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/CanvasSwitchAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/CanvasSwitchAnimation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/CanvasSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/CanvasSwitcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/OpenCanvasOnBack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/OpenCanvasOnBack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/Continue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/Continue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/ContinueTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/ContinueTimer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameConfiguration/Configurator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameConfiguration/Configurator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/Buttons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Buttons.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/Buttons/ClosePopupButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Buttons/ClosePopupButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/Buttons/ClosePopupButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Buttons/ClosePopupButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/IPopup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/IPopup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/IPopup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/IPopup.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/IPopupFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/IPopupFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/IPopupFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/IPopupFactory.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/NullPopupFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/NullPopupFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/NullPopupFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/NullPopupFactory.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/Popup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Popup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/Popup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Popup.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/PopupFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/PopupFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/PopupFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/PopupFactory.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/PopupOption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/PopupOption.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Popups/PopupOption.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/PopupOption.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Window.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Window.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,15 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/PrecalculatedAudioAnalyzer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/SearchResults.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/PCUI/AudioTracks/TrackButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/TestObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/ScriptableTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/Implementation/YoutubeSearchResult.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AudioTracks/Searching/YouTubeTrackSearcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/Imeplementation/YouTube/YoutubeSearchResult.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/IYouTubeTrackSearcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/ITrackSearcher.cs" />
@@ -139,7 +87,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/ImageColorEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playing/AudioPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/YouTubeSearch/Http/HttpHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackDownloadProcessor.cs" />
@@ -147,7 +94,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ThumbnailDownloadProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackAnalyzeProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/TrackPCMProcessor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/DirectoryEnsureCreatedProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/StartGameDebug.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/Models/GameConfiguration.cs" />
@@ -158,7 +104,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/CurrentTrack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfigurator/Loading.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Popup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/IWIndowManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/IWindowManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Buttons/OpenWindowButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/WindowManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Window.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Buttons/CloseWindowButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/WindowAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/IWindowFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Buttons/CloseAllWindowsButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/WindowFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playing/AudioPlayer.cs" />
       </list>
     </option>
   </component>
@@ -221,7 +178,9 @@
       <workItem from="1597831064875" duration="8765000" />
       <workItem from="1597842643666" duration="5780000" />
       <workItem from="1597849115398" duration="7828000" />
-      <workItem from="1597916026514" duration="6784000" />
+      <workItem from="1597916026514" duration="6829000" />
+      <workItem from="1597930075902" duration="2172000" />
+      <workItem from="1598004968171" duration="2946000" />
     </task>
     <task id="LOCAL-00001" summary="Audio processors">
       <created>1597684295436</created>
@@ -258,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597857058541</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="well, i did at least something">
+      <created>1597922910287</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597922910287</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +251,8 @@
     <MESSAGE value="Playlist loading" />
     <MESSAGE value="Environment Preview" />
     <MESSAGE value="a lot of stuff is better now" />
-    <option name="LAST_COMMIT_MESSAGE" value="a lot of stuff is better now" />
+    <MESSAGE value="well, i did at least something" />
+    <option name="LAST_COMMIT_MESSAGE" value="well, i did at least something" />
   </component>
   <component name="WindowStateProjectService">
     <state x="762" y="200" key="RiderGenerateDialog" timestamp="1597920136754">
@@ -296,10 +263,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597917801725" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597857062061">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597922913621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597857062061" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597922913621" />
     <state x="616" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1597825213462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

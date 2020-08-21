@@ -58,6 +58,8 @@ namespace General.AudioTracks.Playing
                 yield return new WaitForFixedUpdate();
             }
 
+            _preparingPipeline.Reset();
+            
             track.AnalyzedAudio = _preparingPipeline.Context.AnalyzedAudio;
             track.AudioClip = AudioUtil.AssembleClip(_preparingPipeline.Context);
 

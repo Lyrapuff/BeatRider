@@ -1840,7 +1840,15 @@
                 <e p="PopupOption.cs" t="Include" />
               </e>
               <e p="Windows" t="Include">
+                <e p="Buttons" t="Include">
+                  <e p="CloseAllWindowsButton.cs" t="Include" />
+                  <e p="CloseWindowButton.cs" t="Include" />
+                  <e p="OpenWindowButton.cs" t="Include" />
+                </e>
+                <e p="IWindowFactory.cs" t="Include" />
                 <e p="Window.cs" t="Include" />
+                <e p="WindowAnimator.cs" t="Include" />
+                <e p="WindowFactory.cs" t="Include" />
               </e>
             </e>
           </e>

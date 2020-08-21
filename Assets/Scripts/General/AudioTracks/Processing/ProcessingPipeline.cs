@@ -14,7 +14,7 @@ namespace General.AudioTracks.Processing
 
         [SerializeField] private TrackProcessor[] _processors;
 
-        private string _path = Application.persistentDataPath + "/playlist/";
+        private static string _path = Application.persistentDataPath + "/playlist/";
         private int _processorIndex;
 
         public Task Process(AudioTrack track)
