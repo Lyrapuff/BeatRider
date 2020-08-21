@@ -13,6 +13,11 @@ namespace SmallTail.Preload
             {
                 foreach (GameObject obj in settings.PreloadedObjects)
                 {
+                    if (obj == null)
+                    {
+                        continue;
+                    }
+                    
                     GameObject instance = Object.Instantiate(obj);
                     instance.name = obj.ToString();
                     Object.DontDestroyOnLoad(instance);

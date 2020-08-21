@@ -6,12 +6,12 @@ using General.AudioTracks.Analyzing;
 using General.AudioTracks.Searching;
 using UnityEngine;
 
-namespace General.AudioTracks.Processing
+namespace General.AudioTracks.Processing.Processors
 {
     [CreateAssetMenu(menuName = "Tracks/Processor/Spectrum loader")]
     public class SpectrumProcessor : TrackProcessor
     {
-        public override void Process(ISearchResult searchResult, Action<bool> OnProcessed)
+        public override void Process(IAudioTrack track, Action<bool> OnProcessed)
         {
             string path = Context.Path;
             

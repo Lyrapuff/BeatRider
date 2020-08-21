@@ -1752,19 +1752,19 @@
                 <e p="ImageColorEffect.cs" t="Include" />
                 <e p="MaterialColorEffect.cs" t="Include" />
               </e>
-              <e p="Playing" t="Include">
-                <e p="AudioPlayer.cs" t="Include" />
-              </e>
+              <e p="IAudioTrack.cs" t="Include" />
               <e p="Processing" t="Include">
-                <e p="DirectoryEnsureCreatedProcessor.cs" t="Include" />
                 <e p="ProcessingContext.cs" t="Include" />
                 <e p="ProcessingPipeline.cs" t="Include" />
-                <e p="SpectrumProcessor.cs" t="Include" />
-                <e p="ThumbnailDownloadProcessor.cs" t="Include" />
-                <e p="TrackAnalyzeProcessor.cs" t="Include" />
-                <e p="TrackDownloadProcessor.cs" t="Include" />
-                <e p="TrackPCMProcessor.cs" t="Include" />
-                <e p="TrackProcessor.cs" t="Include" />
+                <e p="Processors" t="Include">
+                  <e p="DirectoryEnsureCreatedProcessor.cs" t="Include" />
+                  <e p="SpectrumProcessor.cs" t="Include" />
+                  <e p="ThumbnailDownloadProcessor.cs" t="Include" />
+                  <e p="TrackAnalyzeProcessor.cs" t="Include" />
+                  <e p="TrackDownloadProcessor.cs" t="Include" />
+                  <e p="TrackPCMProcessor.cs" t="Include" />
+                  <e p="TrackProcessor.cs" t="Include" />
+                </e>
               </e>
               <e p="Searching" t="Include">
                 <e p="Imeplementation" t="Include">
@@ -1800,6 +1800,10 @@
                 <e p="ObjectType.cs" t="Include" />
                 <e p="SpawnerPattern.cs" t="Include" />
               </e>
+            </e>
+            <e p="SceneManagement" t="Include">
+              <e p="ISceneChanger.cs" t="Include" />
+              <e p="SceneChanger.cs" t="Include" />
             </e>
             <e p="Services" t="Include">
               <e p="Back" t="Include">
@@ -1856,12 +1860,12 @@
             <e p="Menu.asmdef" t="Include" />
             <e p="PCUI" t="Include">
               <e p="AudioTracks" t="Include">
-                <e p="CurrentTrack.cs" t="Include" />
                 <e p="Searching" t="Include">
                   <e p="SearchInputField.cs" t="Include" />
                   <e p="SearchResults.cs" t="Include" />
                 </e>
                 <e p="TrackButton.cs" t="Include" />
+                <e p="TrackCarousel.cs" t="Include" />
                 <e p="TrackElement.cs" t="Include" />
               </e>
               <e p="Buttons" t="Include">

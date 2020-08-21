@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using General.AudioTracks.Searching;
+using General.AudioTracks.Processing.Processors;
 using UnityEngine;
 
 namespace General.AudioTracks.Processing
@@ -14,10 +13,9 @@ namespace General.AudioTracks.Processing
 
         [SerializeField] private TrackProcessor[] _processors;
 
-        private static string _path = Application.persistentDataPath + "/playlist/";
         private int _processorIndex;
 
-        public Task Process(AudioTrack track)
+        public Task Process(AudioTrack track, string path)
         {
             try
             {
@@ -25,7 +23,7 @@ namespace General.AudioTracks.Processing
                 {
                     Status = ProcessingStatus.Processing;
                     Context = new ProcessingContext();
-                    Context.Path = _path;
+                    Context.Path = path;
                     
                     _processorIndex = 0;
                 }
@@ -40,7 +38,7 @@ namespace General.AudioTracks.Processing
                         if (success)
                         {
                             _processorIndex++;
-                            Process(track);
+                            Process(track, path);
                         }
                         else
                         {

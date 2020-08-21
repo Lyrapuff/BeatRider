@@ -4,14 +4,14 @@ using System.Threading.Tasks;
 using General.AudioTracks.Searching;
 using UnityEngine;
 
-namespace General.AudioTracks.Processing
+namespace General.AudioTracks.Processing.Processors
 {
     [CreateAssetMenu(menuName = "Tracks/Processor/Directory ensure created")]
     public class DirectoryEnsureCreatedProcessor : TrackProcessor
     {
-        public override void Process(ISearchResult searchResult, Action<bool> OnProcessed)
+        public override void Process(IAudioTrack track, Action<bool> OnProcessed)
         {
-            Context.Path += searchResult.Id + "/";
+            Context.Path += track.Id + "/";
 
             if (!Directory.Exists(Context.Path))
             {

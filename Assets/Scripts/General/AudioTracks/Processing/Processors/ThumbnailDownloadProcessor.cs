@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 using General.AudioTracks.Searching;
 using UnityEngine;
 
-namespace General.AudioTracks.Processing
+namespace General.AudioTracks.Processing.Processors
 {
     [CreateAssetMenu(menuName = "Tracks/Processor/Thumbnail downloader")]
     public class ThumbnailDownloadProcessor : TrackProcessor
     {
-        public override void Process(ISearchResult searchResult, Action<bool> OnProcessed)
+        public override void Process(IAudioTrack track, Action<bool> OnProcessed)
         {
             string path = Context.Path;
 
@@ -20,7 +20,7 @@ namespace General.AudioTracks.Processing
                 {
                     try
                     {
-                        client.DownloadFile(new Uri(searchResult.ThumbnailPath), path + "thumbnail.jpeg");
+                        client.DownloadFile(new Uri(track.Thumbnail), path + "thumbnail.jpeg");
                     }
                     catch
                     {

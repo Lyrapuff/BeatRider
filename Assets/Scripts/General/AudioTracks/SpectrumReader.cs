@@ -1,7 +1,5 @@
 ﻿using General.AudioTracks.Analyzing;
-using General.AudioTracks.Playing;
 using General.Behaviours;
-using UnityEngine;
 
 namespace General.AudioTracks
 {
@@ -12,13 +10,8 @@ namespace General.AudioTracks
         public float PureSpeed { get; private set; }
         public float[] Band { get; private set;}
 
-        private AudioPlayer _audioPlayer;
+        /*
         
-        private void Awake()
-        {
-            _audioPlayer = FindObjectOfType<AudioPlayer>();
-        }
-
         private void Update()
         {
             if (_audioPlayer.Track != null)
@@ -33,5 +26,7 @@ namespace General.AudioTracks
                 PureSpeed = average;
             }
         }
+        
+        */
     }
 }

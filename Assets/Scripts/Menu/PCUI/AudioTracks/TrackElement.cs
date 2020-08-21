@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using General.AudioTracks;
 using General.AudioTracks.Searching;
 using TMPro;
 using UnityEngine;
@@ -8,20 +9,20 @@ namespace Menu.PCUI.AudioTracks
 {
     public class TrackElement : MonoBehaviour
     {
-        public ISearchResult SearchResult => _searchResult;
+        public IAudioTrack Track => _track;
         
         [SerializeField] private TMP_Text _title;
         [SerializeField] private Image _image;
         
-        private ISearchResult _searchResult;
+        private IAudioTrack _track;
 
-        public void SetResult(ISearchResult searchResult)
+        public void SetResult(IAudioTrack track)
         {
-            _searchResult = searchResult;
+            _track = track;
 
-            _title.text = searchResult.Title;
+            _title.text = track.Title;
 
-            StartCoroutine(SetImage(_image, searchResult.ThumbnailPath));
+            StartCoroutine(SetImage(_image, track.Thumbnail));
         }
         
         private IEnumerator SetImage(Image image, string url)

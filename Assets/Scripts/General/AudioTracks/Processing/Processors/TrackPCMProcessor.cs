@@ -5,12 +5,12 @@ using General.AudioTracks.Searching;
 using Un4seen.Bass;
 using UnityEngine;
 
-namespace General.AudioTracks.Processing
+namespace General.AudioTracks.Processing.Processors
 {
     [CreateAssetMenu(menuName = "Tracks/Processor/PCM")]
     public class TrackPCMProcessor : TrackProcessor
     {
-        public override void Process(ISearchResult searchResult, Action<bool> OnProcessed)
+        public override void Process(IAudioTrack track, Action<bool> OnProcessed)
         {
             string path = Context.Path;
 

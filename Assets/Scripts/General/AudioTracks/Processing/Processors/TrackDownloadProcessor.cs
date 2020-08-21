@@ -7,14 +7,14 @@ using General.AudioTracks.Searching;
 using UnityEngine;
 using YouTubeSearch;
 
-namespace General.AudioTracks.Processing
+namespace General.AudioTracks.Processing.Processors
 {
     [CreateAssetMenu(menuName = "Tracks/Processor/Audio downloader")]
     public class TrackDownloadProcessor : TrackProcessor
     {
-        public override void Process(ISearchResult searchResult, Action<bool> OnProcessed)
+        public override void Process(IAudioTrack track, Action<bool> OnProcessed)
         {
-            string url = $"https://www.youtube.com/watch?v={searchResult.Id}";
+            string url = $"https://www.youtube.com/watch?v={track.Id}";
             
             string path = Context.Path;
 

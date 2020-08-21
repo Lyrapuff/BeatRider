@@ -27,7 +27,7 @@ namespace UI.AudioTracks.Searching.Implementation.YouTube
                 _tracks.Add(new YoutubeSearchResult
                 {
                     Title = video.Title,
-                    ThumbnailPath = video.Thumbnails.StandardResUrl,
+                    Thumbnail = video.Thumbnails.StandardResUrl,
                     VideoURL = video.GetUrl(),
                     Id = video.Id
                 });
