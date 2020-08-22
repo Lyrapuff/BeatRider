@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
+using System.Threading.Tasks;
 using DSPLib;
 using UnityEngine;
 
@@ -9,6 +10,12 @@ namespace General.AudioTracks.Analyzing
 {
     public class AudioAnalyzer
     {
+        private float[][] _bands;
+        private float[] _averages;
+
+        private object _bandsLock = new object();
+        private object _averagesLock = new object();
+        
         public AnalyzedAudio Analyze(float[] wave, int channels, int samples)
         {
             AnalyzedAudio analyzedAudio = new AnalyzedAudio();
@@ -34,24 +41,20 @@ namespace General.AudioTracks.Analyzing
                 }
 
                 int spectrumSampleSize = 1024;
-                int iterations = combinedSamples.Length / spectrumSampleSize;
+                int iterations = combinedSamples.Length / spectrumSampleSize / analyzedAudio.StoreEvery;
 
-                FFT fft = new FFT();
-                fft.Initialize((uint) spectrumSampleSize);
-
-                List<float[]> bandsAll = new List<float[]>();
-                List<float> averages = new List<float>();
-
-                double[] sampleChunk = new double[spectrumSampleSize];
-
-                for (int i = 0; i < iterations; i++)
+                _bands = new float[iterations + 1][];
+                _averages = new float[iterations + 1];
+                
+                Parallel.For(0, iterations, i =>
                 {
-                    if (i % analyzedAudio.StoreEvery != 0)
-                    {
-                        continue;
-                    }
+                    FFT fft = new FFT();
+                    fft.Initialize((uint) spectrumSampleSize);
+                    
+                    double[] sampleChunk = new double[spectrumSampleSize];
 
-                    Array.Copy(combinedSamples, i * spectrumSampleSize, sampleChunk, 0, spectrumSampleSize);
+                    Array.Copy(combinedSamples, i * spectrumSampleSize * analyzedAudio.StoreEvery, sampleChunk, 0,
+                        spectrumSampleSize);
 
                     double[] windowCoefs =
                         DSP.Window.Coefficients(DSP.Window.Type.Hanning, (uint) spectrumSampleSize);
@@ -63,6 +66,7 @@ namespace General.AudioTracks.Analyzing
                     scaledFFTSpectrum = DSP.Math.Multiply(scaledFFTSpectrum, scaleFactor);
 
                     float[] currentSpectrum = scaledFFTSpectrum.Select(x => (float) x).ToArray();
+
                     float[] bands = new float[8];
 
                     int count = 0;
@@ -84,20 +88,20 @@ namespace General.AudioTracks.Analyzing
                         bands[j] = averageValue;
                     }
 
-                    bandsAll.Add(bands);
-                    averages.Add(bands.Skip(analyzedAudio.Skip).Take(analyzedAudio.Take).Average());
-                }
+                    SetBand(i, bands);
+                    SetAverage(i, bands.Skip(analyzedAudio.Skip).Take(analyzedAudio.Take).Average());
+                });
 
-                float min = averages.Min();
-                float max = averages.Max();
-
-                for (int i = 0; i < averages.Count; i++)
+                float min = _averages.Min();
+                float max = _averages.Max();
+                
+                for (int i = 0; i < _averages.Length; i++)
                 {
-                    averages[i] = Mathf.InverseLerp(min, max, averages[i]);
+                    _averages[i] = Mathf.InverseLerp(min, max, _averages[i]);
                 }
 
-                analyzedAudio.Bands = bandsAll;
-                analyzedAudio.Averages = averages;
+                analyzedAudio.Bands = _bands.ToList();
+                analyzedAudio.Averages = _averages.ToList();
 
                 return analyzedAudio;
             }
@@ -118,6 +122,22 @@ namespace General.AudioTracks.Analyzing
             audioClip.GetData(multiChannelSamples, 0);
 
             onAnalyzed?.Invoke(Analyze(multiChannelSamples, channels, samples));
+        }
+
+        private void SetAverage(int i, float average)
+        {
+            lock (_averagesLock)
+            {
+                _averages[i] = average;
+            }
+        }
+        
+        private void SetBand(int i, float[] band)
+        {
+            lock (_bandsLock)
+            {
+                _bands[i] = band;
+            }
         }
     }
 }

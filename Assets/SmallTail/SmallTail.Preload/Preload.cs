@@ -4,7 +4,7 @@ namespace SmallTail.Preload
 {
     public static class Preload
     {
-        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         public static void OnLoad()
         {
             PreloadSettings settings = Resources.Load<PreloadSettings>("Objects/Preload/PreloadSettings");

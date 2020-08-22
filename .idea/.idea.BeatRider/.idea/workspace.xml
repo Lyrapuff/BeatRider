@@ -19,47 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="TrackCarousel">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/IPlaylist.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/IPlaylist.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playlist.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playlist.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/Buttons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/Buttons/StartGameButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/Buttons/StartGameButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/CurrentTrack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/CurrentTrack.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Objects/Preload/PreloadSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Objects/Preload/PreloadSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Buttons/MenuButton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Buttons/MenuButton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/TrackList/YouTubeTrack.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/TrackList/YouTubeTrack.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/ObjectManagement/Spawning/States/RandomSpawnerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/ObjectManagement/Spawning/States/RandomSpawnerState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/Storage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameStorage.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/Storage.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/IGameStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/IStorage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/IGameStorage.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/IStorage.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackCarousel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackCarousel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/Buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/Buttons/MenuButton/MenuButtonAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/CarouselButtonAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/Buttons/MenuButton/MenuButtonAnimator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/CarouselButtonAnimator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/Preload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/Preload.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/CurrentTrack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfigurator/Loading.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Popup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/IWIndowManager.cs" />
@@ -112,7 +81,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/DirectoryEnsureCreatedProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Searching/SearchResults.cs" />
-        <option value="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/Preload.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/Buttons/MenuButton/MenuButtonAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/Buttons/MenuButton/CarouselButtonAnimator.cs" />
@@ -130,6 +98,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/Buttons/StartGameButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/ObjectManagement/Spawning/States/RandomSpawnerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" />
+        <option value="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/Preload.cs" />
       </list>
     </option>
   </component>
@@ -196,7 +166,10 @@
       <workItem from="1597930075902" duration="2172000" />
       <workItem from="1598004968171" duration="3562000" />
       <workItem from="1598009038732" duration="30000" />
-      <workItem from="1598009771211" duration="15299000" />
+      <workItem from="1598009771211" duration="15331000" />
+      <workItem from="1598086627156" duration="4735000" />
+      <workItem from="1598092039750" duration="29000" />
+      <workItem from="1598092377930" duration="154000" />
     </task>
     <task id="LOCAL-00001" summary="Audio processors">
       <created>1597684295436</created>
@@ -254,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598023015355</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Working game start">
+      <created>1598031476953</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598031476953</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +264,8 @@
     <MESSAGE value="well, i did at least something" />
     <MESSAGE value="Windows" />
     <MESSAGE value="TrackCarousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="TrackCarousel" />
+    <MESSAGE value="Working game start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working game start" />
   </component>
   <component name="WindowStateProjectService">
     <state x="762" y="200" key="RiderGenerateDialog" timestamp="1597920136754">
@@ -295,10 +276,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597917801725" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598023019159">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598031479978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598023019159" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598031479978" />
     <state x="361" y="156" width="1306" height="1027" key="dock-window-1" timestamp="1598010173923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

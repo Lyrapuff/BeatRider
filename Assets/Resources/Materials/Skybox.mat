@@ -86,7 +86,7 @@ Material:
     m_Colors:
     - Color_B92C3E21: {r: 0, g: 0, b: 0, a: 0}
     - Color_CC8169F5: {r: 0, g: 0, b: 0, a: 0}
-    - SkyColor: {r: 0.9261176, g: 0.69647056, b: 0.22211765, a: 255}
+    - SkyColor: {r: 0.86211765, g: 0.3011765, b: 0.21458822, a: 255}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
