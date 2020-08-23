@@ -1,5 +1,6 @@
 ﻿using System;
 using General.Behaviours;
+using General.Inputs;
 
 namespace Game.Services.Implementation
 {
@@ -8,7 +9,24 @@ namespace Game.Services.Implementation
         public Action OnPaused { get; set; }
         public Action OnUnpaused { get; set; }
         public bool Paused { get; private set; }
-        
+
+        private IUIInput _uiInput;
+
+        private void Awake()
+        {
+            _uiInput = FindComponentOfInterface<IUIInput>();
+        }
+
+        private void OnEnable()
+        {
+            _uiInput.OnPaused += Switch;
+        }
+
+        private void OnDisable()
+        {
+            _uiInput.OnPaused -= Switch;
+        }
+
         public void Pause()
         {
             if (!Paused)

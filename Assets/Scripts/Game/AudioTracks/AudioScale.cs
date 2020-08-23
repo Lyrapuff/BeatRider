@@ -3,7 +3,7 @@ using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using UnityEngine;
 
-namespace Game.World.Audio
+namespace Game.World.AudioTracks
 {
     public class AudioScale : ExtendedBehaviour
     {
@@ -20,7 +20,7 @@ namespace Game.World.Audio
             
             Vector3 scale = transform.localScale;
 
-            float y = _audioAnalyzer.Band.Take(5).Average();
+            float y = _audioAnalyzer.Band?.Take(5).Average() ?? 0f;
 
             Vector3 newScale = new Vector3(scale.x, 10f + y * 70f + sin * 5f, scale.z);
 

@@ -3,7 +3,7 @@ using General.Storage;
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace Game.World.Audio
+namespace Game.World.AudioTracks
 {
     public class AudioStatus : ExtendedBehaviour
     {

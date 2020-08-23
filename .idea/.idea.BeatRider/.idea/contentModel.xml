@@ -1655,24 +1655,49 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Game" t="Include">
-            <e p="AnalyzingTest.cs" t="Include" />
-            <e p="AudioTest.cs" t="Include" />
+            <e p="AudioTracks" t="Include">
+              <e p="AudioPause.cs" t="Include" />
+              <e p="AudioScale.cs" t="Include" />
+              <e p="AudioSkyColor.cs" t="Include" />
+              <e p="AudioStatus.cs" t="Include" />
+              <e p="SpeedOverTime.cs" t="Include" />
+            </e>
             <e p="Camera" t="Include">
               <e p="FollowPlayerCamera.cs" t="Include" />
             </e>
             <e p="Configuration.cs" t="Include" />
-            <e p="FakeBoundingBox.cs" t="Include" />
+            <e p="Entities" t="Include">
+              <e p="Movement" t="Include">
+                <e p="ForwardMovement.cs" t="Include" />
+              </e>
+              <e p="Player" t="Include">
+                <e p="Movement" t="Include">
+                  <e p="PlayerMovement.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Environments" t="Include">
+              <e p="Forest" t="Include">
+                <e p="AudioColor.cs" t="Include" />
+                <e p="AudioPatricles.cs" t="Include" />
+              </e>
+            </e>
             <e p="Game.asmdef" t="Include" />
             <e p="GameTracker" t="Include">
               <e p="GameResult.cs" t="Include" />
               <e p="ResultTracker.cs" t="Include" />
             </e>
-            <e p="Movement" t="Include">
-              <e p="ForwardMovement.cs" t="Include" />
-              <e p="Player" t="Include">
-                <e p="PlayerMovement.cs" t="Include" />
+            <e p="ObjectManagement" t="Include">
+              <e p="LineSpawner.cs" t="Include" />
+              <e p="Spawning" t="Include">
+                <e p="StateMachineSpawner.cs" t="Include" />
+                <e p="States" t="Include">
+                  <e p="PatternSpawnerState.cs" t="Include" />
+                  <e p="RandomSpawnerState.cs" t="Include" />
+                  <e p="SpawnerState.cs" t="Include" />
+                </e>
               </e>
-              <e p="RoadConnector.cs" t="Include" />
+              <e p="TimedSpawner.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
               <e p="PointIncrementer.cs" t="Include" />
@@ -1690,36 +1715,6 @@
               </e>
               <e p="IPause.cs" t="Include" />
               <e p="IPlayerInput.cs" t="Include" />
-            </e>
-            <e p="World" t="Include">
-              <e p="Audio" t="Include">
-                <e p="AudioPause.cs" t="Include" />
-                <e p="AudioScale.cs" t="Include" />
-                <e p="AudioSkyColor.cs" t="Include" />
-                <e p="AudioStatus.cs" t="Include" />
-                <e p="SpeedOverTime.cs" t="Include" />
-              </e>
-              <e p="Environments" t="Include">
-                <e p="Forest" t="Include">
-                  <e p="AudioColor.cs" t="Include" />
-                  <e p="AudioPatricles.cs" t="Include" />
-                </e>
-              </e>
-              <e p="ObjectManagement" t="Include">
-                <e p="LineSpawner.cs" t="Include" />
-                <e p="Spawning" t="Include">
-                  <e p="StateMachineSpawner.cs" t="Include" />
-                  <e p="States" t="Include">
-                    <e p="PatternSpawnerState.cs" t="Include" />
-                    <e p="RandomSpawnerState.cs" t="Include" />
-                    <e p="SpawnerState.cs" t="Include" />
-                  </e>
-                </e>
-                <e p="TimedSpawner.cs" t="Include" />
-              </e>
-              <e p="RoadHeight.cs" t="Include" />
-              <e p="RoadMovement.cs" t="Include" />
-              <e p="RoadTransformations.cs" t="Include" />
             </e>
           </e>
           <e p="General" t="Include">
@@ -1771,7 +1766,10 @@
             </e>
             <e p="General.asmdef" t="Include" />
             <e p="Inputs" t="Include">
+              <e p="IUIInput.cs" t="Include" />
               <e p="PlayerActions.cs" t="Include" />
+              <e p="UIActions.cs" t="Include" />
+              <e p="UIInput.cs" t="Include" />
             </e>
             <e p="ObjectManagement" t="Include">
               <e p="Pooling" t="Include">

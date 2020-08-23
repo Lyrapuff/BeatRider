@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Game.Services;
 using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using UnityEngine;
@@ -17,16 +18,25 @@ namespace Game.World.ObjectManagement
         private List<SpawnedObject> _pool = new List<SpawnedObject>();
 
         private IAudioAnalyzer _audioAnalyzer;
+        private IPause _pause;
+
         private float _timeToSpawn;
 
         private void Awake()
         {
             _audioAnalyzer = FindComponentOfInterface<IAudioAnalyzer, NullAudioAnalyzer>();
+            _pause = FindComponentOfInterface<IPause>();
+
             GenerateChunks();
         }
 
         private void Update()
         {
+            if (_pause.Paused)
+            {
+                return;
+            }
+            
             _timeToSpawn -= Time.deltaTime * _audioAnalyzer.Speed;
 
             if (_timeToSpawn <= 0f)

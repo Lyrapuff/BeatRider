@@ -3,7 +3,7 @@ using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using UnityEngine;
 
-namespace Game.Movement
+namespace Entities.Movement
 {
     public class ForwardMovement : ExtendedBehaviour
     {
