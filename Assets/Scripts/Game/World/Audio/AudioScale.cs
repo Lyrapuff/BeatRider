@@ -1,4 +1,5 @@
-﻿using General.AudioTracks.Analyzing;
+﻿using System.Linq;
+using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using UnityEngine;
 
@@ -19,9 +20,9 @@ namespace Game.World.Audio
             
             Vector3 scale = transform.localScale;
 
-            float y = _audioAnalyzer.PureSpeed;
+            float y = _audioAnalyzer.Band.Take(5).Average();
 
-            Vector3 newScale = new Vector3(scale.x, 10f + y * 60f + sin * 5f, scale.z);
+            Vector3 newScale = new Vector3(scale.x, 10f + y * 70f + sin * 5f, scale.z);
 
             transform.localScale = Vector3.Lerp(scale, newScale, 0.05f);
         }

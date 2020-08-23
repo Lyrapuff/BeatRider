@@ -19,17 +19,151 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="">
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="Parallel song analyzing">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Services/IPause.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Services/IPause.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Services/IPlayerInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Services/IPlayerInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementation/PauseService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementation/PlayerInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementation/PlayerInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Inputs/PlayerActions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/Preload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/Preload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Camera/CameraSwitcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Camera/CameraSwitcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Game.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Game.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Inputs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Inputs/PCPlayerInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Inputs/PCPlayerInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Movement/ForwardMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Movement/ForwardMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Movement/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Movement/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Player/DeathChecker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Player/DeathChecker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Road/RoadMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Road/RoadMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Services.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/BackService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/BackService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/GameSettingsService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/GameSettingsService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/GameStatusService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/GameStatusService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/PauseService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/PauseService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/SceneService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/SceneService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/TrackProcessorService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementations/TrackProcessorService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Toolbox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Services/Toolbox.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioCrushedAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioCrushedAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioPause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioPause.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioScale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioScale.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioSpeed.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioSpeed.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/PrecalculatedAudioAnalyzer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/PrecalculatedAudioAnalyzer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/RealtimeAudioAnalyzer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/RealtimeAudioAnalyzer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/SmoothRestart.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/SmoothRestart.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/ContinueWorldAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/ContinueWorldAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/EnableOnStart.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/EnableOnStart.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/Environments/Forest/AudioColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/Environments/Forest/AudioColor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/ObjectManagement/TimedSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/ObjectManagement/TimedSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/World/RoadMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/World/RoadMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackDownloadProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackDownloadProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/General.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/General.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Inputs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Inputs/IPlayerInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Inputs/IPlayerInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Inputs/NullPlayerInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Inputs/NullPlayerInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/Back.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/Back/IBack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/Back/IBack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/Back/NullBack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/Back/NullBack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/GameStatus.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/GameStatus/GameStatusChangeType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/GameStatus/GameStatusChangeType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/GameStatus/IGameStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/GameStatus/IGameStatus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/GameStatus/NullGameStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/GameStatus/NullGameStatus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/Pause.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/Pause/IPause.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/Pause/IPause.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/Pause/NullPause.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Services/Pause/NullPause.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/UI.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/UI.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/AnimatorStateButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/AnimatorStateButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/ChangeGameStatusButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/ChangeGameStatusButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/ChangeLanguageButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/ChangeLanguageButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/LoadSceneButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/LoadSceneButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/OpenCanvasButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/OpenCanvasButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/SwitchButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Buttons/SwitchButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/CanvasSwitchAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/CanvasSwitchAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/CanvasSwitcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/CanvasSwitcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/OpenCanvasOnBack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManagement/OpenCanvasOnBack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Continue.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/Continue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/Continue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/ContinueAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/ContinueAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/ContinueTimer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Continue/ContinueTimer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Game.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Game/ProgressSlider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Game/ProgressSlider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Game/RepeatCount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Game/RepeatCount.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameConfiguration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameConfiguration/Configurator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameConfiguration/Configurator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameConfiguration/OptionSwitcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameConfiguration/OptionSwitcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameOver.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameOver/GameResultList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameOver/GameResultList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameOver/ResultItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameOver/ResultItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Menu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Menu/PointsDisplay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Menu/PointsDisplay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UI.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UI.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,27 +183,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfigurator/Loading.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Popups/Popup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/IWIndowManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/IWindowManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Buttons/OpenWindowButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/WindowManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Window.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Buttons/CloseWindowButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/WindowAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/IWindowFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/Buttons/CloseAllWindowsButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/UI/Windows/WindowFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/SceneManagement/ISceneChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/SceneManagement/SceneChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playing/AudioPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingContext.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioUtil.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingQueue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackPCMProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackProcessor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackDownloadProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackAnalyzeProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/IAudioTrack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/ISearchResult.cs" />
@@ -98,8 +214,26 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/Buttons/StartGameButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/ObjectManagement/Spawning/States/RandomSpawnerState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" />
         <option value="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/Preload.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackDownloadProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementation/Pause.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Services/IPlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Movement/Player/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Movement/ForwardMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Player/DeathChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Road/RoadMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/RoadMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/ObjectManagement/TimedSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/Environments/Forest/AudioColor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioCrushedAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioPause.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Services/IPause.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementation/PauseService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioSpeed.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/PrecalculatedAudioAnalyzer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementation/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/Audio/AudioScale.cs" />
       </list>
     </option>
   </component>
@@ -170,6 +304,9 @@
       <workItem from="1598086627156" duration="4735000" />
       <workItem from="1598092039750" duration="29000" />
       <workItem from="1598092377930" duration="154000" />
+      <workItem from="1598095163965" duration="30000" />
+      <workItem from="1598100318916" duration="648000" />
+      <workItem from="1598181014454" duration="4372000" />
     </task>
     <task id="LOCAL-00001" summary="Audio processors">
       <created>1597684295436</created>
@@ -234,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598031476953</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Parallel song analyzing">
+      <created>1598095181871</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598095181871</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,21 +409,22 @@
     <MESSAGE value="Windows" />
     <MESSAGE value="TrackCarousel" />
     <MESSAGE value="Working game start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working game start" />
+    <MESSAGE value="Parallel song analyzing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parallel song analyzing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="762" y="200" key="RiderGenerateDialog" timestamp="1597920136754">
+    <state x="762" y="200" key="RiderGenerateDialog" timestamp="1598186065885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="762" y="200" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597920136754" />
+    <state x="762" y="200" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598186065885" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1597917801725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597917801725" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598031479978">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598095185423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598031479978" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598095185423" />
     <state x="361" y="156" width="1306" height="1027" key="dock-window-1" timestamp="1598010173923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

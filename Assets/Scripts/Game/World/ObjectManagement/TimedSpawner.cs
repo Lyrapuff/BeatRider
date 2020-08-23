@@ -1,10 +1,8 @@
-﻿using General.AudioTracks.Analyzing;
+﻿using Game.Services;
+using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using General.ObjectManagement.Pooling;
 using General.ObjectManagement.Spawning;
-using General.Services.GameStatus;
-using Game.Services;
-using Game.Services.Implementations;
 using UnityEngine;
 
 namespace Game.World.ObjectManagement
@@ -15,22 +13,22 @@ namespace Game.World.ObjectManagement
     {
         [SerializeField] private float _delay;
 
-        private GameStatusService _gameStatus;
         private IObjectSpawner _spawner;
         private IAudioAnalyzer _audioAnalyzer;
+        private IPause _pause;
+        
         private float _time;
 
         private void Awake()
         {
-            _gameStatus = Toolbox.Instance.GetService<GameStatusService>();
-            
+            _pause = FindComponentOfInterface<IPause>();
             _audioAnalyzer = FindComponentOfInterface<IAudioAnalyzer, NullAudioAnalyzer>();
             _spawner = GetComponent<IObjectSpawner>();
         }
 
         private void Update()
         {
-            if (_gameStatus.Status == GameStatusChangeType.Crushed)
+            if (_pause.Paused)
             {
                 return;
             }

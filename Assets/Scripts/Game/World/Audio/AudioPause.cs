@@ -1,22 +1,20 @@
-﻿using System;
+﻿using Game.Services;
 using General.Behaviours;
-using General.Services.Pause;
-using Game.Services;
-using Game.Services.Implementations;
 using UnityEngine;
-using UnityEngine.Video;
 
 namespace Game.World.Audio
 {
     [RequireComponent(typeof(AudioSource))]
     public class AudioPause : ExtendedBehaviour
     {
-        private PauseService _pause;
+        private IPause _pause;
+        
         private AudioSource _audioSource;
 
         private void Awake()
         {
-            _pause = Toolbox.Instance.GetService<PauseService>();
+            _pause = FindComponentOfInterface<IPause>();
+            
             _audioSource = GetComponent<AudioSource>();
         }
 

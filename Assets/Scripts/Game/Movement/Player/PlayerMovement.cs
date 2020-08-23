@@ -1,5 +1,5 @@
-﻿using General.Behaviours;
-using General.Inputs;
+﻿using Game.Services;
+using General.Behaviours;
 using UnityEngine;
 
 namespace Game.Movement.Player
@@ -13,7 +13,7 @@ namespace Game.Movement.Player
 
         private void Awake()
         {
-            _input = GetComponent<IPlayerInput, NullPlayerInput>();
+            _input = FindComponentOfInterface<IPlayerInput>();
         }
 
         private void Update()

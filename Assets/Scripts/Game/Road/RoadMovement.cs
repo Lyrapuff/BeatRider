@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
+using Game.Services;
 using General.AudioTracks.Analyzing;
 using General.Behaviours;
-using General.Services.GameStatus;
-using Game.Services;
-using Game.Services.Implementations;
 using UnityEngine;
 
 namespace Game.Road
@@ -14,9 +12,9 @@ namespace Game.Road
         [SerializeField] private Material _roadMaterial;
         [SerializeField] private Material _roadGrassMaterial;
 
-        private GameStatusService _gameStatus;
-        private PauseService _pause;
+        private IPause _pause;
         private IAudioAnalyzer _audioAnalyzer;
+        
         private List<float> _heights = new List<float>();
         private float _seed;
         private float _offset;
@@ -26,8 +24,9 @@ namespace Game.Road
         private void Awake()
         {
             _seed = Random.Range(-100000f, 100000f);
-            _pause = Toolbox.Instance.GetService<PauseService>();
-            _gameStatus = Toolbox.Instance.GetService<GameStatusService>();
+            
+            _pause = FindComponentOfInterface<IPause>();
+            
             _audioAnalyzer = FindComponentOfInterface<IAudioAnalyzer, NullAudioAnalyzer>();
             
             Generate();
@@ -35,7 +34,7 @@ namespace Game.Road
 
         private void Update()
         {
-            if (_pause.Paused || _gameStatus.Status == GameStatusChangeType.Crushed)
+            if (_pause.Paused)
             {
                 return;
             }

@@ -1658,7 +1658,6 @@
             <e p="AnalyzingTest.cs" t="Include" />
             <e p="AudioTest.cs" t="Include" />
             <e p="Camera" t="Include">
-              <e p="CameraSwitcher.cs" t="Include" />
               <e p="FollowPlayerCamera.cs" t="Include" />
             </e>
             <e p="Configuration.cs" t="Include" />
@@ -1668,9 +1667,6 @@
               <e p="GameResult.cs" t="Include" />
               <e p="ResultTracker.cs" t="Include" />
             </e>
-            <e p="Inputs" t="Include">
-              <e p="PCPlayerInput.cs" t="Include" />
-            </e>
             <e p="Movement" t="Include">
               <e p="ForwardMovement.cs" t="Include" />
               <e p="Player" t="Include">
@@ -1679,7 +1675,6 @@
               <e p="RoadConnector.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
-              <e p="DeathChecker.cs" t="Include" />
               <e p="PointIncrementer.cs" t="Include" />
             </e>
             <e p="RepetitiveGame.cs" t="Include" />
@@ -1689,31 +1684,21 @@
               <e p="RoadMovement.cs" t="Include" />
             </e>
             <e p="Services" t="Include">
-              <e p="Implementations" t="Include">
-                <e p="BackService.cs" t="Include" />
-                <e p="GameSettingsService.cs" t="Include" />
-                <e p="GameStatusService.cs" t="Include" />
+              <e p="Implementation" t="Include">
                 <e p="PauseService.cs" t="Include" />
-                <e p="SceneService.cs" t="Include" />
-                <e p="TrackProcessorService.cs" t="Include" />
+                <e p="PlayerInput.cs" t="Include" />
               </e>
-              <e p="Toolbox.cs" t="Include" />
+              <e p="IPause.cs" t="Include" />
+              <e p="IPlayerInput.cs" t="Include" />
             </e>
             <e p="World" t="Include">
               <e p="Audio" t="Include">
-                <e p="AudioCrushedAnimation.cs" t="Include" />
                 <e p="AudioPause.cs" t="Include" />
                 <e p="AudioScale.cs" t="Include" />
                 <e p="AudioSkyColor.cs" t="Include" />
-                <e p="AudioSpeed.cs" t="Include" />
                 <e p="AudioStatus.cs" t="Include" />
-                <e p="PrecalculatedAudioAnalyzer.cs" t="Include" />
-                <e p="RealtimeAudioAnalyzer.cs" t="Include" />
-                <e p="SmoothRestart.cs" t="Include" />
                 <e p="SpeedOverTime.cs" t="Include" />
               </e>
-              <e p="ContinueWorldAnimation.cs" t="Include" />
-              <e p="EnableOnStart.cs" t="Include" />
               <e p="Environments" t="Include">
                 <e p="Forest" t="Include">
                   <e p="AudioColor.cs" t="Include" />
@@ -1786,8 +1771,7 @@
             </e>
             <e p="General.asmdef" t="Include" />
             <e p="Inputs" t="Include">
-              <e p="IPlayerInput.cs" t="Include" />
-              <e p="NullPlayerInput.cs" t="Include" />
+              <e p="PlayerActions.cs" t="Include" />
             </e>
             <e p="ObjectManagement" t="Include">
               <e p="Pooling" t="Include">
@@ -1806,21 +1790,6 @@
             <e p="SceneManagement" t="Include">
               <e p="ISceneChanger.cs" t="Include" />
               <e p="SceneChanger.cs" t="Include" />
-            </e>
-            <e p="Services" t="Include">
-              <e p="Back" t="Include">
-                <e p="IBack.cs" t="Include" />
-                <e p="NullBack.cs" t="Include" />
-              </e>
-              <e p="GameStatus" t="Include">
-                <e p="GameStatusChangeType.cs" t="Include" />
-                <e p="IGameStatus.cs" t="Include" />
-                <e p="NullGameStatus.cs" t="Include" />
-              </e>
-              <e p="Pause" t="Include">
-                <e p="IPause.cs" t="Include" />
-                <e p="NullPause.cs" t="Include" />
-              </e>
             </e>
             <e p="Storage" t="Include">
               <e p="GameData.cs" t="Include" />
@@ -1884,42 +1853,6 @@
               </e>
             </e>
           </e>
-          <e p="UI" t="Include">
-            <e p="Buttons" t="Include">
-              <e p="AnimatorStateButton.cs" t="Include" />
-              <e p="ChangeGameStatusButton.cs" t="Include" />
-              <e p="ChangeLanguageButton.cs" t="Include" />
-              <e p="LoadSceneButton.cs" t="Include" />
-              <e p="OpenCanvasButton.cs" t="Include" />
-              <e p="SwitchButton.cs" t="Include" />
-            </e>
-            <e p="CanvasManagement" t="Include">
-              <e p="CanvasSwitchAnimation.cs" t="Include" />
-              <e p="CanvasSwitcher.cs" t="Include" />
-              <e p="OpenCanvasOnBack.cs" t="Include" />
-            </e>
-            <e p="Continue" t="Include">
-              <e p="Continue.cs" t="Include" />
-              <e p="ContinueAnimation.cs" t="Include" />
-              <e p="ContinueTimer.cs" t="Include" />
-            </e>
-            <e p="Game" t="Include">
-              <e p="ProgressSlider.cs" t="Include" />
-              <e p="RepeatCount.cs" t="Include" />
-            </e>
-            <e p="GameConfiguration" t="Include">
-              <e p="Configurator.cs" t="Include" />
-              <e p="OptionSwitcher.cs" t="Include" />
-            </e>
-            <e p="GameOver" t="Include">
-              <e p="GameResultList.cs" t="Include" />
-              <e p="ResultItem.cs" t="Include" />
-            </e>
-            <e p="Menu" t="Include">
-              <e p="PointsDisplay.cs" t="Include" />
-            </e>
-            <e p="UI.asmdef" t="Include" />
-          </e>
         </e>
         <e p="SmallTail" t="Include">
           <e p="SmallTail.Localization" t="Include">
@@ -1957,7 +1890,6 @@
       <e p="SmallTail.Localization.Editor.csproj" t="IncludeRecursive" />
       <e p="SmallTail.Preload.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
-      <e p="UI.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>
