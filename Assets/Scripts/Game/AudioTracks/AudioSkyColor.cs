@@ -2,7 +2,7 @@
 using General.Behaviours;
 using UnityEngine;
 
-namespace Game.World.AudioTracks
+namespace Game.AudioTracks
 {
     [RequireComponent(typeof(IAudioAnalyzer))]
     public class AudioSkyColor : ExtendedBehaviour

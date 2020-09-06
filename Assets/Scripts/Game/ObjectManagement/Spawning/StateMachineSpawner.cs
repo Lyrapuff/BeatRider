@@ -1,11 +1,11 @@
-﻿using General.Behaviours;
+﻿using Game.ObjectManagement.Spawning.States;
+using General.Behaviours;
 using General.ObjectManagement.Pooling;
 using General.ObjectManagement.Spawning;
-using Game.World.ObjectManagement.Spawning.States;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Game.World.ObjectManagement.Spawning
+namespace Game.ObjectManagement.Spawning
 {
     [RequireComponent(typeof(IObjectPool))]
     public class StateMachineSpawner : ExtendedBehaviour, IObjectSpawner

@@ -5,7 +5,7 @@ using General.ObjectManagement.Pooling;
 using General.ObjectManagement.Spawning;
 using UnityEngine;
 
-namespace Game.World.ObjectManagement
+namespace Game.ObjectManagement
 {
     [RequireComponent(typeof(IObjectPool))]
     [RequireComponent(typeof(IObjectSpawner))]

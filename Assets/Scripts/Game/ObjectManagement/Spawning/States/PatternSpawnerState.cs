@@ -3,7 +3,7 @@ using General.ObjectManagement.Pooling;
 using General.ObjectManagement.Spawning;
 using UnityEngine;
 
-namespace Game.World.ObjectManagement.Spawning.States
+namespace Game.ObjectManagement.Spawning.States
 {
     public class PatternSpawnerState : SpawnerState
     {

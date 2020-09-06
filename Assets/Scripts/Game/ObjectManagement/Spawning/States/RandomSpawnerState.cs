@@ -5,7 +5,7 @@ using General.ObjectManagement.Spawning;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Game.World.ObjectManagement.Spawning.States
+namespace Game.ObjectManagement.Spawning.States
 {
     public class RandomSpawnerState : SpawnerState
     {

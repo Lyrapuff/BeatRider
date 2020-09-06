@@ -2,7 +2,7 @@
 using General.Behaviours;
 using UnityEngine;
 
-namespace Game.World.AudioTracks
+namespace Game.AudioTracks
 {
     public class SpeedOverTime : ExtendedBehaviour
     {

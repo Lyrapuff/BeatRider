@@ -1667,6 +1667,7 @@
             </e>
             <e p="Configuration.cs" t="Include" />
             <e p="Entities" t="Include">
+              <e p="FakeBoundingBox.cs" t="Include" />
               <e p="Movement" t="Include">
                 <e p="ForwardMovement.cs" t="Include" />
               </e>

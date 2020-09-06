@@ -1,4 +1,4 @@
-﻿namespace Game.World.ObjectManagement.Spawning.States
+﻿namespace Game.ObjectManagement.Spawning.States
 {
     public class SpawnerState
     {

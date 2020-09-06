@@ -4,7 +4,7 @@ using General.Behaviours;
 using UnityEngine;
 using UnityEngine.VFX;
 
-namespace Game.World.Environments.Forest
+namespace Game.Environments.Forest
 {
     public class AudioColor : ExtendedBehaviour
     {

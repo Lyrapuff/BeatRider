@@ -3,7 +3,7 @@ using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using UnityEngine;
 
-namespace Game.World.AudioTracks
+namespace Game.AudioTracks
 {
     public class AudioScale : ExtendedBehaviour
     {

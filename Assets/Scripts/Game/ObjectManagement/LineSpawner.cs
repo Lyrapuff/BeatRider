@@ -7,7 +7,7 @@ using General.Behaviours;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Game.World.ObjectManagement
+namespace Game.ObjectManagement
 {
     public class LineSpawner : ExtendedBehaviour
     {
