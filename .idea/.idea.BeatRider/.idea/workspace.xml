@@ -19,132 +19,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="More cleaning &amp; pause">
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/Bus.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/Bus.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/camaro.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/camaro.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/fura1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/fura1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/fura2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/fura2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/lanos.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/lanos.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/opel.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/opel.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/picap.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/Cars/picap.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Buildings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Buildings/donut.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Buildings/donut.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Buildings/hostel.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Buildings/hostel.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Buildings/shino.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Buildings/shino.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Buildings/zapravka.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Buildings/zapravka.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Misc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Misc/Powerline.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Misc/Powerline.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Trees.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Trees/bereza.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Trees/dub bez dupla.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Trees/dub s duplon.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Trees/elo4ka.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Trees/obichnoe derevo1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Trees/obichnoe derevo2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/tree_birch.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/tree_oak_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/tree_oak_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/tree_pine.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/tree_regular_01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/tree_regular_02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/Inputs/UI.inputactions" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Objects/Inputs/UI.inputactions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Camaro.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Fura1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Fura2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Lanos.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Opel.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Opel.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Picap.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Picap.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/FakeBoundingBox.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/FakeBoundingBox.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/Inputs/UIActions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="cars">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Localization/Locales.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Localization/Locales.bytes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/donut.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/donut.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/donut.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/donut.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/gas_station.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/gas_station.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/gas_station.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/gas_station.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/hostel.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/hostel.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/hostel.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/hostel.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/shino.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/shino.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/shino.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/shino.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/tree_birch.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Trees/bereza.FBX" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/tree_birch.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/tree_birch.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/tree_oak_01.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Trees/dub bez dupla.FBX" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/tree_oak_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/tree_oak_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/tree_oak_02.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Trees/dub s duplon.FBX" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/tree_oak_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/tree_oak_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/tree_pine.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Trees/elo4ka.FBX" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/tree_pine.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/tree_pine.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/tree_regular_01.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Trees/obichnoe derevo1.FBX" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/tree_regular_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/tree_regular_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/tree_regular_02.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/Environment/Elements/Trees/obichnoe derevo2.FBX" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Meshes/forest/tree_regular_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Meshes/forestold/tree_regular_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/CAR_01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/CAR_01.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Camaro.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/CAR_02.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/CAR_02.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Fura1.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/CAR_03.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/CAR_03.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Fura2.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_04.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_04.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Lanos.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_05.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_05.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_06.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_06.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_07.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_07.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_08.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_08.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_09.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_09.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_10.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_10.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_11.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_11.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_12.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Cars/Car_12.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Bus.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Enemy.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Bus.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioPause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioPause.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioScale.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioScale.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioSkyColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioSkyColor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioStatus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/SpeedOverTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/SpeedOverTime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Environments/Forest/AudioColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Environments/Forest/AudioColor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Environments/Forest/AudioPatricles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Environments/Forest/AudioPatricles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/LineSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/LineSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachineSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachineSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/States/PatternSpawnerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/States/PatternSpawnerState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/States/RandomSpawnerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/States/RandomSpawnerState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/States/SpawnerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/States/SpawnerState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/TimedSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/TimedSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/AudioTracks/Searching/YouTube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/AudioTracks/Searching/YouTube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/AudioTracks/TrackList.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/AudioTracks/TrackList.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/GameConfiguration.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/GameConfiguration.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Preloaded/Popups.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Preloaded/Popups.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Preloaded/WindowManager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Preloaded/WindowManager.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Popups/WaitPopup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Popups/WaitPopup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/Menu.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/Menu.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/LocalizedUIText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/LocalizedUIText.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/SmallTail.Localization.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/SmallTail.Localization.asmdef" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/SpectrumProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/DirectoryEnsureCreatedProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Searching/SearchResults.cs" />
@@ -180,7 +71,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playlist.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/IPlaylist.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/IStorage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/CurrentTrack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/Buttons/StartGameButton.cs" />
@@ -215,6 +105,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/FakeBoundingBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/LineSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/RandomMesh.cs" />
+        <option value="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/LocalizedUIText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" />
       </list>
     </option>
   </component>
@@ -293,7 +185,8 @@
       <workItem from="1598256640169" duration="2506000" />
       <workItem from="1598269479228" duration="973000" />
       <workItem from="1598685156663" duration="670000" />
-      <workItem from="1599378690194" duration="2114000" />
+      <workItem from="1599378690194" duration="2165000" />
+      <workItem from="1599384334404" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="Audio processors">
       <created>1597684295436</created>
@@ -379,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598190705686</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="cars">
+      <created>1599381809915</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599381809915</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +313,8 @@
     <MESSAGE value="Parallel song analyzing" />
     <MESSAGE value="Removed some old systems" />
     <MESSAGE value="More cleaning &amp; pause" />
-    <option name="LAST_COMMIT_MESSAGE" value="More cleaning &amp; pause" />
+    <MESSAGE value="cars" />
+    <option name="LAST_COMMIT_MESSAGE" value="cars" />
   </component>
   <component name="WindowStateProjectService">
     <state x="762" y="200" key="RiderGenerateDialog" timestamp="1598186065885">
@@ -424,10 +325,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597917801725" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598190708627">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599381839081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598190708627" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599381839081" />
     <state x="361" y="156" width="1306" height="1027" key="dock-window-1" timestamp="1598010173923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

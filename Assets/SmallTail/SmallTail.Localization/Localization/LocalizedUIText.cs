@@ -1,21 +1,22 @@
 ﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace SmallTail.Localization
 {
-    [RequireComponent(typeof(Text))]
+    [RequireComponent(typeof(TMP_Text))]
     public class LocalizedUIText : MonoBehaviour
     {
         public string Key;
         public Dictionary<string, string> DynamicValues = new Dictionary<string, string>();
 
-        private Text _text;
+        private TMP_Text _text;
 
         private void Awake()
         {
-            _text = GetComponent<Text>();
+            _text = GetComponent<TMP_Text>();
 
             LocalizationService.OnKeyChanged += SetText;
             SetText();
@@ -58,7 +59,7 @@ namespace SmallTail.Localization
         {
             if (_text == null)
             {
-                _text = GetComponent<Text>();
+                _text = GetComponent<TMP_Text>();
             }
             
             _text.text = Key;

@@ -3,7 +3,9 @@ using General.AudioTracks;
 using General.AudioTracks.Processing;
 using General.Behaviours;
 using General.Storage;
+using General.UI.Popups;
 using General.UI.Windows;
+using SmallTail.Localization;
 using UnityEngine;
 
 namespace Menu.PCUI.AudioTracks.Processing
@@ -15,15 +17,19 @@ namespace Menu.PCUI.AudioTracks.Processing
         [SerializeField] private ProcessingPipeline _pipeline;
 
         private IWindowFactory _windowFactory;
+        private IPopupFactory _popupFactory;
         private IStorage _storage;
         private IPlaylist _playlist;
         private TrackCarousel _trackCarousel;
+        
         private ProcessingContext _context;
         private IAudioTrack _track;
+        private IPopup _loadingPopup;
         
         private void Awake()
         {
             _windowFactory = FindComponentOfInterface<IWindowFactory>();
+            _popupFactory = FindComponentOfInterface<IPopupFactory>();
             _storage = FindComponentOfInterface<IStorage>();
             _playlist = FindComponentOfInterface<IPlaylist>();
             
@@ -48,6 +54,11 @@ namespace Menu.PCUI.AudioTracks.Processing
             Task.Run(() => _pipeline.Process(trackElement.Track, path));
             
             _track = trackElement.Track;
+
+            _loadingPopup = _popupFactory.CreatePopup("WaitPopup", LocalizationService.GetValue("popup_loading"), new[]
+            {
+                "Wait"
+            }, null);
         }
 
         private void HandleProcessed(ProcessingContext context)
@@ -59,6 +70,8 @@ namespace Menu.PCUI.AudioTracks.Processing
         {
             if (_context != null)
             {
+                _loadingPopup.Close("Wait");
+                
                 AudioClip clip = AudioUtil.AssembleClip(_context);
 
                 AudioTrack track = new AudioTrack
