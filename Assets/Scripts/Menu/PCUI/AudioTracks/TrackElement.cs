@@ -11,16 +11,14 @@ namespace Menu.PCUI.AudioTracks
     public class TrackElement : MonoBehaviour
     {
         public Action<TrackElement> OnSelected { get; set; }
-        public IAudioTrack Track => _track;
-        
+        public IAudioTrack Track { get; private set; }
+
         [SerializeField] private TMP_Text _title;
         [SerializeField] private Image _image;
 
-        private IAudioTrack _track;
-        
         public void SetResult(IAudioTrack track)
         {
-            _track = track;
+            Track = track;
             
             _title.text = track.Title;
 

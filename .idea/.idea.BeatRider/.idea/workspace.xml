@@ -19,24 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="cars">
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="loading popup">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TitleEnsureStoredProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TitleEnsureStoredProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackHistory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackHistory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Localization/Locales.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Localization/Locales.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/AudioTracks/Searching/YouTube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/AudioTracks/Searching/YouTube.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/AudioTracks/TrackList.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/AudioTracks/TrackList.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/GameConfiguration.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/GameConfiguration.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Preloaded/Popups.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Preloaded/Popups.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Preloaded/WindowManager.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Preloaded/WindowManager.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Popups/WaitPopup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/Popups/WaitPopup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/Menu.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/Menu.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/LocalizedUIText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/LocalizedUIText.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/SmallTail.Localization.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/SmallTail.Localization.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +51,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/DirectoryEnsureCreatedProcessor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Searching/SearchResults.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/Buttons/MenuButton/MenuButtonAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/Buttons/MenuButton/CarouselButtonAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/CarouselButtonAnimator.cs" />
@@ -107,6 +99,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/RandomMesh.cs" />
         <option value="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/LocalizedUIText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TitleEnsureStoredProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackHistory.cs" />
       </list>
     </option>
   </component>
@@ -186,7 +181,7 @@
       <workItem from="1598269479228" duration="973000" />
       <workItem from="1598685156663" duration="670000" />
       <workItem from="1599378690194" duration="2165000" />
-      <workItem from="1599384334404" duration="1504000" />
+      <workItem from="1599384334404" duration="2597000" />
     </task>
     <task id="LOCAL-00001" summary="Audio processors">
       <created>1597684295436</created>
@@ -279,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599381809915</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="loading popup">
+      <created>1599385907615</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599385907615</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +316,8 @@
     <MESSAGE value="Removed some old systems" />
     <MESSAGE value="More cleaning &amp; pause" />
     <MESSAGE value="cars" />
-    <option name="LAST_COMMIT_MESSAGE" value="cars" />
+    <MESSAGE value="loading popup" />
+    <option name="LAST_COMMIT_MESSAGE" value="loading popup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="762" y="200" key="RiderGenerateDialog" timestamp="1598186065885">
@@ -325,10 +328,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597917801725" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599381839081">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599385911139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599381839081" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599385911139" />
     <state x="361" y="156" width="1306" height="1027" key="dock-window-1" timestamp="1598010173923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

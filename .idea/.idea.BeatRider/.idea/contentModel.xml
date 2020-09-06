@@ -1743,6 +1743,7 @@
                   <e p="DirectoryEnsureCreatedProcessor.cs" t="Include" />
                   <e p="SpectrumProcessor.cs" t="Include" />
                   <e p="ThumbnailDownloadProcessor.cs" t="Include" />
+                  <e p="TitleEnsureStoredProcessor.cs" t="Include" />
                   <e p="TrackAnalyzeProcessor.cs" t="Include" />
                   <e p="TrackDownloadProcessor.cs" t="Include" />
                   <e p="TrackPCMProcessor.cs" t="Include" />
@@ -1840,6 +1841,7 @@
                 </e>
                 <e p="TrackCarousel.cs" t="Include" />
                 <e p="TrackElement.cs" t="Include" />
+                <e p="TrackHistory.cs" t="Include" />
               </e>
               <e p="EnvironmentPreview" t="Include">
                 <e p="MouseRotate.cs" t="Include" />
