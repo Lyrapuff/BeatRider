@@ -19,19 +19,92 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="loading popup">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TitleEnsureStoredProcessor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TitleEnsureStoredProcessor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackHistory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackHistory.cs.meta" afterDir="false" />
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="Track history">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/IObjectPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/ObjectCleaner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/ObjectPool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/IObjectSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/StateMachineSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/RandomCarsState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/SpawnerState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/TimedSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/UI/ProgressSlider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/UI/ProgressSlider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/VFXColorEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/VFXColorEffect.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Bass/bass.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Bass/bass.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/Glass.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/Glass.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/Stressed Out.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/Stressed Out.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/Unity.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/Unity.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/Влом.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/Влом.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Skybox.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/Spectrum.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Bus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Bus.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Camaro.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Camaro.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Fura1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Fura1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Fura2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Fura2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Lanos.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Lanos.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Opel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Opel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Picap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Picap.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/AudioTracks/Searching/YouTube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/AudioTracks/Searching/YouTube.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/AudioTracks/TrackList.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PCUI/Windows/AudioTracks/TrackList.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioSkyColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioSkyColor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Configuration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Configuration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/LineSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/LineSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachineSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachineSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/States.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/States/PatternSpawnerState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/States/PatternSpawnerState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/States/RandomSpawnerState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/States/RandomSpawnerState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/States/SpawnerState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/States/SpawnerState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/TimedSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/TimedSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/ImageColorEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/ImageColorEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackAnalyzeProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackAnalyzeProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackPCMProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackPCMProcessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Pooling.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Pooling/IObjectPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Pooling/IObjectPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Pooling/ObjectCleaner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Pooling/ObjectCleaner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Pooling/ObjectPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Pooling/ObjectPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Pooling/PoolObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Pooling/PoolObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Pooling/TrackedObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Pooling/TrackedObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Spawning.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Spawning/IObjectSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Spawning/IObjectSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Spawning/ObjectType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Spawning/ObjectType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Spawning/SpawnerPattern.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/ObjectManagement/Spawning/SpawnerPattern.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/IStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/IStorage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/Storage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/Storage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/Buttons/StartGameButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/Buttons/StartGameButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,35 +115,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2E6610ED-2984-4F85-A379-24F81509FE5D/60/fac507b7/UnityEvent`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2E6610ED-2984-4F85-A379-24F81509FE5D/00/fd58d242/Application.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/24/eec6b0b5/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2E6610ED-2984-4F85-A379-24F81509FE5D/29/cb2ca674/WaitForFixedUpdate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2E6610ED-2984-4F85-A379-24F81509FE5D/e4/84f3515f/YieldInstruction.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2E6610ED-2984-4F85-A379-24F81509FE5D/60/fac507b7/UnityEvent`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2E6610ED-2984-4F85-A379-24F81509FE5D/00/fd58d242/Application.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Searching/SearchResults.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/Buttons/MenuButton/MenuButtonAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/Buttons/MenuButton/CarouselButtonAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/CarouselButtonAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackCarousel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/IGameStorage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/GameStorage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioPlaylist.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Playlist.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/IPlaylist.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/IStorage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/CurrentTrack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/Buttons/StartGameButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/World/ObjectManagement/Spawning/States/RandomSpawnerState.cs" />
-        <option value="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Preload/Preload.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackDownloadProcessor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementation/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Services/IPlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Movement/ForwardMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Player/DeathChecker.cs" />
@@ -98,10 +152,30 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/LineSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/RandomMesh.cs" />
         <option value="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/LocalizedUIText.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TitleEnsureStoredProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackHistory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/UI/ProgressSlider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/VFXColorEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/ImageColorEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioSkyColor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackAnalyzeProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachineSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/IObjectSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/ISpawnerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/Buttons/StartGameButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/Storage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/IStorage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/RandomSpawnerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/SpawnerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/IObjectPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/ObjectCleaner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/TimedSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackPCMProcessor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/StateMachineSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/ObjectPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/RandomCarsState.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +191,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="discord-application" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../../UnityBuilds/BeatRider\Beat Rider.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -181,7 +255,20 @@
       <workItem from="1598269479228" duration="973000" />
       <workItem from="1598685156663" duration="670000" />
       <workItem from="1599378690194" duration="2165000" />
-      <workItem from="1599384334404" duration="2597000" />
+      <workItem from="1599384334404" duration="2732000" />
+      <workItem from="1599388487308" duration="3234000" />
+      <workItem from="1599395154737" duration="98000" />
+      <workItem from="1599395553562" duration="5000" />
+      <workItem from="1599415030757" duration="893000" />
+      <workItem from="1599508482450" duration="225000" />
+      <workItem from="1599509991763" duration="264000" />
+      <workItem from="1599510307446" duration="1506000" />
+      <workItem from="1599588895030" duration="461000" />
+      <workItem from="1599658538545" duration="753000" />
+      <workItem from="1599669614331" duration="1441000" />
+      <workItem from="1599750729216" duration="451000" />
+      <workItem from="1599751575343" duration="138000" />
+      <workItem from="1599817973859" duration="4774000" />
     </task>
     <task id="LOCAL-00001" summary="Audio processors">
       <created>1597684295436</created>
@@ -281,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599385907615</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Track history">
+      <created>1599387071272</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599387071272</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +411,8 @@
     <MESSAGE value="More cleaning &amp; pause" />
     <MESSAGE value="cars" />
     <MESSAGE value="loading popup" />
-    <option name="LAST_COMMIT_MESSAGE" value="loading popup" />
+    <MESSAGE value="Track history" />
+    <option name="LAST_COMMIT_MESSAGE" value="Track history" />
   </component>
   <component name="WindowStateProjectService">
     <state x="762" y="200" key="RiderGenerateDialog" timestamp="1598186065885">
@@ -328,10 +423,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597917801725" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599385911139">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599387074469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599385911139" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599387074469" />
     <state x="361" y="156" width="1306" height="1027" key="dock-window-1" timestamp="1598010173923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -21,7 +21,7 @@ namespace Game.AudioTracks
         private void Update()
         {
             float value = _material.GetFloat(Vector123Caafb7);
-            float speed = _audioAnalyzer.PureSpeed;
+            float speed = _audioAnalyzer.PureSpeed * 1.2f;
             _material.SetFloat(Vector123Caafb7, Mathf.Lerp(value, speed + 1f, 0.05f));
         }
     }

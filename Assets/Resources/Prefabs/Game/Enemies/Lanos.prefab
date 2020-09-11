@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2237669436914878299}
   - component: {fileID: 2237669436914878298}
-  - component: {fileID: 4026516291890834164}
   - component: {fileID: 7318295393220917864}
   - component: {fileID: 981324650678328897}
   - component: {fileID: 5953401063167889384}
+  - component: {fileID: 5446268208960405379}
   m_Layer: 0
   m_Name: Lanos
   m_TagString: Untagged
@@ -49,19 +49,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 0
---- !u!114 &4026516291890834164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2237669436914878296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ae0eebfc27a2db4db38130c202bed7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _clearAt: -5
 --- !u!114 &7318295393220917864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +95,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5446268208960405379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2237669436914878296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1fe4be391948a94eafd1f73958fc84b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clerAt: -10
 --- !u!1 &7185186077246565025
 GameObject:
   m_ObjectHideFlags: 0

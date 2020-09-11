@@ -1665,7 +1665,6 @@
             <e p="Camera" t="Include">
               <e p="FollowPlayerCamera.cs" t="Include" />
             </e>
-            <e p="Configuration.cs" t="Include" />
             <e p="Entities" t="Include">
               <e p="FakeBoundingBox.cs" t="Include" />
               <e p="Movement" t="Include">
@@ -1689,16 +1688,22 @@
               <e p="ResultTracker.cs" t="Include" />
             </e>
             <e p="ObjectManagement" t="Include">
-              <e p="LineSpawner.cs" t="Include" />
-              <e p="Spawning" t="Include">
-                <e p="StateMachineSpawner.cs" t="Include" />
-                <e p="States" t="Include">
-                  <e p="PatternSpawnerState.cs" t="Include" />
-                  <e p="RandomSpawnerState.cs" t="Include" />
-                  <e p="SpawnerState.cs" t="Include" />
-                </e>
+              <e p="Pooling" t="Include">
+                <e p="IObjectPool.cs" t="Include" />
+                <e p="ObjectCleaner.cs" t="Include" />
+                <e p="ObjectPool.cs" t="Include" />
               </e>
-              <e p="TimedSpawner.cs" t="Include" />
+              <e p="Spawning" t="Include">
+                <e p="IObjectSpawner.cs" t="Include" />
+                <e p="StateMachine" t="Include">
+                  <e p="StateMachineSpawner.cs" t="Include" />
+                  <e p="States" t="Include">
+                    <e p="RandomCarsState.cs" t="Include" />
+                    <e p="SpawnerState.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="TimedSpawner.cs" t="Include" />
+              </e>
             </e>
             <e p="Player" t="Include">
               <e p="PointIncrementer.cs" t="Include" />
@@ -1717,6 +1722,9 @@
               <e p="IPause.cs" t="Include" />
               <e p="IPlayerInput.cs" t="Include" />
             </e>
+            <e p="UI" t="Include">
+              <e p="ProgressSlider.cs" t="Include" />
+            </e>
           </e>
           <e p="General" t="Include">
             <e p="AudioTracks" t="Include">
@@ -1732,6 +1740,7 @@
                 <e p="AudioColorEffect.cs" t="Include" />
                 <e p="ImageColorEffect.cs" t="Include" />
                 <e p="MaterialColorEffect.cs" t="Include" />
+                <e p="VFXColorEffect.cs" t="Include" />
               </e>
               <e p="IAudioTrack.cs" t="Include" />
               <e p="IPlaylist.cs" t="Include" />
@@ -1772,20 +1781,6 @@
               <e p="PlayerActions.cs" t="Include" />
               <e p="UIActions.cs" t="Include" />
               <e p="UIInput.cs" t="Include" />
-            </e>
-            <e p="ObjectManagement" t="Include">
-              <e p="Pooling" t="Include">
-                <e p="IObjectPool.cs" t="Include" />
-                <e p="ObjectCleaner.cs" t="Include" />
-                <e p="ObjectPool.cs" t="Include" />
-                <e p="PoolObject.cs" t="Include" />
-                <e p="TrackedObject.cs" t="Include" />
-              </e>
-              <e p="Spawning" t="Include">
-                <e p="IObjectSpawner.cs" t="Include" />
-                <e p="ObjectType.cs" t="Include" />
-                <e p="SpawnerPattern.cs" t="Include" />
-              </e>
             </e>
             <e p="SceneManagement" t="Include">
               <e p="ISceneChanger.cs" t="Include" />

@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3736152195058957681}
   - component: {fileID: 3736152195058957680}
-  - component: {fileID: -7262694430979764002}
   - component: {fileID: 5285950794511204418}
   - component: {fileID: 2398988467880305771}
   - component: {fileID: -123272405915683390}
+  - component: {fileID: 8115747696787462229}
   m_Layer: 0
   m_Name: Bus
   m_TagString: Untagged
@@ -49,19 +49,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 0
---- !u!114 &-7262694430979764002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3736152195058957682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ae0eebfc27a2db4db38130c202bed7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _clearAt: -5
 --- !u!114 &5285950794511204418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +95,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8115747696787462229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3736152195058957682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1fe4be391948a94eafd1f73958fc84b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clerAt: -10
 --- !u!1 &5720238329930879115
 GameObject:
   m_ObjectHideFlags: 0

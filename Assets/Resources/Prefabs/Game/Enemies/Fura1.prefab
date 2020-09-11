@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 291586955405596538}
   - component: {fileID: 291586955405596539}
-  - component: {fileID: 3235607144864692949}
   - component: {fileID: 9118080978291960393}
   - component: {fileID: 1628188875092250208}
   - component: {fileID: 5303157940739891145}
+  - component: {fileID: 3845396109603319318}
   m_Layer: 0
   m_Name: Fura1
   m_TagString: Untagged
@@ -49,19 +49,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 0
---- !u!114 &3235607144864692949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 291586955405596537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ae0eebfc27a2db4db38130c202bed7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _clearAt: -5
 --- !u!114 &9118080978291960393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +95,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3845396109603319318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291586955405596537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1fe4be391948a94eafd1f73958fc84b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clerAt: -10
 --- !u!1 &8696670915540613760
 GameObject:
   m_ObjectHideFlags: 0

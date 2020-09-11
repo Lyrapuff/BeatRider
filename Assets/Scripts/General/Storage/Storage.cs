@@ -61,14 +61,14 @@ namespace General.Storage
             _storage[key] = new StoredObject(data, persistant);
         }
 
-        public T Get<T>(string key) where T : class
+        public T Get<T>(string key)
         {
             if (_storage.ContainsKey(key))
             {
-                return _storage[key].Data as T;
+                return (T)_storage[key].Data;
             }
 
-            return null;
+            return default;
         }
 
         public T GetOrCreate<T>(string key) where T : class, new()

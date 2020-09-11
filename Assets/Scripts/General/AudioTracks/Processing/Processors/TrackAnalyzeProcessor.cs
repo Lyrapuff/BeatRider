@@ -1,9 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-using System.Threading.Tasks;
 using General.AudioTracks.Analyzing;
-using General.AudioTracks.Searching;
 using UnityEngine;
 
 namespace General.AudioTracks.Processing.Processors

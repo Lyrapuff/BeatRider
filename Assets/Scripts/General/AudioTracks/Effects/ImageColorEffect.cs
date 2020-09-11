@@ -6,6 +6,9 @@ namespace General.AudioTracks.Effects
     [RequireComponent(typeof(Image))]
     public class ImageColorEffect : MonoBehaviour
     {
+        [SerializeField] private float _multiplier;
+        [SerializeField] private float _alpha = 255;
+        
         private Image _image;
         private AudioColorEffect _audioColor;
 
@@ -28,8 +31,8 @@ namespace General.AudioTracks.Effects
 
         private void SetColor(Color color)
         {
-            color *= 0.55f;
-            color.a = 255f;
+            color *= _multiplier;
+            color.a = _alpha / 255f;
             _image.color = color;
         }
     }
