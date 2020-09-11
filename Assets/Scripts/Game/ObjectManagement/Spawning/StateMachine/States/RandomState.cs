@@ -4,15 +4,15 @@ using UnityEngine;
 
 namespace Game.ObjectManagement.Spawning.StateMachine.States
 {
-    [CreateAssetMenu(menuName = "Object Management/Spawning States/Random cars")]
-    public class RandomCarsState : SpawnerState
+    [CreateAssetMenu(menuName = "Object Management/Spawning States/Random")]
+    public class RandomState : SpawnerState
     {
-        [SerializeField] private float _offset;
+        [SerializeField] private Vector3 _offset;
         [SerializeField] private float _range;
         
         public override void Spawn(IObjectPool pool)
         {
-            int count = Random.Range(1, 4);
+            int count = Random.Range(1, 3);
 
             Vector3[] positions = new Vector3[count];
             
@@ -26,7 +26,7 @@ namespace Game.ObjectManagement.Spawning.StateMachine.States
 
                 do
                 {
-                    position = new Vector3(Random.Range(-_range, _range), 0f, _offset);
+                    position = new Vector3(Random.Range(-_range, _range), 0f, 0f) + _offset;
                 } 
                 while (positions.Any(pos => Vector3.Distance(pos, position) < 1.5f));
 

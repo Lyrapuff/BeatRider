@@ -55,6 +55,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,6 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3464250376309313205
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,8 +91,8 @@ GameObject:
   m_Component:
   - component: {fileID: 452651912097496230}
   - component: {fileID: 8199619689783320993}
-  - component: {fileID: -2048352790244485612}
   - component: {fileID: 5232458362827801431}
+  - component: {fileID: 1726648843910275467}
   m_Layer: 0
   m_Name: TreeRegular02
   m_TagString: Untagged
@@ -107,7 +109,7 @@ Transform:
   m_GameObject: {fileID: 3464250376309313205}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 6016823564487804518}
   - {fileID: 1914608065270455513}
@@ -127,19 +129,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 0
---- !u!114 &-2048352790244485612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3464250376309313205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ae0eebfc27a2db4db38130c202bed7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _clearAt: -5
 --- !u!114 &5232458362827801431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,6 +143,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _offset: {x: 0, y: -0.2, z: 0}
   _accuracy: 0.2
+--- !u!114 &1726648843910275467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3464250376309313205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1fe4be391948a94eafd1f73958fc84b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clerAt: -10
 --- !u!1 &6707289427914196519
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,6 +211,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -233,3 +236,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

@@ -1695,10 +1695,11 @@
               </e>
               <e p="Spawning" t="Include">
                 <e p="IObjectSpawner.cs" t="Include" />
+                <e p="LineSpawner.cs" t="Include" />
                 <e p="StateMachine" t="Include">
                   <e p="StateMachineSpawner.cs" t="Include" />
                   <e p="States" t="Include">
-                    <e p="RandomCarsState.cs" t="Include" />
+                    <e p="RandomState.cs" t="Include" />
                     <e p="SpawnerState.cs" t="Include" />
                   </e>
                 </e>

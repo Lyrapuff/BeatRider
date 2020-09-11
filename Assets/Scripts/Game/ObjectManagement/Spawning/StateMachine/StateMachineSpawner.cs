@@ -17,6 +17,7 @@ namespace Game.ObjectManagement.Spawning.StateMachine
         private void Awake()
         {
             _pool = GetComponent<IObjectPool>();
+            
             _state = _states[Random.Range(0, _states.Length)];
         }
         
