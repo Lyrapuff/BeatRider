@@ -1694,8 +1694,9 @@
                 <e p="ObjectPool.cs" t="Include" />
               </e>
               <e p="Spawning" t="Include">
+                <e p="InlineSpawner.cs" t="Include" />
+                <e p="InlineSpawnerSetting.cs" t="Include" />
                 <e p="IObjectSpawner.cs" t="Include" />
-                <e p="LineSpawner.cs" t="Include" />
                 <e p="StateMachine" t="Include">
                   <e p="StateMachineSpawner.cs" t="Include" />
                   <e p="States" t="Include">
@@ -1792,6 +1793,9 @@
               <e p="GameDataStorage.cs" t="Include" />
               <e p="IStorage.cs" t="Include" />
               <e p="Storage.cs" t="Include" />
+            </e>
+            <e p="Tools" t="Include">
+              <e p="SmallRandom.cs" t="Include" />
             </e>
             <e p="UI" t="Include">
               <e p="CanvasManagement" t="Include">

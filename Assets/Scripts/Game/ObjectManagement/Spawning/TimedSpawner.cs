@@ -16,7 +16,7 @@ namespace Game.ObjectManagement.Spawning
 
         private void Awake()
         {
-            _spawner = FindComponentOfInterface<IObjectSpawner>();
+            _spawner = GetComponent<IObjectSpawner>();
             _spectrumReader = FindObjectOfType<SpectrumReader>();
         }
 
