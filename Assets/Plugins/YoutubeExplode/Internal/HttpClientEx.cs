@@ -48,6 +48,20 @@ namespace YoutubeExplode.Internal
             }
         }
 
+        public static async Task<string> GetStringAsync(this HttpClient client, HttpRequestMessage message,
+            bool ensureSuccess = true)
+        {
+            
+            using (var response = await client.SendAsync(message, HttpCompletionOption.ResponseHeadersRead)
+                .ConfigureAwait(false))
+            {
+                if (ensureSuccess)
+                    response.EnsureSuccessStatusCode();
+
+                return await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+            }
+        }
+        
         public static async Task<Stream> GetStreamAsync(this HttpClient client, string requestUri,
             long? from = null, long? to = null, bool ensureSuccess = true)
         {

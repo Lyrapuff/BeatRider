@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
 using YoutubeExplode.Exceptions;
@@ -168,7 +169,14 @@ namespace YoutubeExplode
             // Don't ensure success here so that empty pages could be parsed
 
             var url = $"https://www.youtube.com/search_ajax?style=json&search_query={query}&page={page}&hl=en";
-            var raw = await _httpClient.GetStringAsync(url, false).ConfigureAwait(false);
+            
+            HttpRequestMessage message = new HttpRequestMessage();
+            message.Method = HttpMethod.Get;
+            message.RequestUri = new Uri(url);
+            message.Headers.Add("x-youtube-client-name", "56");
+            message.Headers.Add("x-youtube-client-version", "20200911");
+
+            var raw = await _httpClient.GetStringAsync(message, false).ConfigureAwait(false);
 
             return PlaylistAjaxParser.Initialize(raw);
         }
