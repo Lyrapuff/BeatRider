@@ -10,5 +10,6 @@ namespace General.AudioTracks.Processing
         public int Samples { get; set; }
         public int Frequency { get; set; }
         public AnalyzedAudio AnalyzedAudio { get; set; }
+        public float[] Road { get; set; }
     }
 }

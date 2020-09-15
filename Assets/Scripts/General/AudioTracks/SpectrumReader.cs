@@ -21,9 +21,9 @@ namespace General.AudioTracks
             _audioSource = GetComponent<AudioSource>();
             
             IStorage storage = FindComponentOfInterface<IStorage>();
-            _track = storage.Get<AudioTrack>("SelectedTrack");
+            _track = storage.Get<AudioTrack>("Game/Track");
 
-            _audioSource.clip = _track.AudioClip;
+            _audioSource.clip = _track?.AudioClip;
             _audioSource.Play();
         }
         

@@ -85,7 +85,25 @@ namespace Menu.PCUI.AudioTracks.Processing
 
                 _playlist.Add(track);
                 
-                _storage.Store("SelectedTrack", track);
+                _storage.Store("Game/Track", track);
+
+                int roadLength = _context.Road.Length;
+                
+                Texture2D road = new Texture2D(roadLength, 1);
+                
+                Color[] colors = new Color[roadLength];
+
+                for (int i = 0; i < roadLength; i++)
+                {
+                    float height = _context.Road[i];
+                    colors[i] = new Color(height, height, height);
+                }
+
+                road.SetPixels(colors);
+                road.Apply();
+                
+                _storage.Store("Game/RoadTexture", road);
+                _storage.Store("Game/Road", _context.Road);
                 
                 _windowFactory.CloseAll();
                 _windowFactory.Open(_configurationWindow);

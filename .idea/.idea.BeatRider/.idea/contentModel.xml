@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Lyrapuff\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Lyrapuff\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_BeatRider.1768005302.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Lyrapuff\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Lyrapuff\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_BeatRider.1768005302.00" t="ExcludeRecursive" />
     <e p="G:\Unity\BeatRider" t="IncludeRecursive">
       <e p="Assets" t="Include">
         <e p="Plugins" t="Include">
@@ -1665,6 +1665,10 @@
             <e p="Camera" t="Include">
               <e p="FollowPlayerCamera.cs" t="Include" />
             </e>
+            <e p="CPURoad" t="Include">
+              <e p="RoadDisplay.cs" t="Include" />
+              <e p="RoadHeight.cs" t="Include" />
+            </e>
             <e p="Entities" t="Include">
               <e p="FakeBoundingBox.cs" t="Include" />
               <e p="Movement" t="Include">
@@ -1752,6 +1756,7 @@
                 <e p="ProcessingPipeline.cs" t="Include" />
                 <e p="Processors" t="Include">
                   <e p="DirectoryEnsureCreatedProcessor.cs" t="Include" />
+                  <e p="RoadGeneratorProcessor.cs" t="Include" />
                   <e p="SpectrumProcessor.cs" t="Include" />
                   <e p="ThumbnailDownloadProcessor.cs" t="Include" />
                   <e p="TitleEnsureStoredProcessor.cs" t="Include" />

@@ -17,7 +17,7 @@ namespace Menu.PCUI.GameConfiguration
             _storage = FindComponentOfInterface<IStorage>();
             _trackElement = GetComponent<TrackElement>();
 
-            AudioTrack track = _storage.Get<AudioTrack>("SelectedTrack");
+            AudioTrack track = _storage.Get<AudioTrack>("Game/Track");
             _trackElement.SetResult(track);
         }
     }
