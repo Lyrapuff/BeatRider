@@ -1,6 +1,5 @@
 ﻿using System;
 using General.Behaviours;
-using General.Storage;
 using UnityEngine;
 
 namespace Game.CPURoad
@@ -14,7 +13,7 @@ namespace Game.CPURoad
         private Color[] _roadBuffer;
         private int _chunkIndex;
         
-        private void Awake()
+        private void Start()
         {
             _roadHeight = GetComponent<RoadHeight>();
             
@@ -39,24 +38,24 @@ namespace Game.CPURoad
             if (_roadBuffer != null)
             {
                 Array.Copy(_roadBuffer, 512, _roadBuffer, 0, 512);
+                
+                for (int i = 512; i < 1024; i++)
+                {
+                    float height = _roadHeight.GetHeight(i);
+                    _roadBuffer[i] = new Color(height, height ,height);
+                }
             }
             else
             {
                 _roadBuffer = new Color[1024];
                 
-                for (int i = 0; i < 512; i++)
+                for (int i = 0; i < 1024; i++)
                 {
                     float height = _roadHeight.GetHeight(i);
                     _roadBuffer[i] = new Color(height, height ,height);
                 }
             }
 
-            for (int i = 512; i < 1024; i++)
-            {
-                float height = _roadHeight.GetHeight(i);
-                _roadBuffer[i] = new Color(height, height ,height);
-            }
-            
             Texture2D chunkTexture = new Texture2D(1024, 1, TextureFormat.RGBA32, false, true);
             chunkTexture.filterMode = FilterMode.Point;
             chunkTexture.SetPixels(_roadBuffer);
