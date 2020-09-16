@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da13514a412bfb040bb15499c65bca20, type: 3}
+  m_Name: RandomCarsState
+  m_EditorClassIdentifier: 
+  _length: 10
+  _prefabs:
+  - {fileID: 3736152195058957682, guid: 530a756b500b25a4dba40cef678ab87d, type: 3}
+  - {fileID: 291586955405596537, guid: fffc0c24cf06f904182c88d0402830b4, type: 3}
+  - {fileID: 4984361187837133072, guid: ad21917f495e0354eb801453e1448239, type: 3}
+  - {fileID: 2237669436914878296, guid: b9e0dcaca2a9738498c4f7bf26573e86, type: 3}
+  - {fileID: 7052685479006363582, guid: 012b3b16e291e9a4691618f753eca1a8, type: 3}
+  - {fileID: 3234010092818679595, guid: 16022c14876d1d14bb2e152817c1f4ab, type: 3}
+  _offset: {x: 0, y: 0, z: 300}
+  _range: 9.5

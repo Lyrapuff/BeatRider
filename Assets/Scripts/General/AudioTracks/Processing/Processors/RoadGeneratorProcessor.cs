@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
@@ -19,7 +20,7 @@ namespace General.AudioTracks.Processing.Processors
 
             if (!File.Exists(Context.Path + "/road.bytes"))
             {
-                float[] road = new float[Context.AnalyzedAudio.Averages.Count];
+                float[] road = new float[Mathf.FloorToInt(Context.AnalyzedAudio.Averages.Sum())];
 
                 for (int i = 0; i < road.Length; i++)
                 {
