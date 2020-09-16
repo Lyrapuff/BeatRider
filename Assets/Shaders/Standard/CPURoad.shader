@@ -32,9 +32,8 @@
             fixed4 _Color;
             float _Offset;
             
-            sampler2D _Road;
-            float4 _Road_ST;
-            uniform float4 _Road_TexelSize;
+            sampler2D _RoadChunk;
+            uniform float4 _RoadChunk_TexelSize;
             
             v2f vert (appdata v)
             {
@@ -42,9 +41,9 @@
 
                 float3 worldPos = mul(unity_ObjectToWorld, v.vertex);
                 
-                float offset = (ceil(worldPos.z + _Offset) + 0.5) * _Road_TexelSize.x;
+                float offset = (ceil(worldPos.z + _Offset) + 0.5) * _RoadChunk_TexelSize.x;
                 
-                v.vertex.y = tex2Dlod(_Road, float4(offset, 0.5, 0, 0)).r * 20;
+                v.vertex.y = tex2Dlod(_RoadChunk, float4(offset, 0.5, 0, 0)).r * 20;
                 
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 

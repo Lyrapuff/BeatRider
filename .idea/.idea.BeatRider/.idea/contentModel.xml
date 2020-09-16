@@ -1666,6 +1666,7 @@
               <e p="FollowPlayerCamera.cs" t="Include" />
             </e>
             <e p="CPURoad" t="Include">
+              <e p="RoadChunkGenerator.cs" t="Include" />
               <e p="RoadDisplay.cs" t="Include" />
               <e p="RoadHeight.cs" t="Include" />
             </e>
