@@ -22,7 +22,7 @@ namespace Game.CPURoad
 
         public float GetHeight(Vector3 position)
         {
-            return Mathf.PerlinNoise((position.z + Offset) / 400f, 0.53f) * 10f;
+            return Mathf.PerlinNoise((position.z + Offset) / 211.42f, 0.53f) * 20f;
         }
     }
 }

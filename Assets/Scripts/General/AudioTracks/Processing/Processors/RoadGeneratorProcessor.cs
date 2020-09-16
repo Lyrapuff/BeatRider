@@ -23,7 +23,7 @@ namespace General.AudioTracks.Processing.Processors
 
                 for (int i = 0; i < road.Length; i++)
                 {
-                    road[i] = Mathf.PerlinNoise(i / 400f, 0.53f);
+                    road[i] = Mathf.PerlinNoise(i / 211.42f, 0.53f);
                 }
 
                 Context.Road = road;
