@@ -89,7 +89,7 @@ namespace Menu.PCUI.AudioTracks.Processing
 
                 int roadLength = _context.Road.Length;
                 
-                Texture2D road = new Texture2D(roadLength, 1);
+                Texture2D road = new Texture2D(roadLength, 1, TextureFormat.RGBA32, false, true);
                 
                 Color[] colors = new Color[roadLength];
 
@@ -99,6 +99,7 @@ namespace Menu.PCUI.AudioTracks.Processing
                     colors[i] = new Color(height, height, height);
                 }
 
+                road.filterMode = FilterMode.Point;
                 road.SetPixels(colors);
                 road.Apply();
                 

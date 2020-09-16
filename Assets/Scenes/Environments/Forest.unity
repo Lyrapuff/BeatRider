@@ -1590,8 +1590,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _settings:
-  - PropertyName: _BaseColor
-    Material: {fileID: 2100000, guid: bb72d4565b7ac064a9397f2b19bb62c9, type: 2}
+  - PropertyName: _Color
+    Material: {fileID: 2100000, guid: eee88d60b93d444459d0918497c40977, type: 2}
   - PropertyName: _BaseColor
     Material: {fileID: 2100000, guid: fa00fa7c1d3318243aa272f21cee8bb4, type: 2}
   - PropertyName: SkyColor
@@ -3634,7 +3634,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &881048186
 Transform:
   m_ObjectHideFlags: 0
@@ -3643,7 +3643,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881048185}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.05, z: 0}
+  m_LocalPosition: {x: 0, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1413573979}
@@ -4080,6 +4080,7 @@ GameObject:
   - component: {fileID: 1023826507}
   - component: {fileID: 1023826509}
   - component: {fileID: 1023826508}
+  - component: {fileID: 1023826510}
   m_Layer: 0
   m_Name: Road
   m_TagString: Untagged
@@ -4154,6 +4155,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 740ab032b71c4cb0a9f4ba9dcf9fda15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1023826510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023826506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d671440678054084ac05577ad132da46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _material: {fileID: 2100000, guid: eee88d60b93d444459d0918497c40977, type: 2}
 --- !u!1 &1105772217
 GameObject:
   m_ObjectHideFlags: 0
