@@ -15,7 +15,7 @@ namespace General.AudioTracks
 
         private AudioSource _audioSource;
         private AudioTrack _track;
-
+        
         private void Awake()
         {
             _audioSource = GetComponent<AudioSource>();
@@ -31,20 +31,20 @@ namespace General.AudioTracks
         {
             if (_track != null)
             {
-                int index = GetIndexFromTime() / 1024 / _track.AnalyzedAudio.StoreEvery;
+                int index = GetIndexFromTime(_audioSource.time) / 1024 / _track.AnalyzedAudio.StoreEvery;
 
                 float average = _track.AnalyzedAudio.Averages[index];
 
                 Band = _track.AnalyzedAudio.Bands[index];
                 
                 Speed = average * SpeedMultiplier + 1f;
+                
                 PureSpeed = average;
             }
         }
         
-        public int GetIndexFromTime()
+        public int GetIndexFromTime(float time = 0f)
         {
-            float time = _audioSource.time;
             float lengthPerSample = _audioSource.clip.length / _audioSource.clip.samples;
             return Mathf.FloorToInt (time / lengthPerSample);
         }

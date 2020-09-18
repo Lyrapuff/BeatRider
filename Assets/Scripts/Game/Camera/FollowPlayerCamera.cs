@@ -5,7 +5,7 @@ namespace Game.Camera
 {
     public class FollowPlayerCamera : ExtendedBehaviour
     {
-        public Vector3 Offset { get; set; } = new Vector3(0f, 4.5f, -8f);
+        public Vector3 Offset { get; set; } = new Vector3(0f, 0f, 0f);
         
         [SerializeField] private Transform _player;
         [SerializeField] private float _xSmoothing;

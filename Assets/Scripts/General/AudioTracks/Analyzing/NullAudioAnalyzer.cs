@@ -8,6 +8,10 @@ namespace General.AudioTracks.Analyzing
         public float Speed { get; }
         public float PureSpeed { get; }
         public float[] Band { get; }
+        public float GetSpeedAtPoint(float point)
+        {
+            throw new System.NotImplementedException();
+        }
 
         public NullAudioAnalyzer()
         {

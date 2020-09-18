@@ -32,9 +32,21 @@
 
             fixed4 _Color;
             float _Offset;
+            float _Max;
+            float _Min;
             
-            sampler2D _RoadChunk;
-            uniform float4 _RoadChunk_TexelSize;
+            float _RoadChunk[1024];
+            
+            float invLerp(float from, float to, float value)
+            {
+                return (value - from) / (to - from);
+            }
+            
+            float remap(float value, float origFrom, float origTo, float targetFrom, float targetTo)
+            {
+                float rel = invLerp(origFrom, origTo, value);
+                return lerp(targetFrom, targetTo, rel);
+            }
             
             v2f vert (appdata v)
             {
@@ -42,9 +54,11 @@
 
                 float3 worldPos = mul(unity_ObjectToWorld, v.vertex);
                 
-                float offset = (ceil(worldPos.z + _Offset) + 0.5) * _RoadChunk_TexelSize.x;
+                int index = ceil(worldPos.z + _Offset);
                 
-                v.vertex.y = tex2Dlod(_RoadChunk, float4(offset, 0.5, 0, 0)).r * 20;
+                float height = _RoadChunk[index];
+                
+                v.vertex.y = remap(height, 0, 1, -600, 600);
                 
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 

@@ -1749,6 +1749,7 @@
                 <e p="MaterialColorEffect.cs" t="Include" />
                 <e p="VFXColorEffect.cs" t="Include" />
               </e>
+              <e p="FloatExtensions.cs" t="Include" />
               <e p="IAudioTrack.cs" t="Include" />
               <e p="IPlaylist.cs" t="Include" />
               <e p="Playlist.cs" t="Include" />

@@ -11,7 +11,7 @@ namespace Game.Entities
         {
             _meshFilter = GetComponent<MeshFilter>();
             Bounds meshBounds = _meshFilter.mesh.bounds;
-            meshBounds.size *= 100f;
+            meshBounds.size *= 1000f;
             _meshFilter.mesh.bounds = meshBounds;
         }
     }

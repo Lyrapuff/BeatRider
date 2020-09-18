@@ -10,12 +10,18 @@ namespace Game.CPURoad
         [SerializeField] private Material[] _materials;
 
         private RoadHeight _roadHeight;
-        private Color[] _roadBuffer;
+        private float[] _roadBuffer;
         private int _chunkIndex;
         
         private void Start()
         {
             _roadHeight = GetComponent<RoadHeight>();
+            
+            foreach (Material material in _materials)
+            {
+                material.SetFloat("_Max", _roadHeight.Max);
+                material.SetFloat("_Min", _roadHeight.Min);
+            }
             
             GenerateForward();
         }
@@ -42,28 +48,23 @@ namespace Game.CPURoad
                 for (int i = 512; i < 1024; i++)
                 {
                     float height = _roadHeight.GetHeight(i);
-                    _roadBuffer[i] = new Color(height, height ,height);
+                    _roadBuffer[i] = height;
                 }
             }
             else
             {
-                _roadBuffer = new Color[1024];
+                _roadBuffer = new float[1024];
                 
                 for (int i = 0; i < 1024; i++)
                 {
                     float height = _roadHeight.GetHeight(i);
-                    _roadBuffer[i] = new Color(height, height ,height);
+                    _roadBuffer[i] = height;
                 }
             }
-
-            Texture2D chunkTexture = new Texture2D(1024, 1, TextureFormat.RGBA32, false, true);
-            chunkTexture.filterMode = FilterMode.Point;
-            chunkTexture.SetPixels(_roadBuffer);
-            chunkTexture.Apply();
             
             foreach (Material material in _materials)
             {
-                material.SetTexture("_RoadChunk", chunkTexture);
+                material.SetFloatArray("_RoadChunk", _roadBuffer);
             }
             
             _chunkIndex++;
