@@ -28,14 +28,14 @@ namespace Game.CPURoad
 
         private void Update()
         {
-            if (_roadHeight.Offset > 512f * _chunkIndex)
+            if (_roadHeight.Offset > 500f * _chunkIndex)
             {
                 GenerateForward();
             }
 
             foreach (Material material in _materials)
             {
-                material.SetFloat("_Offset", _roadHeight.Offset - 512f * (_chunkIndex - 1));
+                material.SetFloat("_Offset", _roadHeight.Offset - 500f * (_chunkIndex - 1));
             }
         }
 
@@ -43,9 +43,9 @@ namespace Game.CPURoad
         {
             if (_roadBuffer != null)
             {
-                Array.Copy(_roadBuffer, 512, _roadBuffer, 0, 512);
+                Array.Copy(_roadBuffer, 500, _roadBuffer, 0, 500);
                 
-                for (int i = 512; i < 1024; i++)
+                for (int i = 500; i < 1000; i++)
                 {
                     float height = _roadHeight.GetHeight(i);
                     _roadBuffer[i] = height;
@@ -53,9 +53,9 @@ namespace Game.CPURoad
             }
             else
             {
-                _roadBuffer = new float[1024];
+                _roadBuffer = new float[1000];
                 
-                for (int i = 0; i < 1024; i++)
+                for (int i = 0; i < 1000; i++)
                 {
                     float height = _roadHeight.GetHeight(i);
                     _roadBuffer[i] = height;

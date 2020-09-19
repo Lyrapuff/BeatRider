@@ -35,18 +35,7 @@
             float _Max;
             float _Min;
             
-            float _RoadChunk[1024];
-            
-            float invLerp(float from, float to, float value)
-            {
-                return (value - from) / (to - from);
-            }
-            
-            float remap(float value, float origFrom, float origTo, float targetFrom, float targetTo)
-            {
-                float rel = invLerp(origFrom, origTo, value);
-                return lerp(targetFrom, targetTo, rel);
-            }
+            float _RoadChunk[1000];
             
             v2f vert (appdata v)
             {
@@ -58,7 +47,7 @@
                 
                 float height = _RoadChunk[index];
                 
-                v.vertex.y = remap(height, 0, 1, -600, 600);
+                v.vertex.y = height * 1600;
                 
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 

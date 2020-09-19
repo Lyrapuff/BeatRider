@@ -61,7 +61,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_23CAAFB7: 1.5453935
+    - Vector1_23CAAFB7: 1.3359206
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -86,7 +86,7 @@ Material:
     m_Colors:
     - Color_B92C3E21: {r: 0, g: 0, b: 0, a: 0}
     - Color_CC8169F5: {r: 0, g: 0, b: 0, a: 0}
-    - SkyColor: {r: 0.9182745, g: 0.6123922, b: 0.088627465, a: 255}
+    - SkyColor: {r: 0.19247061, g: 0.50635296, b: 0.6992941, a: 255}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

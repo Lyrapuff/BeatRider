@@ -54,9 +54,9 @@ namespace Game.CPURoad
                     blankCount = 0;
                 }
 
-                if (blankCount >= 15)
+                if (blankCount >= 200)
                 {
-                    averages.RemoveRange(i - 15, averages.Count - i - 15);
+                    averages.RemoveRange(i - 200, averages.Count - i - 200);
                     break;
                 }
             }
@@ -68,39 +68,53 @@ namespace Game.CPURoad
 
             while (time < _track.AudioClip.length)
             {
-                int index = Mathf.FloorToInt(time / lengthPerSample) / 1024 / _track.AnalyzedAudio.StoreEvery;
+                try
+                {
+                    int index = Mathf.FloorToInt(time / lengthPerSample) / 1024 / _track.AnalyzedAudio.StoreEvery;
 
-                distance += (averages[index] * 6f + 1f) * timeStep;
+                    distance += (averages[index] * 6f + 1f) * timeStep;
 
-                time += timeStep;
+                    time += timeStep;
+                }
+                catch
+                {
+                    //ignore
+                }
             }
 
             int length = Mathf.FloorToInt(distance * 20f);
 
             float threshold = 0.55f;
-            float step = 0.2f;
+            float step = 0.4f;
             
             _road = new float[length];
             float height = 0f;
 
             for (int i = 0; i < length; i++)
             {
-                int index = Mathf.FloorToInt(((float)i).Remap(0, length, 0, averages.Count));
-
-                float average = averages[index];
-                
-                if (average > threshold)
+                try
                 {
-                    height -= step;
-                }
-                else
-                {
-                    height += step;
-                }
+                    int index = Mathf.FloorToInt(((float) i).Remap(0, length, 0, averages.Count));
 
-                _road[i] = height;
+                    float average = averages[index];
+
+                    if (average > threshold)
+                    {
+                        height -= step * Mathf.Lerp(0.5f, 1f, average.Remap(threshold, 1f, 0f, 1f));
+                    }
+                    else
+                    {
+                        height += step * Mathf.Lerp(0.5f, 1f, average.Remap(0f, threshold, 0f, 1f));
+                    }
+
+                    _road[i] = height;
+                }
+                catch
+                {
+                    //ignore
+                }
             }
-
+            
             int severity = 20;
             
             for (int i = 1; i < _road.Length; i++)
@@ -164,7 +178,7 @@ namespace Game.CPURoad
         
         public float GetHeight(Vector3 position)
         {
-            return GetHeight(position.z).Remap(0f, 1f, -600f, 600f);
+            return GetHeight(position.z) * 1600f;
         }
     }
 }
