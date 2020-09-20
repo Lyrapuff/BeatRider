@@ -2,7 +2,6 @@
 {
     Properties
     {
-        _RoadChunk ("Chunk", 2D) = "white" {}
         _Color ("Color", Color) = (0,0,0,1)
     }
     SubShader
@@ -75,7 +74,7 @@
                 
                 float height = getPoint(_Points[i].y, _Points[i + 1].y, _Points[i + 2].y, _Points[i + 3].y, t);
                 
-                v.vertex.y = height * 800;
+                v.vertex.y = height;
                 
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 

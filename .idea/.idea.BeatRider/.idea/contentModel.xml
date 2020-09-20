@@ -1204,6 +1204,14 @@
           <e p="DSPLib" t="Include">
             <e p="DSPLib.cs" t="Include" />
           </e>
+          <e p="FftSharp" t="Include">
+            <e p="Complex.cs" t="Include" />
+            <e p="Experimental.cs" t="Include" />
+            <e p="Pad.cs" t="Include" />
+            <e p="SampleData.cs" t="Include" />
+            <e p="Transform.cs" t="Include" />
+            <e p="Window.cs" t="Include" />
+          </e>
           <e p="MonoHttp" t="Include">
             <e p="Helpers.cs" t="Include" />
             <e p="HtmlEncoder.cs" t="Include" />

@@ -19,14 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="">
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="Spline road">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CPUGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CPUGround.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CPURoad.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CPURoad.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadChunkGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadChunkGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadHeight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadHeight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Standard/CPURoad.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Standard/CPURoad.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,35 +45,36 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/FloatExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Standard/RoadWave.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Standard/CPURoad.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadHeight.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Compute/RoadGenerator.compute" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/RoadGeneratorProcessor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/IAudioAnalyzer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/Storage/Storage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/NullAudioAnalyzer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Entities/FakeBoundingBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioTrack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Camera/FollowPlayerCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadChunkGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioScale.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/SpeedOverTime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Road/RoadGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Road/RoadMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Road/RoadConnector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Standard/RoadWave.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Standard/CPURoad.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Compute/RoadGenerator.compute" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/IAudioAnalyzer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/Storage/Storage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/NullAudioAnalyzer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/FftSharp/SampleData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioScale.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/SpeedOverTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/FftSharp/Transform.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/RandomMesh.cs" />
-        <option value="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization/Localization/LocalizedUIText.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TitleEnsureStoredProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackHistory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/UI/ProgressSlider.cs" />
@@ -111,12 +117,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/IAudioAnalyzer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/FloatExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/FakeBoundingBox.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Road/RoadConnector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Camera/FollowPlayerCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadChunkGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Shaders/Standard/CPURoad.shader" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/FFT/B83.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadHeight.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/Standard/CPURoad.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadChunkGenerator.cs" />
       </list>
     </option>
   </component>
@@ -232,7 +241,7 @@
       <workItem from="1600450532847" duration="1024000" />
       <workItem from="1600507516120" duration="2826000" />
       <workItem from="1600518771905" duration="13762000" />
-      <workItem from="1600594314933" duration="2211000" />
+      <workItem from="1600594314933" duration="18533000" />
     </task>
     <task id="LOCAL-00001" summary="Audio processors">
       <created>1597684295436</created>
@@ -423,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600510949426</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Spline road">
+      <created>1600596846408</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1600596846408</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +461,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Playlist loading" />
     <MESSAGE value="Environment Preview" />
     <MESSAGE value="a lot of stuff is better now" />
     <MESSAGE value="well, i did at least something" />
@@ -470,7 +485,8 @@
     <MESSAGE value="The chunk road works a bit better, but still jittery" />
     <MESSAGE value="Musical road" />
     <MESSAGE value="A minor road improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="A minor road improvements" />
+    <MESSAGE value="Spline road" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spline road" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="161" key="#Plugins" timestamp="1599830903078">
@@ -485,18 +501,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="762" y="200" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598186065885" />
-    <state x="796" y="209" key="RollbackChangesDialog" timestamp="1600531786067">
+    <state x="796" y="209" key="RollbackChangesDialog" timestamp="1600600690882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="796" y="209" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600531786067" />
+    <state x="796" y="209" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600600690882" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1600262580307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600262580307" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600510953455">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600596851792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600510953455" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600596851792" />
     <state x="361" y="156" width="1306" height="1027" key="dock-window-1" timestamp="1598010173923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

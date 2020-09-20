@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using General.AudioTracks;
 using General.AudioTracks.Analyzing;
@@ -36,28 +37,6 @@ namespace Game.CPURoad
         {
             List<float> averages = _track.AnalyzedAudio.Averages;
 
-            int blankCount = 0;
-            
-            for (int i = 0; i < averages.Count; i++)
-            {
-                float average = averages[i];
-
-                if (average == 0f)
-                {
-                    blankCount++;
-                }
-                else
-                {
-                    blankCount = 0;
-                }
-
-                if (blankCount >= 200)
-                {
-                    averages.RemoveRange(i - 200, averages.Count - i - 200);
-                    break;
-                }
-            }
-
             float timeStep = 1 / 60f;
             float time = 0f;
             float distance = 0f;
@@ -73,18 +52,20 @@ namespace Game.CPURoad
 
                     time += timeStep;
                 }
-                catch
+                catch (Exception e)
                 {
-                    //ignore
+                    Debug.Log(e);
+                    break;
                 }
             }
 
             _length = Mathf.FloorToInt(distance * 20f);
 
+            int storeEvery = 15;
             float threshold = 0.55f;
-            float step = 0.4f;
+            float step = 0.1f;
             float height = 0f;
-            bool? direction = null;
+            float direction = 0f;
             
             for (int i = 0; i < _length; i++)
             {
@@ -94,27 +75,24 @@ namespace Game.CPURoad
 
                     float average = averages[index];
 
-                    if (average > threshold)
+                    if (average >= threshold)
                     {
-                        height -= step * Mathf.Lerp(0.5f, 1f, average.Remap(threshold, 1f, 0f, 1f));
-
-                        if (direction == null || direction == true)
-                        {
-                            _points.Add(new Vector2(i, height));
-                        }
-                        
-                        direction = false;
+                        direction 
+                            = -1f * 
+                              Mathf.Lerp(0.5f, 1f, average.Remap(threshold, 1f, 0f, 1f));
                     }
                     else
                     {
-                        height += step * Mathf.Lerp(0.5f, 1f, average.Remap(0f, threshold, 0f, 1f));
-                       
-                        if (direction == null || direction == false)
-                        {
-                            _points.Add(new Vector2(i, height));
-                        }
-                        
-                        direction = true;
+                        direction 
+                            = 1f * 
+                              Mathf.Lerp(0f, 1f, average.Remap(0f, threshold, 0f, 1f));
+                    }
+                    
+                    height += step * direction;
+
+                    if (i == 0 || i == _length - 1 || i % storeEvery == 0)
+                    {
+                        _points.Add(new Vector2(i, height));
                     }
                 }
                 catch
@@ -129,7 +107,7 @@ namespace Game.CPURoad
             for (int i = 0; i < _points.Count; i++)
             {
                 EnforceMode(i);
-                _points[i] = new Vector2(_points[i].x, Mathf.InverseLerp(min, max, _points[i].y));
+                //_points[i] = new Vector2(_points[i].x, Mathf.InverseLerp(min, max, _points[i].y));
             }
             
             Debug.Log($"points: {_points.Count}");
@@ -215,7 +193,7 @@ namespace Game.CPURoad
         
         public float GetHeight(Vector3 position)
         {
-            return GetHeight(position.z) * 800f;
+            return GetHeight(position.z);
         }
     }
 }

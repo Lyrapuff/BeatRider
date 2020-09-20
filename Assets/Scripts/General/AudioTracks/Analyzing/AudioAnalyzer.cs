@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using System.Threading.Tasks;
@@ -92,6 +91,30 @@ namespace General.AudioTracks.Analyzing
                     SetAverage(i, bands.Skip(analyzedAudio.Skip).Take(analyzedAudio.Take).Average());
                 });
 
+                int emptyCount = 0;
+
+                for (int i = 0; i < _averages.Length; i++)
+                {
+                    if (_averages[i] == 0f)
+                    {
+                        emptyCount++;
+                    }
+                    else
+                    {
+                        emptyCount = 0;
+                    }
+
+                    if (emptyCount >= 300)
+                    {
+                        int index = i - emptyCount;
+
+                        Array.Resize(ref _averages, index + 1);
+                        Array.Resize(ref _bands, index + 1);
+                        
+                        break;
+                    }
+                }
+                
                 float min = _averages.Min();
                 float max = _averages.Max();
                 

@@ -26,7 +26,7 @@ namespace Entities.Movement
                 return;
             }
             
-            float speed = _audioAnalyzer.Speed * 22f + _speed;
+            float speed = _audioAnalyzer.Speed * 20f + _speed;
             transform.position += -Vector3.forward * (speed * Time.deltaTime);
         }
     }
