@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using General.Behaviours;
 using UnityEngine;
 
@@ -16,18 +17,29 @@ namespace Game.CPURoad
         private void Start()
         {
             _roadHeight = GetComponent<RoadHeight>();
+
+            Vector4[] points = _roadHeight.GetPoints().Select(x => new Vector4(x.x, x.y, 0f, 0f)).ToArray();
+            float length = _roadHeight.GetLength();
             
             foreach (Material material in _materials)
             {
-                material.SetFloat("_Max", _roadHeight.Max);
-                material.SetFloat("_Min", _roadHeight.Min);
+                material.SetVectorArray("_Points", points);
+                material.SetFloat("_Count", points.Length);
+                material.SetFloat("_Length", length);
             }
             
-            GenerateForward();
+            //GenerateForward();
         }
 
         private void Update()
         {
+            foreach (Material material in _materials)
+            {
+                material.SetFloat("_Offset", _roadHeight.Offset);
+            }
+            
+            return;
+            
             if (_roadHeight.Offset > 500f * _chunkIndex)
             {
                 GenerateForward();

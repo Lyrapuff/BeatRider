@@ -11,20 +11,17 @@ namespace Game.CPURoad
     public class RoadHeight : ExtendedBehaviour
     {
         public float Offset { get; private set; }
-        public float Max { get; private set; }
-        public float Min { get; private set; }
-        
+
         private IAudioAnalyzer _audioAnalyzer;
-        private float _seed;
         private AudioTrack _track;
-        private float[] _road;
+        private List<Vector2> _points = new List<Vector2>();
+        private int _length;
         
         private void Awake()
         {
             _audioAnalyzer = FindComponentOfInterface<IAudioAnalyzer>();
             
             IStorage storage = FindComponentOfInterface<IStorage>();
-            _seed = storage.Get<float>("Game/Seed");
             _track = storage.Get<AudioTrack>("Game/Track");
             
             Generate();
@@ -82,103 +79,143 @@ namespace Game.CPURoad
                 }
             }
 
-            int length = Mathf.FloorToInt(distance * 20f);
+            _length = Mathf.FloorToInt(distance * 20f);
 
             float threshold = 0.55f;
             float step = 0.4f;
-            
-            _road = new float[length];
             float height = 0f;
-
-            for (int i = 0; i < length; i++)
+            bool? direction = null;
+            
+            for (int i = 0; i < _length; i++)
             {
                 try
                 {
-                    int index = Mathf.FloorToInt(((float) i).Remap(0, length, 0, averages.Count));
+                    int index = Mathf.FloorToInt(((float) i).Remap(0, _length, 0, averages.Count));
 
                     float average = averages[index];
 
                     if (average > threshold)
                     {
                         height -= step * Mathf.Lerp(0.5f, 1f, average.Remap(threshold, 1f, 0f, 1f));
+
+                        if (direction == null || direction == true)
+                        {
+                            _points.Add(new Vector2(i, height));
+                        }
+                        
+                        direction = false;
                     }
                     else
                     {
                         height += step * Mathf.Lerp(0.5f, 1f, average.Remap(0f, threshold, 0f, 1f));
+                       
+                        if (direction == null || direction == false)
+                        {
+                            _points.Add(new Vector2(i, height));
+                        }
+                        
+                        direction = true;
                     }
-
-                    _road[i] = height;
                 }
                 catch
                 {
                     //ignore
                 }
             }
+
+            float max = _points.Select(x => x.y).Max();
+            float min = _points.Select(x => x.y).Min();
             
-            int severity = 20;
-            
-            for (int i = 1; i < _road.Length; i++)
+            for (int i = 0; i < _points.Count; i++)
             {
-                int start = i - severity > 0 ? i - severity : 0;
-                int end = i + severity < _road.Length ? i + severity : _road.Length;
-
-                float sum = 0;
-
-                for (int j = start; j < end; j++)
-                {
-                    sum += _road[j];
-                }
-
-                float avg = sum / (end - start);
-                
-                _road[i] = avg;
-            }
-
-            Max = _road.Max();
-            Min = _road.Min();
-            
-            Debug.Log($"max: {Max}");
-            Debug.Log($"min: {Min}");
-            
-            for (int i = 0; i < _road.Length; i++)
-            {
-                _road[i] = Mathf.InverseLerp(Min, Max, _road[i]);
+                EnforceMode(i);
+                _points[i] = new Vector2(_points[i].x, Mathf.InverseLerp(min, max, _points[i].y));
             }
             
-            float[] _smoothRoad = new float[length * 10];
-            
-            _smoothRoad[0] = _road[0];
-            _smoothRoad[_smoothRoad.Length - 1] = _road[_road.Length - 1];
-
-            for (int i = 1; i < _smoothRoad.Length - 1; i++)
-            {
-                float jd = ((float)i * (float)(_road.Length - 1) / (float)(_smoothRoad.Length - 1));
-                int j = (int)jd;
-                _smoothRoad[i] = _road[j] + (_road[j + 1] - _road[j]) * (jd - (float)j);
-            }
-            
-            _road = _smoothRoad;
+            Debug.Log($"points: {_points.Count}");
         }
         
-        public float GetHeight(float point)
+        private Vector2 GetPoint (Vector2 p0, Vector2 p1, Vector2 p2, Vector2 p3, float t)
         {
-            int index = Mathf.CeilToInt((point + Offset) * 10f);
+            t = Mathf.Clamp01(t);
+            
+            float oneMinusT = 1f - t;
+            
+            return
+                oneMinusT * oneMinusT * oneMinusT * p0 +
+                3f * oneMinusT * oneMinusT * t * p1 +
+                3f * oneMinusT * t * t * p2 +
+                t * t * t * p3;
+        }
 
-            try
+        private void EnforceMode(int index)
+        {
+            int middleIndex = (index - 1) / 3;
+
+            if (middleIndex == 0 || middleIndex == _points.Count - 1)
             {
-                return _road[index];
+                return;
             }
-            catch
+            
+            middleIndex *= 3;
+            
+            int fixedIndex;
+            int enforcedIndex;
+
+            if (index <= middleIndex)
             {
-                return _road[_road.Length - 1];
+                fixedIndex = middleIndex - 1;
+                enforcedIndex = middleIndex + 1;
+            }
+            else
+            {
+                fixedIndex = middleIndex + 1;
+                enforcedIndex = middleIndex - 1;
             }
 
-            //return Mathf.PerlinNoise((point + Offset + _seed) / 214.253f, 0.245f);
+            Vector2 middle = _points[middleIndex];
+            Vector2 enforcedTangent = middle - _points[fixedIndex];
+            _points[enforcedIndex] = middle + enforcedTangent;
+        }
+        
+        public float GetHeight(float z)
+        {
+            float position = z + Offset;
+
+            int i;
+            float t = position / _length;
+
+            if (t >= 1f)
+            {
+                t = 1f;
+                i = _points.Count - 4;
+            }
+            else
+            {
+                t = Mathf.Clamp01(t) * (_points.Count - 1) / 3;
+                i = (int) t;
+                t -= i;
+                i *= 3;
+            }
+
+            Vector2 value = GetPoint(_points[i], _points[i + 1], _points[i + 2], _points[i + 3], t);
+            
+            return value.y;
+        }
+
+        public IEnumerable<Vector2> GetPoints()
+        {
+            return _points.ToArray();
+        }
+
+        public float GetLength()
+        {
+            return _length;
         }
         
         public float GetHeight(Vector3 position)
         {
-            return GetHeight(position.z) * 1600f;
+            return GetHeight(position.z) * 800f;
         }
     }
 }

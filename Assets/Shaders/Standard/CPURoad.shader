@@ -13,6 +13,7 @@
         Pass
         {
             CGPROGRAM
+            
             #pragma vertex vert
             #pragma fragment frag
 
@@ -32,10 +33,21 @@
 
             fixed4 _Color;
             float _Offset;
-            float _Max;
-            float _Min;
             
-            float _RoadChunk[1000];
+            uniform float4 _Points[1000];
+            float _Count;
+            float _Length;
+            
+            float getPoint(float p0, float p1, float p2, float p3, float t)
+            {
+                float oneMinusT = 1 - t;
+                
+                return
+                    oneMinusT * oneMinusT * oneMinusT * p0 +
+                    3 * oneMinusT * oneMinusT * t * p1 +
+                    3 * oneMinusT * t * t * p2 +
+                    t * t * t * p3;
+            }
             
             v2f vert (appdata v)
             {
@@ -43,11 +55,27 @@
 
                 float3 worldPos = mul(unity_ObjectToWorld, v.vertex);
                 
-                int index = ceil(worldPos.z + _Offset);
+                float position = worldPos.z + _Offset;
                 
-                float height = _RoadChunk[index];
+                int i = 0;
+                float t = position / _Length;
                 
-                v.vertex.y = height * 1600;
+                if (t > 1)
+                {
+                    t = 1;
+                    i = _Count - 4;
+                }
+                else
+                {
+                    t = t * (_Count - 1) / 3;
+                    i = (int) t;
+                    t = t - i;
+                    i = i * 3;
+                }
+                
+                float height = getPoint(_Points[i].y, _Points[i + 1].y, _Points[i + 2].y, _Points[i + 3].y, t);
+                
+                v.vertex.y = height * 800;
                 
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 
@@ -58,6 +86,7 @@
             {
                 return _Color;
             }
+            
             ENDCG
         }
     }
