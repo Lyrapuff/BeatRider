@@ -1,4 +1,5 @@
 ﻿using General.AudioTracks;
+using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using UnityEngine;
 
@@ -10,24 +11,24 @@ namespace Game.ObjectManagement.Spawning
         [SerializeField] private float _interval;
         
         private IObjectSpawner _spawner;
-        private SpectrumReader _spectrumReader;
+        private IAudioAnalyzer _audioAnalyzer;
 
-        private float _time;
+        private float _distance;
 
         private void Awake()
         {
             _spawner = GetComponent<IObjectSpawner>();
-            _spectrumReader = FindObjectOfType<SpectrumReader>();
+            _audioAnalyzer = FindComponentOfInterface<IAudioAnalyzer>();
         }
 
         private void Update()
         {
-            _time += Time.deltaTime * _spectrumReader.Speed;
+            _distance += Time.deltaTime * _audioAnalyzer.Speed;
 
-            if (_time >= _interval)
+            if (_distance >= _interval)
             {
                 _spawner.Spawn();
-                _time = 0f;
+                _distance = 0f;
             }
         }
     }

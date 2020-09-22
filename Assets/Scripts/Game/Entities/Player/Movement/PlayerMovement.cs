@@ -1,4 +1,5 @@
 ﻿using Game.Services;
+using General.AudioTracks.Analyzing;
 using General.Behaviours;
 using UnityEngine;
 
@@ -8,7 +9,7 @@ namespace Entities.Player.Movement
     public class PlayerMovement : ExtendedBehaviour
     {
         [SerializeField] private float _speed;
-        
+
         private IPlayerInput _input;
         private IPause _pause;
 

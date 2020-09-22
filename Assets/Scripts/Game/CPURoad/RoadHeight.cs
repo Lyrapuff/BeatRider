@@ -30,84 +30,66 @@ namespace Game.CPURoad
 
         private void Update()
         {
-            Offset += Time.deltaTime * _audioAnalyzer.Speed * 20f;
+            Offset += Time.deltaTime * _audioAnalyzer.Speed;
         }
 
         private void Generate()
         {
             List<float> averages = _track.AnalyzedAudio.Averages;
 
-            float timeStep = 1 / 60f;
+            float timeStep = 1 / 10f;
             float time = 0f;
             float distance = 0f;
             float lengthPerSample = _track.AudioClip.length / _track.AudioClip.samples;
-
-            while (time < _track.AudioClip.length)
-            {
-                try
-                {
-                    int index = Mathf.FloorToInt(time / lengthPerSample) / 1024 / _track.AnalyzedAudio.StoreEvery;
-
-                    distance += (averages[index] * 6f + 1f) * timeStep;
-
-                    time += timeStep;
-                }
-                catch (Exception e)
-                {
-                    Debug.Log(e);
-                    break;
-                }
-            }
-
-            _length = Mathf.FloorToInt(distance * 20f);
-
+            
             int storeEvery = 15;
             float threshold = 0.55f;
-            float step = 0.1f;
+            float step = 0.2f;
             float height = 0f;
             float direction = 0f;
             
-            for (int i = 0; i < _length; i++)
+
+            while (time < _track.AudioClip.length)
             {
-                try
+                int index = Mathf.FloorToInt(time / lengthPerSample) / 1024 / _track.AnalyzedAudio.StoreEvery;
+
+                if (index >= averages.Count)
                 {
-                    int index = Mathf.FloorToInt(((float) i).Remap(0, _length, 0, averages.Count));
-
-                    float average = averages[index];
-
-                    if (average >= threshold)
-                    {
-                        direction 
-                            = -1f * 
-                              Mathf.Lerp(0.5f, 1f, average.Remap(threshold, 1f, 0f, 1f));
-                    }
-                    else
-                    {
-                        direction 
-                            = 1f * 
-                              Mathf.Lerp(0f, 1f, average.Remap(0f, threshold, 0f, 1f));
-                    }
-                    
-                    height += step * direction;
-
-                    if (i == 0 || i == _length - 1 || i % storeEvery == 0)
-                    {
-                        _points.Add(new Vector2(i, height));
-                    }
+                    break;
                 }
-                catch
+
+                float average = averages[index];
+                
+                if (average >= threshold)
                 {
-                    //ignore
+                    direction
+                        = -1f *
+                          Mathf.Lerp(0.5f, 1f, average.Remap(threshold, 1f, 0f, 1f));
                 }
+                else
+                {
+                    direction
+                        = 1f *
+                          Mathf.Lerp(0f, 1f, average.Remap(0f, threshold, 0f, 1f));
+                }
+
+                height += step * direction;
+                
+                if (distance == 0f || (int)(time / timeStep) % storeEvery == 0)
+                {
+                    _points.Add(new Vector2(distance, height));
+                }
+                
+                distance += (average * 160f + 1f) * timeStep;
+
+                time += timeStep;
             }
-
-            float max = _points.Select(x => x.y).Max();
-            float min = _points.Select(x => x.y).Min();
+            
+            _points.Add(new Vector2(distance, height));
             
             for (int i = 0; i < _points.Count; i++)
             {
                 EnforceMode(i);
-                //_points[i] = new Vector2(_points[i].x, Mathf.InverseLerp(min, max, _points[i].y));
             }
             
             Debug.Log($"points: {_points.Count}");

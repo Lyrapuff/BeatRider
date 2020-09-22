@@ -25,7 +25,7 @@ namespace Game.Road
         {
             Vector3 position = transform.position;
             
-            float height = _roadMovement.GetHeight(position);
+            float height = _roadMovement.GetHeight(position.z);
             
             position.y = Mathf.Lerp(position.y, height, 0.5f);
             transform.position = position + _offset;
@@ -36,10 +36,10 @@ namespace Game.Road
             Vector3 currentPosition = transform.position;
             Vector3 futurePosition = currentPosition;
             
-            float cPosition = _roadMovement.GetHeight(currentPosition);
+            float cPosition = _roadMovement.GetHeight(currentPosition.z);
             currentPosition.y = cPosition;
             
-            float fPosition = _roadMovement.GetHeight(currentPosition + Vector3.one * _accuracy);
+            float fPosition = _roadMovement.GetHeight(currentPosition.z + _accuracy);
             futurePosition.y = fPosition;
             futurePosition.z += 0.2f;
 
