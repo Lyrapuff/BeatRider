@@ -44,7 +44,7 @@ namespace Game.CPURoad
             float distance = 0f;
             float lengthPerSample = _track.AudioClip.length / _track.AudioClip.samples;
             
-            int storeEvery = 5;
+            int storeEvery = 3;
             float threshold = 0.55f;
             float step = 1.3f;
             float height = 0f;
@@ -141,15 +141,21 @@ namespace Game.CPURoad
         
         public float GetHeight(float z)
         {
+            float position = Offset + z;
             float t = 0f;
 
-            for (int j = 0; j < _points.Count; j++)
+            for (int j = 0; j < _points.Count - 1; j++)
             {
                 Vector2 p0 = _points[j];
+                Vector2 p1 = _points[j + 1];
 
-                if (Offset + z >= p0.x)
+                if (position >= p0.x)
                 {
-                    t = (float) j / _points.Count;
+                    float i0 = (float) j / _points.Count;
+                    float i1 = (float) (j + 1) / _points.Count;
+                    float time = (p1.x - position) / (p1.x - p0.x);
+
+                    t = Mathf.Lerp(i1, i0, time);
                 }
             }
 

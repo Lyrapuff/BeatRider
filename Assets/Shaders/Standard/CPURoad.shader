@@ -54,17 +54,22 @@
 
                 float3 worldPos = mul(unity_ObjectToWorld, v.vertex);
                 
-                float4 current = float4(0, 0, 0, 0);
+                float position = worldPos.z + _Offset;
                 
                 float t = 0;
                 
-                for (int j = 0; j < _Count; j++)
+                for (int j = 0; j < _Count - 1; j++)
                 {
                     float4 p0 = _Points[j];
+                    float4 p1 = _Points[j + 1];
                     
-                    if (worldPos.z + _Offset >= p0.x)
+                    if (position >= p0.x)
                     {
-                        t = (float) j / _Count;
+                        float i0 = (float) j / _Count;
+                        float i1 = (float) (j + 1) / _Count;
+                        float time = (p1.x - position) / (p1.x - p0.x);
+                        
+                        t = lerp(i1, i0, time);
                     }
                 }
                 
