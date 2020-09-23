@@ -14,13 +14,15 @@ namespace Game.CPURoad
         public float Offset { get; private set; }
 
         private IAudioAnalyzer _audioAnalyzer;
+        private AudioSource _audioSource;
         private AudioTrack _track;
         private List<Vector2> _points = new List<Vector2>();
-        private int _length;
+        private float _length;
         
         private void Awake()
         {
             _audioAnalyzer = FindComponentOfInterface<IAudioAnalyzer>();
+            _audioSource = FindObjectOfType<AudioSource>();
             
             IStorage storage = FindComponentOfInterface<IStorage>();
             _track = storage.Get<AudioTrack>("Game/Track");
@@ -42,12 +44,11 @@ namespace Game.CPURoad
             float distance = 0f;
             float lengthPerSample = _track.AudioClip.length / _track.AudioClip.samples;
             
-            int storeEvery = 15;
+            int storeEvery = 5;
             float threshold = 0.55f;
-            float step = 0.2f;
+            float step = 1.3f;
             float height = 0f;
             float direction = 0f;
-            
 
             while (time < _track.AudioClip.length)
             {
@@ -84,8 +85,8 @@ namespace Game.CPURoad
 
                 time += timeStep;
             }
-            
-            _points.Add(new Vector2(distance, height));
+
+            _length = distance;
             
             for (int i = 0; i < _points.Count; i++)
             {
@@ -140,11 +141,20 @@ namespace Game.CPURoad
         
         public float GetHeight(float z)
         {
-            float position = z + Offset;
+            float t = 0f;
+
+            for (int j = 0; j < _points.Count; j++)
+            {
+                Vector2 p0 = _points[j];
+
+                if (Offset + z >= p0.x)
+                {
+                    t = (float) j / _points.Count;
+                }
+            }
 
             int i;
-            float t = position / _length;
-
+            
             if (t >= 1f)
             {
                 t = 1f;

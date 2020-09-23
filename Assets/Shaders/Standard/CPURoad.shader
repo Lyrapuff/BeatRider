@@ -54,10 +54,21 @@
 
                 float3 worldPos = mul(unity_ObjectToWorld, v.vertex);
                 
-                float position = worldPos.z + _Offset;
+                float4 current = float4(0, 0, 0, 0);
+                
+                float t = 0;
+                
+                for (int j = 0; j < _Count; j++)
+                {
+                    float4 p0 = _Points[j];
+                    
+                    if (worldPos.z + _Offset >= p0.x)
+                    {
+                        t = (float) j / _Count;
+                    }
+                }
                 
                 int i = 0;
-                float t = position / _Length;
                 
                 if (t > 1)
                 {
