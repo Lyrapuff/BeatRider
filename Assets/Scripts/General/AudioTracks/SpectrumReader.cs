@@ -8,7 +8,7 @@ namespace General.AudioTracks
     [RequireComponent(typeof(AudioSource))]
     public class SpectrumReader : ExtendedBehaviour, IAudioAnalyzer
     {
-        public float SpeedMultiplier { get; set; } = 160f;
+        public float SpeedMultiplier { get; set; } = 200f;
         public float Speed { get; private set; }
         public float PureSpeed { get; private set; }
         public float[] Band { get; private set;}

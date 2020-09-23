@@ -56,22 +56,26 @@
                 
                 float position = worldPos.z + _Offset;
                 
-                float t = 0;
+                int j;
+                float4 p0 = float4(0, 0, 0, 0);
+                float4 p1 = float4(0, 0, 0, 0);
                 
-                for (int j = 0; j < _Count - 1; j++)
+                for (j = 0; j < _Count - 1; j++)
                 {
-                    float4 p0 = _Points[j];
-                    float4 p1 = _Points[j + 1];
-                    
-                    if (position >= p0.x)
+                    if (position < p1.x)
                     {
-                        float i0 = (float) j / _Count;
-                        float i1 = (float) (j + 1) / _Count;
-                        float time = (p1.x - position) / (p1.x - p0.x);
-                        
-                        t = lerp(i1, i0, time);
+                        break;
                     }
+                
+                    p0 = _Points[j];
+                    p1 = _Points[j + 1];
                 }
+                
+                float i0 = (float) j / _Count;
+                float i1 = (float) (j + 1) / _Count;
+                float time = (p1.x - position) / (p1.x - p0.x);
+                
+                float t = lerp(i1, i0, time);
                 
                 int i = 0;
                 

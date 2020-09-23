@@ -44,11 +44,12 @@ namespace Game.CPURoad
             float distance = 0f;
             float lengthPerSample = _track.AudioClip.length / _track.AudioClip.samples;
             
-            int storeEvery = 3;
             float threshold = 0.55f;
             float step = 1.3f;
             float height = 0f;
             float direction = 0f;
+
+            float distanceFromLastPoint = 0f;
 
             while (time < _track.AudioClip.length)
             {
@@ -63,29 +64,33 @@ namespace Game.CPURoad
                 
                 if (average >= threshold)
                 {
-                    direction
-                        = -1f *
-                          Mathf.Lerp(0.5f, 1f, average.Remap(threshold, 1f, 0f, 1f));
+                    direction = -1f *
+                                Mathf.Lerp(0.5f, 1f, average.Remap(threshold, 1f, 0f, 1f));
                 }
                 else
                 {
                     direction
-                        = 1f *
-                          Mathf.Lerp(0f, 1f, average.Remap(0f, threshold, 0f, 1f));
+                        = 1f * Mathf.Lerp(0.5f, 1f, average.Remap(0f, threshold, 0f, 1f));
                 }
 
                 height += step * direction;
                 
-                if (distance == 0f || (int)(time / timeStep) % storeEvery == 0)
+                if (distanceFromLastPoint >= 35f)
                 {
                     _points.Add(new Vector2(distance, height));
+                    distanceFromLastPoint = 0f;
                 }
+
+                float movement = (average * 200f + 1f) * timeStep;
                 
-                distance += (average * 160f + 1f) * timeStep;
+                distance += movement;
+                distanceFromLastPoint += movement;
 
                 time += timeStep;
             }
 
+            _points.Add(new Vector2(distance, height));
+            
             _length = distance;
             
             for (int i = 0; i < _points.Count; i++)
@@ -142,22 +147,27 @@ namespace Game.CPURoad
         public float GetHeight(float z)
         {
             float position = Offset + z;
-            float t = 0f;
+            
+            int j;
+            Vector2 p0 = Vector2.zero;
+            Vector2 p1 = Vector2.zero;
 
-            for (int j = 0; j < _points.Count - 1; j++)
+            for (j = 0; j < _points.Count - 1; j++)
             {
-                Vector2 p0 = _points[j];
-                Vector2 p1 = _points[j + 1];
-
-                if (position >= p0.x)
+                if (position < p1.x)
                 {
-                    float i0 = (float) j / _points.Count;
-                    float i1 = (float) (j + 1) / _points.Count;
-                    float time = (p1.x - position) / (p1.x - p0.x);
-
-                    t = Mathf.Lerp(i1, i0, time);
+                    break;
                 }
+                
+                p0 = _points[j];
+                p1 = _points[j + 1];
             }
+
+            float i0 = (float) j / _points.Count;
+            float i1 = (float) (j + 1) / _points.Count;
+            float time = (p1.x - position) / (p1.x - p0.x);
+
+            float t = Mathf.Lerp(i1, i0, time);
 
             int i;
             
