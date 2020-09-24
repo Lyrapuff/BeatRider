@@ -19,16 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="Road is now synchronized with music">
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="Road is now synchronized with music and improved xD">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Environments/Forest/CloudsOffset.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Environments/Forest/CloudsOffset.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CPUGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CPUGround.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CPURoad.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CPURoad.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadHeight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadHeight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/FakeBoundingBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/FakeBoundingBox.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Standard/CPURoad.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Standard/CPURoad.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioSkyColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioSkyColor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Camera/FollowPlayerCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Camera/FollowPlayerCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/MaterialColorEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/MaterialColorEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Standard/CPURoad.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Standard/CPURoad.shader.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/FloatExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadHeight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Environments/Forest/CloudsOffset.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/RoadGeneratorProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,14 +67,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/TimedSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Road/RoadConnector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Standard/RoadWave.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Standard/CPURoad.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AnalyzedAudio.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Compute/RoadGenerator.compute" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/IAudioAnalyzer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/Storage/Storage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Standard/Clouds.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/NullAudioAnalyzer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/MaterialColorEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioSkyColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FftSharp/SampleData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioScale.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/SpeedOverTime.cs" root0="FORCE_HIGHLIGHTING" />
@@ -76,11 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackHistory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/UI/ProgressSlider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/VFXColorEffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/ImageColorEffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioSkyColor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackAnalyzeProcessor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachineSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/IObjectSpawner.cs" />
@@ -115,7 +120,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/NullAudioAnalyzer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/IAudioAnalyzer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/FloatExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Camera/FollowPlayerCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/FFT/B83.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Player/Movement/PlayerMovement.cs" />
@@ -127,6 +131,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadHeight.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/FakeBoundingBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/CloudsMaster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/MaterialColorEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Environments/Forest/CloudsOffset.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Camera/FollowPlayerCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/Standard/Clouds.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioSkyColor.cs" />
       </list>
     </option>
   </component>
@@ -248,7 +258,8 @@
       <workItem from="1600758708565" duration="415000" />
       <workItem from="1600759428564" duration="7291000" />
       <workItem from="1600771275275" duration="7908000" />
-      <workItem from="1600847319323" duration="16547000" />
+      <workItem from="1600847319323" duration="16567000" />
+      <workItem from="1600956071220" duration="13283000" />
     </task>
     <task id="LOCAL-00001" summary="Audio processors">
       <created>1597684295436</created>
@@ -474,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600878623755</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Road is now synchronized with music and improved xD">
+      <created>1600885267889</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1600885267889</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +514,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="TrackCarousel" />
     <MESSAGE value="Working game start" />
     <MESSAGE value="Parallel song analyzing" />
     <MESSAGE value="Removed some old systems" />
@@ -521,7 +538,8 @@
     <MESSAGE value="Road improvements" />
     <MESSAGE value="new road sampling (jittery)" />
     <MESSAGE value="Road is now synchronized with music" />
-    <option name="LAST_COMMIT_MESSAGE" value="Road is now synchronized with music" />
+    <MESSAGE value="Road is now synchronized with music and improved xD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Road is now synchronized with music and improved xD" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="161" key="#Plugins" timestamp="1599830903078">
@@ -548,10 +566,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600765983864" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600878627720">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600885270207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600878627720" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600885270207" />
     <state x="361" y="156" width="1306" height="1027" key="dock-window-1" timestamp="1598010173923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

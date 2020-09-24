@@ -29,7 +29,7 @@ namespace General.AudioTracks.Effects
         {
             foreach (MaterialSetting setting in _settings)
             {
-                setting.Material.SetColor(setting.PropertyName, color);
+                setting.Material.SetColor(setting.PropertyName, color * setting.Multiplier);
             }
         }
     }
@@ -39,5 +39,6 @@ namespace General.AudioTracks.Effects
     {
         public string PropertyName;
         public Material Material;
+        public float Multiplier;
     }
 }

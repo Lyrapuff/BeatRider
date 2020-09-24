@@ -1,4 +1,6 @@
-﻿using General.Behaviours;
+﻿using System;
+using Game.CPURoad;
+using General.Behaviours;
 using UnityEngine;
 
 namespace Game.Camera
@@ -10,7 +12,13 @@ namespace Game.Camera
         [SerializeField] private Transform _player;
         [SerializeField] private float _xSmoothing;
 
+        private RoadHeight _roadHeight;
         private Vector3 _xVelocity = Vector3.one;
+
+        private void Start()
+        {
+            _roadHeight = FindObjectOfType<RoadHeight>();
+        }
 
         private void Update()
         {
