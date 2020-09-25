@@ -86,8 +86,8 @@ namespace Menu.PCUI.AudioTracks.Processing
                 _playlist.Add(track);
                 
                 _storage.Store("Game/Track", track);
-                
                 _storage.Store("Game/Seed", Random.Range(-100000f, 100000f));
+                _storage.Store("Game/Road", _context.Road);
                 
                 _windowFactory.CloseAll();
                 _windowFactory.Open(_configurationWindow);

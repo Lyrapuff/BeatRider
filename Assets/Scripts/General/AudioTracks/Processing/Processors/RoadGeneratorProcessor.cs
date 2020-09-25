@@ -1,7 +1,5 @@
 ﻿using System;
-using System.IO;
-using System.Linq;
-using System.Runtime.Serialization.Formatters.Binary;
+using General.AudioTracks.RoadGeneration;
 using UnityEngine;
 
 namespace General.AudioTracks.Processing.Processors
@@ -18,36 +16,12 @@ namespace General.AudioTracks.Processing.Processors
                 return;
             }
 
-            if (!File.Exists(Context.Path + "/road.bytes"))
-            {
-                float[] road = new float[Mathf.FloorToInt(Context.AnalyzedAudio.Averages.Sum())];
+            RoadGenerator roadGenerator = new RoadGenerator();
+            Road road = roadGenerator.Generate(Context.AnalyzedAudio, (float) Context.Samples / Context.Frequency,
+                Context.Samples);
 
-                for (int i = 0; i < road.Length; i++)
-                {
-                    road[i] = Mathf.PerlinNoise(i / 211.42f, 0.53f);
-                }
-
-                Context.Road = road;
+            Context.Road = road;
                 
-                BinaryFormatter formatter = new BinaryFormatter();
-
-                using (FileStream file = new FileStream(Context.Path + "/road.bytes", FileMode.Create))
-                {
-                    formatter.Serialize(file, road);
-                }
-            }
-            else
-            {
-                BinaryFormatter formatter = new BinaryFormatter();
-                
-                using (StreamReader reader = new StreamReader(Context.Path + "/road.bytes"))
-                {
-                    float[] road = formatter.Deserialize(reader.BaseStream) as float[];
-
-                    Context.Road = road;
-                }
-            }
-            
             OnProcessed?.Invoke(true);
         }
     }

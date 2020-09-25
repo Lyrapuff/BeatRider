@@ -1,7 +1,7 @@
 ﻿using Game.CPURoad;
 using UnityEngine;
 
-namespace Game.Road
+namespace Game.CPURoad
 {
     public class RoadConnector : MonoBehaviour
     {

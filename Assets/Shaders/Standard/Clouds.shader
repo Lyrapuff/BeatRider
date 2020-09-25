@@ -50,6 +50,17 @@
                 return o;
             }
 
+            float raymarch (float3 position)
+            {
+                float3 offset = position;
+                float3 direction = normalize(position - _WorldSpaceCameraPos); 
+                
+                for (int i = 0; i < 10; i++)
+                {
+                    
+                }
+            }
+
             fixed4 frag (v2f i) : SV_Target
             {
                 float density = snoise(float3(i.hitPos.x, 0, i.hitPos.z + _Offset * 0.6) / 100);

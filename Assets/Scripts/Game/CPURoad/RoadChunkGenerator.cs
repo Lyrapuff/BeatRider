@@ -1,5 +1,7 @@
 ﻿using System.Linq;
+using General.AudioTracks.RoadGeneration;
 using General.Behaviours;
+using General.Storage;
 using UnityEngine;
 
 namespace Game.CPURoad
@@ -9,32 +11,22 @@ namespace Game.CPURoad
     {
         [SerializeField] private Material[] _materials;
 
-        private RoadHeight _roadHeight;
-        private float[] _roadBuffer;
-        private int _chunkIndex;
-        private Vector4[] _points;
-        private float _length;
+        private Road _road;
+        
+        private static readonly int Count = Shader.PropertyToID("_Count");
+        private static readonly int Length = Shader.PropertyToID("_Length");
+        private static readonly int Points = Shader.PropertyToID("_Points");
 
-        private void Start()
+        private void Awake()
         {
-            _roadHeight = GetComponent<RoadHeight>();
-
-            _points = _roadHeight.GetPoints().Select(x => new Vector4(x.x, x.y, 0f, 0f)).ToArray();
-            _length = _roadHeight.GetLength();
+            IStorage storage = FindComponentOfInterface<IStorage>();
+            _road = storage.Get<Road>("Game/Road");
             
             foreach (Material material in _materials)
             {
-                material.SetFloat("_Count", _points.Length);
-                material.SetFloat("_Length", _length);
-                material.SetVectorArray("_Points", _points);
-            }
-        }
-
-        private void Update()
-        {
-            foreach (Material material in _materials)
-            {
-                material.SetFloat("_Offset", _roadHeight.Offset);
+                material.SetFloat(Count, _road.Points.Count);
+                material.SetFloat(Length, _road.Length);
+                material.SetVectorArray(Points, _road.Points.Select(x => new Vector4(x.x, x.y, 0f, 0f)).ToArray());
             }
         }
     }
