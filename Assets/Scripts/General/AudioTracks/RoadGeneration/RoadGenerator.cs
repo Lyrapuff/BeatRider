@@ -20,7 +20,7 @@ namespace General.AudioTracks.RoadGeneration
             float threshold = 0.55f;
             float step = 1.3f;
             float height = 0f;
-            float direction = 0f;
+            float direction;
 
             float distanceFromLastPoint = 0f;
 

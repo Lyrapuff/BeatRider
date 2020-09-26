@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace General.AudioTracks.Processing.Processors
 {
+    [Serializable]
     public abstract class TrackProcessor : ScriptableObject
     {
         public ProcessingContext Context { get; set; }

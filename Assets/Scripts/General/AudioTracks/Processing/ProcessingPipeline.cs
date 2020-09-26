@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using General.AudioTracks.Processing.Processors;
 using UnityEngine;
@@ -10,7 +11,7 @@ namespace General.AudioTracks.Processing
     {
         public Action<ProcessingContext> OnProcessed { get; set; }
         
-        [SerializeField] private TrackProcessor[] _processors;
+        [SerializeField] private TrackProcessor[] Processors;
 
         private ProcessingContext _context;
         private int _processorIndex;
@@ -27,9 +28,9 @@ namespace General.AudioTracks.Processing
                     _processorIndex = 0;
                 }
 
-                if (_processorIndex < _processors.Length)
+                if (_processorIndex < Processors.Length)
                 {
-                    TrackProcessor processor = _processors[_processorIndex];
+                    TrackProcessor processor = Processors[_processorIndex];
                     processor.Context = _context;
 
                     processor.Process(track, success =>

@@ -406,7 +406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _configurationWindow: {fileID: 1588602661962927425, guid: cfe4f384445f3a14098f211caafa3e14, type: 3}
   _pipeline:
-    _processors:
+    Processors:
     - {fileID: 11400000, guid: 42591624124791541861ddf9708b8dee, type: 2}
     - {fileID: 11400000, guid: 2d9008dc7e70df64e9b365333cbd594a, type: 2}
     - {fileID: 11400000, guid: b40f031a7f19c1345ad809f27e51b0ba, type: 2}

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Projects\BeatRider" t="IncludeRecursive">
+    <e p="C:\Users\Lyrapuff\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Lyrapuff\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_BeatRider.1768005302.00" t="ExcludeRecursive" />
+    <e p="G:\Unity\BeatRider" t="IncludeRecursive">
       <e p="Assets" t="Include">
         <e p="Plugins" t="Include">
           <e p="AngleSharp" t="Include">
@@ -1906,7 +1908,5 @@
       <e p="SmallTail.Preload.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\Lyrabook\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Lyrabook\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_BeatRider.1178240035.00" t="ExcludeRecursive" />
   </component>
 </project>
