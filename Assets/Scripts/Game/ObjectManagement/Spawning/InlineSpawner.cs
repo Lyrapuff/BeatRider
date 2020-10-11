@@ -4,6 +4,7 @@ using Game.ObjectManagement.Spawning;
 using General.Behaviours;
 using General.Tools;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace Game.ObjectManagement
 {
@@ -31,7 +32,7 @@ namespace Game.ObjectManagement
             }
         }
 
-        private GameObject GetPrefab()
+        private AssetReference GetReference()
         {
             int number = SmallRandom.GetNumber(0, 101);
 
@@ -44,7 +45,7 @@ namespace Game.ObjectManagement
 
                 if (progress >= number)
                 {
-                    return setting.Prefab;
+                    return setting.Reference;
                 }
             }
             
@@ -53,16 +54,17 @@ namespace Game.ObjectManagement
         
         public void Spawn()
         {
-            GameObject prefab = GetPrefab();
+            AssetReference reference = GetReference();
 
-            if (ReferenceEquals(prefab, null))
+            if (ReferenceEquals(reference, null))
             {
                 return;
             }
             
-            Transform instance = _pool.Get(prefab).transform;
-
-            instance.position = transform.position + new Vector3(SmallRandom.GetNumber(-_range, _range), 0f, 0f);
+            _pool.RequestAsync(reference, instance =>
+            {
+                instance.transform.position = transform.position + new Vector3(SmallRandom.GetNumber(-_range, _range), 0f, 0f);
+            });
         }
     }
 }

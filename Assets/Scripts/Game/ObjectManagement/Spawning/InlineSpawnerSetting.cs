@@ -1,17 +1,17 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace Game.ObjectManagement.Spawning
 {
     [Serializable]
     public class InlineSpawnerSetting
     {
-        public GameObject Prefab => _prefab;
+        public AssetReference Reference;
         public int Periodicity => _periodicity;
         
         [HideInInspector] public float Chance;
         
-        [SerializeField] private GameObject _prefab;
         [SerializeField] private int _periodicity;
     }
 }

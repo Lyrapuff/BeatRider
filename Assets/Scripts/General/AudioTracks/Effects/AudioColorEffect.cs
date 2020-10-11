@@ -17,6 +17,8 @@ namespace General.AudioTracks.Effects
         private Color _currentColor;
         private float _lastSpeed;
         private float _lastChange;
+        
+        private static readonly int AudioColor = Shader.PropertyToID("_AudioColor");
 
         private void Awake()
         {

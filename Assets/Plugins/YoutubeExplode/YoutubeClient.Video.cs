@@ -30,15 +30,23 @@ namespace YoutubeExplode
             var keywords = playerResponseParser.ParseKeywords();
 
             // Get video watch page parser
-            var videoWatchPageParser = await GetVideoWatchPageParserAsync(videoId).ConfigureAwait(false);
+            //var videoWatchPageParser = await GetVideoWatchPageParserAsync(videoId).ConfigureAwait(false);
 
             // Parse info
+            /*
             var uploadDate = videoWatchPageParser.ParseUploadDate();
             var description = videoWatchPageParser.ParseDescription();
             var viewCount = videoWatchPageParser.ParseViewCount();
             var likeCount = videoWatchPageParser.ParseLikeCount();
             var dislikeCount = videoWatchPageParser.ParseDislikeCount();
+            */
 
+            var uploadDate = DateTimeOffset.Now;
+            var description = "";
+            var viewCount = 0;
+            var likeCount = 0;
+            var dislikeCount = 0;
+            
             var statistics = new Statistics(viewCount, likeCount, dislikeCount);
             var thumbnails = new ThumbnailSet(videoId);
 

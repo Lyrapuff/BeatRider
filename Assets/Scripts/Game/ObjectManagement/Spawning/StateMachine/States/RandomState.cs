@@ -1,6 +1,8 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using Game.ObjectManagement.Pooling;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace Game.ObjectManagement.Spawning.StateMachine.States
 {
@@ -14,25 +16,26 @@ namespace Game.ObjectManagement.Spawning.StateMachine.States
         {
             int count = Random.Range(1, 3);
 
-            Vector3[] positions = new Vector3[count];
+            List<Vector3> positions = new List<Vector3>();
             
             for (int i = 0; i < count; i++)
             {
-                GameObject prefab = Prefabs[Random.Range(0, Prefabs.Length)];
+                AssetReference reference = References[Random.Range(0, References.Length)];
                 
-                Transform instance = pool.Get(prefab).transform;
-
-                Vector3 position;
-
-                do
+                pool.RequestAsync(reference, instance =>
                 {
-                    position = new Vector3(Random.Range(-_range, _range), 0f, 0f) + _offset;
-                } 
-                while (positions.Any(pos => Vector3.Distance(pos, position) < 1.5f));
+                    Vector3 position;
 
-                positions[i] = position;
+                    do
+                    {
+                        position = new Vector3(Random.Range(-_range, _range), 0f, 0f) + _offset;
+                    } 
+                    while (positions.Any(pos => Vector3.Distance(pos, position) < 1.5f));
+
+                    positions.Add(position);
                 
-                instance.position = position;
+                    instance.transform.position = position;
+                });
             }
         }
     }

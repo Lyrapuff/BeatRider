@@ -1,5 +1,6 @@
 ﻿using Game.ObjectManagement.Pooling;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace Game.ObjectManagement.Spawning.StateMachine.States
 {
@@ -7,10 +8,9 @@ namespace Game.ObjectManagement.Spawning.StateMachine.States
     {
         public int Length => _length;
 
-        protected GameObject[] Prefabs => _prefabs;
+        public AssetReference[] References;
         
         [SerializeField] private int _length;
-        [SerializeField] private GameObject[] _prefabs;
         
         public abstract void Spawn(IObjectPool pool);
     }

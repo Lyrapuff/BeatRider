@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace General.AudioTracks.Effects
 {
@@ -13,6 +14,14 @@ namespace General.AudioTracks.Effects
         private void Awake()
         {
             _audioColor = GetComponent<AudioColorEffect>();
+
+            foreach (MaterialSetting setting in _settings)
+            {
+                setting.MaterialReference.LoadAssetAsync<Material>().Completed += handle =>
+                {
+                    setting.Material = handle.Result;
+                };
+            }
         }
 
         private void OnEnable()
@@ -35,10 +44,11 @@ namespace General.AudioTracks.Effects
     }
 
     [Serializable]
-    public struct MaterialSetting
+    public class MaterialSetting
     {
         public string PropertyName;
-        public Material Material;
+        public AssetReference MaterialReference;
+        [HideInInspector] public Material Material;
         public float Multiplier;
     }
 }
