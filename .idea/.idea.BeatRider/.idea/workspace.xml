@@ -19,101 +19,39 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="Not much">
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroupTemplates.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Built In Data.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Built In Data.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Forest.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Forest.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Built In Data_PlayerDataGroupSchema.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Built In Data_PlayerDataGroupSchema.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Forest_BundledAssetGroupSchema.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Forest_BundledAssetGroupSchema.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Forest_ContentUpdateGroupSchema.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/Forest_ContentUpdateGroupSchema.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/DataBuilders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedMode.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedMode.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/DataBuilders/BuildScriptVirtualMode.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/DataBuilders/BuildScriptVirtualMode.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/DefaultObject.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/DefaultObject.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources_moved.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="Addressables">
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AnalyzeData/AnalyzeRuleData.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AnalyzeData/AnalyzeRuleData.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/CPUGround.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/CPUGround.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/Forest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/Forest/TreeLeaves.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Skybox.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Skybox.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest/Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest/Settings/Spawner.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest/Settings/Spawner/CarsModule.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest/Settings/Spawner/CarsModule.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/ObjectManagement.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/ObjectManagement/Spawning.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/ObjectManagement/Spawning/Scriptable.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/ObjectManagement/Spawning/Scriptable/RandomSpawnModuleEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/ObjectManagement/Spawning/Scriptable/RandomSpawnModuleEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Objects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Objects/RandomSpawnModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Objects/RandomSpawnModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Objects/SpawnModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Objects/SpawnModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/ScriptableSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/ScriptableSpawner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/YoutubeExplode/YoutubeClient.Video.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/YoutubeExplode/YoutubeClient.Video.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CPUGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CPUGround.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CPURoad.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/CPURoad.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/RoadGrass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeLeaves.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeTrunk.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeTrunk.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeTrunkBirch.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Game/Forest/TreeTrunkBirch.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Road.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Materials/Skybox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Bus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Bus.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Bus.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Bus.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Camaro.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Camaro.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Camaro.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Camaro.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Fura1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Fura1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Fura1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Fura1.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Fura2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Fura2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Fura2.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Fura2.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Lanos.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Lanos.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Lanos.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Lanos.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Opel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Opel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Opel.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Opel.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Picap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Picap.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Enemies/Picap.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Picap.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Forest.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Forest/TreeBirch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeBirch.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Forest/TreeBirch.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeBirch.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Forest/TreeOak01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeOak01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Forest/TreeOak01.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeOak01.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Forest/TreeOak02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeOak02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Forest/TreeOak02.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeOak02.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Forest/TreePine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreePine.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Forest/TreePine.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreePine.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Forest/TreeRegular01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeRegular01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Forest/TreeRegular01.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeRegular01.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Forest/TreeRegular02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeRegular02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Game/Forest/TreeRegular02.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeRegular02.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Game.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Game.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/IObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/IObjectPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/ObjectPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/InlineSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/InlineSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/InlineSpawnerSetting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/InlineSpawnerSetting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/RandomState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/RandomState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/SpawnerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/SpawnerState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/AudioColorEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/AudioColorEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/MaterialColorEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/MaterialColorEffect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/MaterialColorEffect.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/MaterialColorEffect.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/Imeplementation/YouTube/YouTubeTrackSearcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/Imeplementation/YouTube/YouTubeTrackSearcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/General.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/General.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Graphs/Forest/FadeAppear.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Graphs/Forest/FadeAppear.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Graphs/MusicalSkybox.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Graphs/MusicalSkybox.shadergraph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/AudioTracks.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AnalyzeData.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/AudioTracks/Processing.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,16 +80,21 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/TrackCarousel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/AudioUtil.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/MaterialColorEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Objects/RandomSpawnModule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Standard/RoadWave.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/YoutubeExplode/IYoutubeClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/YoutubeExplode/YoutubeClient.Video.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Compute/RoadGenerator.compute" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Standard/MusicalRoad.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ObjectManagement/Spawning/Scriptable/RandomSpawnModuleEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/Storage/Storage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/ScriptableSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadConnector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/Tools/SmallRandom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FftSharp/SampleData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FftSharp/Transform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/RoadGeneratorProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Objects/SpawnModule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.8.5/Runtime/Initialization/InitializationObjectsOperation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/SpawnerState.cs" root0="FORCE_HIGHLIGHTING" />
@@ -189,15 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/LineSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/Tools/SmallRandom.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/YoutubeExplode/YoutubeClient.Search.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/YoutubeExplode/Internal/HttpClientEx.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/YoutubeExplode/YoutubeClient.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/GameConfiguration/CurrentTrack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadSurfaceConnector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadConnection.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/NullAudioAnalyzer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/IAudioAnalyzer.cs" />
@@ -240,6 +174,15 @@
         <option value="$PROJECT_DIR$/Assets/Shaders/Standard/MusicalRoad.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/AudioColorEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/MaterialColorEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/ScriptableSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/ScriptableSpawne.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Modules/SpawnerModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Modules/SpawnModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Objects/PositionModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Objects/SpawnModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/ScriptableSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ObjectManagement/Spawning/Scriptable/RandomSpawnModuleEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Objects/RandomSpawnModule.cs" />
       </list>
     </option>
   </component>
@@ -368,7 +311,9 @@
       <workItem from="1601140174875" duration="50000" />
       <workItem from="1601563491071" duration="712000" />
       <workItem from="1602358744786" duration="3540000" />
-      <workItem from="1602441675342" duration="6280000" />
+      <workItem from="1602441675342" duration="7001000" />
+      <workItem from="1602520614271" duration="1179000" />
+      <workItem from="1602532106937" duration="4424000" />
     </task>
     <task id="LOCAL-00001" summary="Audio processors">
       <created>1597684295436</created>
@@ -615,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601140210788</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Addressables">
+      <created>1602448207959</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1602448207959</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,7 +589,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="More cleaning &amp; pause" />
     <MESSAGE value="cars" />
     <MESSAGE value="loading popup" />
     <MESSAGE value="Track history" />
@@ -662,7 +613,8 @@
     <MESSAGE value="Basic clouds" />
     <MESSAGE value="Road is much more clean" />
     <MESSAGE value="Not much" />
-    <option name="LAST_COMMIT_MESSAGE" value="Not much" />
+    <MESSAGE value="Addressables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addressables" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="161" key="#Plugins" timestamp="1599830903078">
@@ -689,10 +641,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600765983864" />
-    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2" timestamp="1601140215891">
+    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2" timestamp="1602448211455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601140215891" />
+    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602448211455" />
     <state x="361" y="156" width="1306" height="1027" key="dock-window-1" timestamp="1598010173923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fb2e2202375476da157eb04c25f5bf2, type: 3}
+  m_Name: CarsModule
+  m_EditorClassIdentifier: 
+  _count: 2
+  _range: 8
+  _offset: 300
+  Options:
+  - PrefabReference:
+      m_AssetGUID: fffc0c24cf06f904182c88d0402830b4
+      m_SubObjectName: 
+    Fill: 5.259571
+  - PrefabReference:
+      m_AssetGUID: ad21917f495e0354eb801453e1448239
+      m_SubObjectName: 
+    Fill: 7.8377924
+  - PrefabReference:
+      m_AssetGUID: 530a756b500b25a4dba40cef678ab87d
+      m_SubObjectName: 
+    Fill: 12.272332
+  - PrefabReference:
+      m_AssetGUID: 16022c14876d1d14bb2e152817c1f4ab
+      m_SubObjectName: 
+    Fill: 23.489494
+  - PrefabReference:
+      m_AssetGUID: b9e0dcaca2a9738498c4f7bf26573e86
+      m_SubObjectName: 
+    Fill: 24.225855
+  - PrefabReference:
+      m_AssetGUID: 012b3b16e291e9a4691618f753eca1a8
+      m_SubObjectName: 
+    Fill: 26.914953

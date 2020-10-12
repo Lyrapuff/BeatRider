@@ -10891,8 +10891,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1799292286}
   - component: {fileID: 1799292288}
-  - component: {fileID: 1799292287}
   - component: {fileID: 1799292289}
+  - component: {fileID: 1799292287}
   m_Layer: 0
   m_Name: Cars
   m_TagString: Untagged
@@ -10923,42 +10923,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799292285}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adf7bfc497eef2b41b390d3e7ae704c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 9aa0601093aeb15479022d717d967370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pool: {fileID: 1799292288}
-  _range: 9.5
-  _settings:
-  - Reference:
-      m_AssetGUID: 530a756b500b25a4dba40cef678ab87d
-      m_SubObjectName: 
-    Chance: 0
-    _periodicity: 1
-  - Reference:
-      m_AssetGUID: fffc0c24cf06f904182c88d0402830b4
-      m_SubObjectName: 
-    Chance: 0
-    _periodicity: 1
-  - Reference:
-      m_AssetGUID: ad21917f495e0354eb801453e1448239
-      m_SubObjectName: 
-    Chance: 0
-    _periodicity: 1
-  - Reference:
-      m_AssetGUID: b9e0dcaca2a9738498c4f7bf26573e86
-      m_SubObjectName: 
-    Chance: 0
-    _periodicity: 3
-  - Reference:
-      m_AssetGUID: 012b3b16e291e9a4691618f753eca1a8
-      m_SubObjectName: 
-    Chance: 0
-    _periodicity: 3
-  - Reference:
-      m_AssetGUID: 16022c14876d1d14bb2e152817c1f4ab
-      m_SubObjectName: 
-    Chance: 0
-    _periodicity: 2
+  _interval: 30
 --- !u!114 &1799292288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10980,10 +10948,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799292285}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aa0601093aeb15479022d717d967370, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c2b6d4d9ec3482b828718cdada513a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interval: 20
+  _pool: {fileID: 1799292288}
+  _spawnModule: {fileID: 11400000, guid: 59e5d181a0303554a86cd2cfaf3c9439, type: 2}
 --- !u!1 &1806234945
 GameObject:
   m_ObjectHideFlags: 0
