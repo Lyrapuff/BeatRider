@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using General.AudioTracks.Analyzing;
+﻿using General.AudioTracks.Analyzing;
 using General.AudioTracks.RoadGeneration;
 using General.Behaviours;
 using General.Storage;
@@ -84,6 +83,17 @@ namespace Game.CPURoad
             }
 
             Vector2 value = GetPoint(_road.Points[i], _road.Points[i + 1], _road.Points[i + 2], _road.Points[i + 3], t);
+
+            if (z == 0f)
+            {
+                if (i > 6)
+                {
+                    i -= 6;
+                    _road.Points.RemoveAt(i);
+                    _road.Points.RemoveAt(i + 1);
+                    _road.Points.RemoveAt(i + 2);
+                }
+            }
             
             return value.y;
         }

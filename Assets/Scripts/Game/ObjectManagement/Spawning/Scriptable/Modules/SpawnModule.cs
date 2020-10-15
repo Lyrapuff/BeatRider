@@ -1,7 +1,7 @@
 ﻿using Game.ObjectManagement.Pooling;
 using UnityEngine;
 
-namespace Game.ObjectManagement.Spawning.Scriptable.Objects
+namespace Game.ObjectManagement.Spawning.Scriptable.Modules
 {
     public abstract class SpawnModule : ScriptableObject
     {

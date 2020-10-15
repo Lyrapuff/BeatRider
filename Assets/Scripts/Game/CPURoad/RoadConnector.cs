@@ -1,5 +1,4 @@
-﻿using Game.CPURoad;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Game.CPURoad
 {
@@ -8,11 +7,11 @@ namespace Game.CPURoad
         [SerializeField] private Vector3 _offset;
         [SerializeField] private float _accuracy;
         
-        private RoadHeight _roadMovement;
+        public static RoadHeight RoadMovement;
 
         private void Awake()
         {
-            _roadMovement = FindObjectOfType<RoadHeight>();
+            RoadMovement = FindObjectOfType<RoadHeight>();
         }
 
         private void Update()
@@ -25,7 +24,7 @@ namespace Game.CPURoad
         {
             Vector3 position = transform.position;
             
-            float height = _roadMovement.GetHeight(position.z);
+            float height = RoadMovement.GetHeight(position.z);
             
             position.y = Mathf.Lerp(position.y, height, 0.5f);
             transform.position = position + _offset;
@@ -36,10 +35,10 @@ namespace Game.CPURoad
             Vector3 currentPosition = transform.position;
             Vector3 futurePosition = currentPosition;
             
-            float cPosition = _roadMovement.GetHeight(currentPosition.z);
+            float cPosition = RoadMovement.GetHeight(currentPosition.z);
             currentPosition.y = cPosition;
             
-            float fPosition = _roadMovement.GetHeight(currentPosition.z + _accuracy);
+            float fPosition = RoadMovement.GetHeight(currentPosition.z + _accuracy);
             futurePosition.y = fPosition;
             futurePosition.z += 0.2f;
 

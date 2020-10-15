@@ -1723,7 +1723,7 @@
                 <e p="InlineSpawnerSetting.cs" t="Include" />
                 <e p="IObjectSpawner.cs" t="Include" />
                 <e p="Scriptable" t="Include">
-                  <e p="Objects" t="Include">
+                  <e p="Modules" t="Include">
                     <e p="RandomSpawnModule.cs" t="Include" />
                     <e p="SpawnModule.cs" t="Include" />
                   </e>

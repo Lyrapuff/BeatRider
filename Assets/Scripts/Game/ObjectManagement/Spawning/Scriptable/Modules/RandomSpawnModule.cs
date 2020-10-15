@@ -6,7 +6,7 @@ using General.Tools;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-namespace Game.ObjectManagement.Spawning.Scriptable.Objects
+namespace Game.ObjectManagement.Spawning.Scriptable.Modules
 {
     [CreateAssetMenu(menuName = "Object Management/Scriptable/Random module")]
     public class RandomSpawnModule : SpawnModule
@@ -15,7 +15,7 @@ namespace Game.ObjectManagement.Spawning.Scriptable.Objects
         [SerializeField] private float _range = 1f;
         [SerializeField] private float _offset = 300f;
 
-        public RandomSpawnOption[] Options;
+        public RandomSpawnOption[] Objects;
 
         public override void Spawn(IObjectPool pool)
         {
@@ -27,7 +27,7 @@ namespace Game.ObjectManagement.Spawning.Scriptable.Objects
 
                 float progress = 0;
                 
-                foreach (RandomSpawnOption option in Options)
+                foreach (RandomSpawnOption option in Objects)
                 {
                     progress += option.Fill;
 
@@ -48,7 +48,7 @@ namespace Game.ObjectManagement.Spawning.Scriptable.Objects
 
                             positions.Add(position);
                             
-                            instance.transform.position = position;
+                            instance.transform.localPosition = position;
                         });
                         
                         break;

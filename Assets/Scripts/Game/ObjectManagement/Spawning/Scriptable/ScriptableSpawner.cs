@@ -1,5 +1,5 @@
 ﻿using Game.ObjectManagement.Pooling;
-using Game.ObjectManagement.Spawning.Scriptable.Objects;
+using Game.ObjectManagement.Spawning.Scriptable.Modules;
 using General.Behaviours;
 using UnityEngine;
 

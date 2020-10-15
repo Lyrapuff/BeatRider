@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using Game.ObjectManagement.Spawning.Scriptable.Objects;
+using Game.ObjectManagement.Spawning.Scriptable.Modules;
 using UnityEditor;
 using UnityEngine;
 
@@ -19,7 +19,7 @@ namespace ObjectManagement.Spawning.Scriptable
                 return;
             }
 
-            float totalFill = module.Options.Sum(x => x.Fill);
+            float totalFill = module.Objects?.Sum(x => x.Fill) ?? 0;
 
             if (!Mathf.Approximately(totalFill, 100f))
             {
@@ -29,12 +29,12 @@ namespace ObjectManagement.Spawning.Scriptable
                 {
                     if (totalFill > 0f)
                     {
-                        for (int i = 0; i < module.Options.Length; i++)
+                        for (int i = 0; i < module.Objects.Length; i++)
                         {
-                            module.Options[i].Fill = module.Options[i].Fill / totalFill * 100f;
+                            module.Objects[i].Fill = module.Objects[i].Fill / totalFill * 100f;
                         }
 
-                        module.Options = module.Options.OrderBy(x => x.Fill).ToArray();
+                        module.Objects = module.Objects.OrderBy(x => x.Fill).ToArray();
                     }
                 }
             }
