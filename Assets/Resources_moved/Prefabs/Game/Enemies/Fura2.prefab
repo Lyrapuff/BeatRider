@@ -40,11 +40,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4984361187837133075}
-  - component: {fileID: 4984361187837133074}
-  - component: {fileID: 4588605663093390368}
-  - component: {fileID: 6322935107364427785}
-  - component: {fileID: 630350916784458144}
   - component: {fileID: 8637582380626205332}
+  - component: {fileID: -3853077821688711169}
+  - component: {fileID: 6322935107364427785}
   m_Layer: 0
   m_Name: Fura2
   m_TagString: Untagged
@@ -67,7 +65,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4984361187837133074
+--- !u!114 &8637582380626205332
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -76,11 +74,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4984361187837133072}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5454a7e9a9814b06868d7d40dc8c6986, type: 3}
+  m_Script: {fileID: 11500000, guid: f1fe4be391948a94eafd1f73958fc84b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0
---- !u!114 &4588605663093390368
+  _clerAt: -10
+--- !u!114 &-3853077821688711169
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,11 +87,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4984361187837133072}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7feda5d240916c4198eabb64fea50a8, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d1fe4cfbff1435f822836697bc14c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _offset: {x: 0, y: 0, z: 0}
-  _accuracy: 0.2
 --- !u!95 &6322935107364427785
 Animator:
   serializedVersion: 3
@@ -113,32 +109,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!65 &630350916784458144
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4984361187837133072}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 4}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8637582380626205332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4984361187837133072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1fe4be391948a94eafd1f73958fc84b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _clerAt: -10
 --- !u!1001 &4322272100477915925
 PrefabInstance:
   m_ObjectHideFlags: 0

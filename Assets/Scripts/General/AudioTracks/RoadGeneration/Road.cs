@@ -3,9 +3,9 @@ using UnityEngine;
 
 namespace General.AudioTracks.RoadGeneration
 {
-    public class Road
+    public struct Road
     {
-        public List<Vector2> Points { get; set; } = new List<Vector2>();
+        public List<Vector2> Points { get; set; }
         public float Length { get; set; }
     }
 }

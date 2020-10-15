@@ -9,6 +9,7 @@ namespace General.AudioTracks.RoadGeneration
         public Road Generate(AnalyzedAudio analyzedAudio, float length, int samples)
         {
             Road road = new Road();
+            road.Points = new List<Vector2>();
 
             List<float> averages = analyzedAudio.Averages;
 
