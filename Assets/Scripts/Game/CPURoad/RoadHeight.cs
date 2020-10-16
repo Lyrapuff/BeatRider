@@ -8,8 +8,6 @@ namespace Game.CPURoad
 {
     public class RoadHeight : ExtendedBehaviour
     {
-        public static RoadHeight Instance { get; private set; }
-        
         public float Offset { get; private set; }
 
         private IAudioAnalyzer _audioAnalyzer;
@@ -24,8 +22,6 @@ namespace Game.CPURoad
             
             IStorage storage = FindComponentOfInterface<IStorage>();
             _road = storage.Get<Road>("Game/Road");
-
-            Instance = this;
         }
 
         private void Update()
