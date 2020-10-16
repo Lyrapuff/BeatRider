@@ -1685,7 +1685,6 @@
             </e>
             <e p="CPURoad" t="Include">
               <e p="RoadChunkGenerator.cs" t="Include" />
-              <e p="RoadConnector.cs" t="Include" />
               <e p="RoadConnectorJob.cs" t="Include" />
               <e p="RoadDisplay.cs" t="Include" />
               <e p="RoadHeight.cs" t="Include" />
@@ -1693,7 +1692,6 @@
             <e p="Entities" t="Include">
               <e p="FakeBoundingBox.cs" t="Include" />
               <e p="Movement" t="Include">
-                <e p="ForwardMovement.cs" t="Include" />
                 <e p="ForwardMovementJob.cs" t="Include" />
                 <e p="MovementManager.cs" t="Include" />
                 <e p="MovingEntity.cs" t="Include" />

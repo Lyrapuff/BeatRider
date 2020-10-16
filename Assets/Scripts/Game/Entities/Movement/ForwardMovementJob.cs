@@ -1,16 +1,22 @@
-﻿using UnityEngine;
-using UnityEngine.Jobs;
+﻿using Unity.Collections;
+using Unity.Jobs;
+using UnityEngine;
 
 namespace Entities.Movement
 {
-    public struct ForwardMovementJob : IJobParallelForTransform
+    public struct ForwardMovementJob : IJobParallelFor
     {
+        public NativeArray<MovingEntityData> Data;
         public float DeltaTime;
         public float AudioSpeed;
         
-        public void Execute(int index, TransformAccess transform)
+        public void Execute(int index)
         {
-            transform.position -= Vector3.forward * (AudioSpeed * DeltaTime);
+            MovingEntityData data = Data[index];
+            
+            data.Position -= Vector3.forward * (AudioSpeed * DeltaTime * data.Speed);
+
+            Data[index] = data;
         }
     }
 }

@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
 using Game.CPURoad;
 using General.AudioTracks.Analyzing;
 using General.AudioTracks.RoadGeneration;
@@ -8,7 +8,6 @@ using General.Storage;
 using Unity.Collections;
 using Unity.Jobs;
 using UnityEngine;
-using UnityEngine.Jobs;
 
 namespace Entities.Movement
 {
@@ -16,7 +15,7 @@ namespace Entities.Movement
     {
         private IAudioAnalyzer _audioAnalyzer;
 
-        private List<Transform> _entities = new List<Transform>();
+        private Dictionary<Transform, MovingEntityData> _data = new Dictionary<Transform, MovingEntityData>();
         
         private JobHandle _forwardMovementHandle;
         private JobHandle _roadConnectorHandle;
@@ -49,26 +48,51 @@ namespace Entities.Movement
 
         private void Update()
         {
+            foreach (KeyValuePair<Transform, MovingEntityData> entity in _data.ToArray())
+            {
+                MovingEntityData data = _data[entity.Key];
+
+                data.Position = entity.Key.position;
+                data.Rotation = entity.Key.rotation;
+                
+                _data[entity.Key] = data;
+            }
+
             _offset += Time.deltaTime * _audioAnalyzer.Speed;
             CalculateIndexOffset();
-            
-            TransformAccessArray taa = new TransformAccessArray(_entities.ToArray());
+
+            NativeArray<MovingEntityData> settings = new NativeArray<MovingEntityData>(_data.Count, Allocator.TempJob);
+            settings.CopyFrom(_data.Select(x => x.Value).ToArray());
             
             ForwardMovementJob forwardMovementJob = new ForwardMovementJob();
+            forwardMovementJob.Data = settings;
             forwardMovementJob.AudioSpeed = _audioAnalyzer.Speed;
             forwardMovementJob.DeltaTime = Time.deltaTime;
-            _forwardMovementHandle = forwardMovementJob.Schedule(taa);
+            _forwardMovementHandle = forwardMovementJob.Schedule(_data.Count, 1);
             
             RoadConnectorJob roadConnectorJob = new RoadConnectorJob();
+            roadConnectorJob.Data = settings;
             roadConnectorJob.Offset = _offset;
             roadConnectorJob.Points = _points;
             roadConnectorJob.IndexOffset = _indexOffset;
-            _roadConnectorHandle = roadConnectorJob.Schedule(taa);
-            
+            _roadConnectorHandle = roadConnectorJob.Schedule(_data.Count, 1, _forwardMovementHandle);
+
             _forwardMovementHandle.Complete();
             _roadConnectorHandle.Complete();
+
+            int i = 0;
             
-            taa.Dispose();
+            foreach (KeyValuePair<Transform, MovingEntityData> entity in _data.ToArray())
+            {
+                entity.Key.position = settings[i].Position;
+                entity.Key.rotation = settings[i].Rotation;
+
+                _data[entity.Key] = settings[i];
+                
+                i++;
+            }
+            
+            settings.Dispose();
         }
 
         private void CalculateIndexOffset()
@@ -109,17 +133,20 @@ namespace Entities.Movement
                 i *= 3;
             }
 
-            _indexOffset = i;
+            _indexOffset = i > 6 ? i - 6 : 0;
         }
         
-        public void AddEntity(Transform entity)
+        public void AddEntity(Transform t, MovingEntityData data)
         {
-            _entities.Add(entity);
+            data.Position = t.position;
+            data.Rotation = t.rotation;
+            
+            _data[t] = data;
         }
 
-        public void RemoveEntity(Transform entity)
+        public void RemoveEntity(Transform t)
         {
-            _entities.Remove(entity);
+            _data.Remove(t);
         }
     }
 }

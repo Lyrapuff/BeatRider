@@ -1,25 +1,31 @@
-﻿using Unity.Collections;
+﻿using Entities.Movement;
+using Unity.Collections;
+using Unity.Jobs;
 using UnityEngine;
-using UnityEngine.Jobs;
 
 namespace Game.CPURoad
 {
-    public struct RoadConnectorJob : IJobParallelForTransform
+    
+    public struct RoadConnectorJob : IJobParallelFor
     {
+        public NativeArray<MovingEntityData> Data;
+        
         [ReadOnly]
         public NativeArray<Vector2> Points;
         public float Offset;
         public int IndexOffset;
         
-        public void Execute(int index, TransformAccess transform)
+        public void Execute(int index)
         {
-            Vector3 currentPosition = transform.position;
+            MovingEntityData data = Data[index];
+            
+            Vector3 currentPosition = data.Position;
             Vector3 futurePosition = currentPosition;
             
             float height = GetHeight(currentPosition.z);
             
             currentPosition.y = Mathf.Lerp(currentPosition.y, height, 0.5f);
-            transform.position = currentPosition;
+            data.Position = currentPosition;
             
             float cPosition = GetHeight(currentPosition.z);
             currentPosition.y = cPosition;
@@ -29,7 +35,9 @@ namespace Game.CPURoad
             futurePosition.z += 0.2f;
 
             Vector3 direction = (futurePosition - currentPosition).normalized;
-            transform.rotation = Quaternion.LookRotation(direction);
+            data.Rotation = Quaternion.LookRotation(direction);
+
+            Data[index] = data;
         }
         
         private Vector2 GetPoint (Vector2 p0, Vector2 p1, Vector2 p2, Vector2 p3, float t)
