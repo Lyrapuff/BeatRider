@@ -14,6 +14,7 @@ namespace Game.CPURoad
 
         private IAudioAnalyzer _audioAnalyzer;
         private Road _road;
+        private int _offset;
         
         private static readonly int OffsetID = Shader.PropertyToID("_Offset");
 
@@ -54,7 +55,7 @@ namespace Game.CPURoad
             Vector2 p0 = Vector2.zero;
             Vector2 p1 = Vector2.zero;
 
-            for (j = 0; j < _road.Points.Count - 1; j++)
+            for (j = _offset; j < _road.Points.Count - 1; j++)
             {
                 if (position < p1.x)
                 {
@@ -93,9 +94,7 @@ namespace Game.CPURoad
                 if (i > 6)
                 {
                     i -= 6;
-                    _road.Points.RemoveAt(i);
-                    _road.Points.RemoveAt(i + 1);
-                    _road.Points.RemoveAt(i + 2);
+                    _offset = i;
                 }
             }
             
