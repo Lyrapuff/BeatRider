@@ -19,57 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="More optimized road">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadConnectorJob.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadConnectorJob.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovementJob.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovementJob.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovementManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovementManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovingEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovingEntity.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="Job system">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/AOT.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.XML" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.XML.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Standalone.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.XML" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.XML.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Windows.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.XML" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.XML.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/CPUGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/CPUGround.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Skybox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Bus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Bus.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Camaro.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Camaro.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Fura1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Fura1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Fura2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Fura2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Lanos.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Lanos.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Opel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Opel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Picap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Picap.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeBirch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeBirch.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeOak01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeOak01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeOak02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeOak02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreePine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreePine.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeRegular01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeRegular01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeRegular02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Forest/TreeRegular02.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadHeight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadHeight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/RoadGeneration/Road.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/RoadGeneration/Road.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/RoadGeneration/RoadGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/RoadGeneration/RoadGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovementManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovementManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovingEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovingEntity.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +68,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadConnectorJob.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadConnector.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/Tools/SmallRandom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2E6610ED-2984-4F85-A379-24F81509FE5D/b3/60b51f7a/IJobParallelForTransformExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FftSharp/SampleData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FftSharp/Transform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/RoadGeneratorProcessor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -200,11 +158,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ObjectManagement/Spawning/Scriptable/RandomSpawnModuleEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovementManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovementJob.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovingEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/RoadGeneration/Road.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/RoadGeneration/RoadGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadHeight.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadConnectorJob.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovingEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovementManager.cs" />
       </list>
     </option>
@@ -343,7 +301,8 @@
       <workItem from="1602674259625" duration="87000" />
       <workItem from="1602753070040" duration="4042000" />
       <workItem from="1602769184329" duration="18000" />
-      <workItem from="1602779945268" duration="15055000" />
+      <workItem from="1602779945268" duration="15218000" />
+      <workItem from="1602859182049" duration="2380000" />
     </task>
     <task id="LOCAL-00001" summary="Audio processors">
       <created>1597684295436</created>
@@ -611,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602791238565</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Job system">
+      <created>1602797178195</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1602797178195</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +599,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Track history" />
     <MESSAGE value="Car spawning reworked" />
     <MESSAGE value="Car spawning now works better. nice." />
     <MESSAGE value="And even better spawning." />
@@ -658,7 +623,8 @@
     <MESSAGE value="Addressables" />
     <MESSAGE value="ScriptableSpawner" />
     <MESSAGE value="More optimized road" />
-    <option name="LAST_COMMIT_MESSAGE" value="More optimized road" />
+    <MESSAGE value="Job system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Job system" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="161" key="#Plugins" timestamp="1599830903078">
@@ -685,10 +651,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600765983864" />
-    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2" timestamp="1602791323253">
+    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2" timestamp="1602797183637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602791323253" />
+    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602797183637" />
     <state x="361" y="156" width="1306" height="1027" key="dock-window-1" timestamp="1598010173923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

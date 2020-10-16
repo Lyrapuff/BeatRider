@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Game.CPURoad;
 using General.AudioTracks.Analyzing;
 using General.Behaviours;
@@ -12,7 +13,7 @@ namespace Entities.Movement
     {
         private IAudioAnalyzer _audioAnalyzer;
         
-        private TransformAccessArray _entities;
+        private List<Transform> _entities = new List<Transform>();
         
         private JobHandle _forwardMovementHandle;
         private JobHandle _roadConnectorHandle;
@@ -20,8 +21,6 @@ namespace Entities.Movement
         private void Awake()
         {
             _audioAnalyzer = FindComponentOfInterface<IAudioAnalyzer>();
-            
-            _entities = new TransformAccessArray(0);
         }
 
         private void OnDisable()
@@ -32,22 +31,30 @@ namespace Entities.Movement
 
         private void Update()
         {
+            TransformAccessArray taa = new TransformAccessArray(_entities.ToArray());
+            
             ForwardMovementJob forwardMovementJob = new ForwardMovementJob();
             forwardMovementJob.AudioSpeed = _audioAnalyzer.Speed;
             forwardMovementJob.DeltaTime = Time.deltaTime;
-            _forwardMovementHandle = forwardMovementJob.Schedule(_entities);
+            _forwardMovementHandle = forwardMovementJob.Schedule(taa);
             
             RoadConnectorJob roadConnectorJob = new RoadConnectorJob();
-            _roadConnectorHandle = roadConnectorJob.Schedule(_entities);
+            _roadConnectorHandle = roadConnectorJob.Schedule(taa);
             
             _forwardMovementHandle.Complete();
             _roadConnectorHandle.Complete();
+            
+            taa.Dispose();
         }
 
         public void AddEntity(Transform entity)
         {
-            _entities.capacity = _entities.length + 1;
             _entities.Add(entity);
+        }
+
+        public void RemoveEntity(Transform entity)
+        {
+            _entities.Remove(entity);
         }
     }
 }

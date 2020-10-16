@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Entities.Movement
 {
@@ -14,7 +15,11 @@ namespace Entities.Movement
         private void OnEnable()
         {
             _movementManager.AddEntity(transform);
-            Destroy(this);
+        }
+
+        private void OnDisable()
+        {
+            _movementManager.RemoveEntity(transform);
         }
     }
 }
