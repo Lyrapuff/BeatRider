@@ -1664,12 +1664,19 @@
         <e p="Scripts" t="Include">
           <e p="Editor" t="Include">
             <e p="Editor.asmdef" t="Include" />
+            <e p="InspectorInterfaces" t="Include">
+              <e p="InterfaceDrawer.cs" t="Include" />
+            </e>
             <e p="ObjectManagement" t="Include">
               <e p="Spawning" t="Include">
                 <e p="Scriptable" t="Include">
                   <e p="RandomSpawnModuleEditor.cs" t="Include" />
                 </e>
               </e>
+            </e>
+            <e p="Storage" t="Include">
+              <e p="StorageViewerWindow.cs" t="Include" />
+              <e p="StoredItemDrawer.cs" t="Include" />
             </e>
           </e>
           <e p="Game" t="Include">
@@ -1721,6 +1728,7 @@
                 <e p="ObjectPool.cs" t="Include" />
               </e>
               <e p="Spawning" t="Include">
+                <e p="AudioSpawner.cs" t="Include" />
                 <e p="InlineSpawner.cs" t="Include" />
                 <e p="InlineSpawnerSetting.cs" t="Include" />
                 <e p="IObjectSpawner.cs" t="Include" />
@@ -1818,6 +1826,10 @@
               <e p="PlayerActions.cs" t="Include" />
               <e p="UIActions.cs" t="Include" />
               <e p="UIInput.cs" t="Include" />
+            </e>
+            <e p="InspectorInterfaces" t="Include">
+              <e p="ImplementationPickerAttribute.cs" t="Include" />
+              <e p="InterfaceContainer.cs" t="Include" />
             </e>
             <e p="SceneManagement" t="Include">
               <e p="ISceneChanger.cs" t="Include" />

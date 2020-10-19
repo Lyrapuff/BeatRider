@@ -17,7 +17,7 @@ namespace General.AudioTracks.Processing.Processors
             {
                 AudioAnalyzer audioAnalyzer = new AudioAnalyzer();
 
-                AnalyzedAudio analyzedAudio = audioAnalyzer.Analyze(Context.Wave, Context.Channels, Context.Samples);
+                AnalyzedAudio analyzedAudio = audioAnalyzer.Analyze(Context.Wave, Context.Channels, Context.Samples, Context.Frequency);
 
                 Context.AnalyzedAudio = analyzedAudio;
                 

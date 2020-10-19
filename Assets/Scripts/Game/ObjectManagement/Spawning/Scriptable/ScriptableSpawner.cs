@@ -8,6 +8,7 @@ namespace Game.ObjectManagement.Spawning.Scriptable
     public class ScriptableSpawner : ExtendedBehaviour, IObjectSpawner
     {
         [SerializeField] private ObjectPool _pool;
+        
         [SerializeField] private SpawnModule _spawnModule;
         
         public void Spawn()

@@ -29,13 +29,13 @@ namespace SmallTail.Editor.Localization
 
         private int _selectedIndex;
         
-        [MenuItem("Window/SmallTail/Localization")]
+        [MenuItem("SmallTail/Localization/Locales")]
         public static void ShowWindow()
         {
             EditorWindow window = GetWindow(typeof(LocalizationEditorWindow), false, "Localization");
             window.titleContent = new GUIContent
             {
-                text = "Localization"
+                text = "Locales"
             };
         }
 
