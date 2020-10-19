@@ -19,41 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="Player movement is on jobs as well">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/InspectorInterfaces.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/InspectorInterfaces/InterfaceDrawer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/InspectorInterfaces/InterfaceDrawer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/Storage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StorageViewerWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StorageViewerWindow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StoredItemDrawer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StoredItemDrawer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/AudioSpawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/AudioSpawner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/InspectorInterfaces.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/InspectorInterfaces/ImplementationPickerAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/InspectorInterfaces/ImplementationPickerAttribute.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/InspectorInterfaces/InterfaceContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/General/InspectorInterfaces/InterfaceContainer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="Storage viewer v0.1">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/CPUGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/CPUGround.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Skybox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Bus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Bus.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Fura1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Fura1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Fura2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Fura2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Lanos.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Lanos.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Opel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Opel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Picap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Prefabs/Game/Enemies/Picap.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/ScriptableSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/ScriptableSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AnalyzedAudio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AnalyzedAudio.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackAnalyzeProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackAnalyzeProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Storage/Storage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Storage/Storage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/Localization/LocalizationEditorWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/Localization/LocalizationEditorWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StorageViewerWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StorageViewerWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StoredItemDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StoredItemDrawer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,7 +320,8 @@
       <workItem from="1603031171955" duration="566000" />
       <workItem from="1603056850088" duration="13000" />
       <workItem from="1603057101842" duration="10699000" />
-      <workItem from="1603068475307" duration="2460000" />
+      <workItem from="1603068475307" duration="2481000" />
+      <workItem from="1603122167166" duration="11130000" />
     </task>
     <task id="LOCAL-00001" summary="Audio processors">
       <created>1597684295436</created>
@@ -651,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602890560911</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Storage viewer v0.1">
+      <created>1603070968310</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1603070968310</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -673,7 +653,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="New road WIP" />
     <MESSAGE value="CPURoad working version" />
     <MESSAGE value="CPURoad settings tweaking" />
     <MESSAGE value="A bunch of files" />
@@ -698,7 +677,8 @@
     <MESSAGE value="Road flying objects fix" />
     <MESSAGE value="Memory leak fix" />
     <MESSAGE value="Player movement is on jobs as well" />
-    <option name="LAST_COMMIT_MESSAGE" value="Player movement is on jobs as well" />
+    <MESSAGE value="Storage viewer v0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Storage viewer v0.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="161" key="#Plugins" timestamp="1599830903078">
@@ -725,10 +705,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602874967572" />
-    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2" timestamp="1602890566213">
+    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2" timestamp="1603070971639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602890566213" />
+    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603070971639" />
     <state x="630" y="132" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603070371731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
