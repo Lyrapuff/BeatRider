@@ -16,7 +16,7 @@ namespace General.AudioTracks.Analyzing
         private object _bandsLock = new object();
         private object _averagesLock = new object();
         
-        public AnalyzedAudio Analyze(float[] wave, int channels, int samples, int frequency)
+        public AnalyzedAudio Analyze(float[] wave, int channels)
         {
             AnalyzedAudio analyzedAudio = new AnalyzedAudio();
 
@@ -124,42 +124,8 @@ namespace General.AudioTracks.Analyzing
                     _averages[i] = Mathf.InverseLerp(min, max, _averages[i]);
                 }
 
-                List<float> beats = new List<float>();
-                
-                float length = (float)samples / frequency;
-                
-                Debug.Log($"samples: {samples}");
-                Debug.Log($"frequency: {frequency}");
-                Debug.Log($"samples * frequency: {length}");
-                
-                float timeStep = 1 / 10f;
-                float time = 0f;
-                float distance = 0f;
-                float lengthPerSample = length / samples;
-                
-                while (time < length)
-                {
-                    int index = Mathf.FloorToInt(time / lengthPerSample) / 1024 / analyzedAudio.StoreEvery;
-                    
-                    float avg = _averages[index];
-
-                    float movement = (average * 200f + 1f) * timeStep;
-                
-                    distance += movement;
-                    
-                    if (avg > 0.65f)
-                    {
-                        beats.Add(distance);
-                    }
-
-                    time += timeStep;
-                }
-
-                Debug.Log($"beats: " + beats.Count);
-                
                 analyzedAudio.Bands = _bands.ToList();
                 analyzedAudio.Averages = _averages.ToList();
-                analyzedAudio.Beats = beats;
 
                 return analyzedAudio;
             }
@@ -179,7 +145,7 @@ namespace General.AudioTracks.Analyzing
             float[] multiChannelSamples = new float[samples * channels];
             audioClip.GetData(multiChannelSamples, 0);
 
-            onAnalyzed?.Invoke(Analyze(multiChannelSamples, channels, samples, audioClip.frequency));
+            onAnalyzed?.Invoke(Analyze(multiChannelSamples, channels));
         }
 
         private void SetAverage(int i, float average)

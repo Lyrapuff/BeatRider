@@ -11,6 +11,5 @@ namespace General.AudioTracks.Analyzing
         public int StoreEvery = 4;
         public List<float[]> Bands = new List<float[]>();
         public List<float> Averages = new List<float>();
-        public List<float> Beats = new List<float>();
     }
 }

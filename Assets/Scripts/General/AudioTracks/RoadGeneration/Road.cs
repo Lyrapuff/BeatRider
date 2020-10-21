@@ -7,5 +7,6 @@ namespace General.AudioTracks.RoadGeneration
     {
         public List<Vector2> Points { get; set; }
         public float Length { get; set; }
+        public List<float> Beats { get; set; }
     }
 }

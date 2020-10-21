@@ -13,6 +13,8 @@ namespace General.AudioTracks.RoadGeneration
 
             List<float> averages = analyzedAudio.Averages;
 
+            List<float> beats = new List<float>();
+            
             float timeStep = 1 / 10f;
             float time = 0f;
             float distance = 0f;
@@ -35,7 +37,7 @@ namespace General.AudioTracks.RoadGeneration
                 }
 
                 float average = averages[index];
-                
+
                 if (average >= threshold)
                 {
                     direction = -1f *
@@ -60,10 +62,17 @@ namespace General.AudioTracks.RoadGeneration
                 distance += movement;
                 distanceFromLastPoint += movement;
 
+                if (average >= 0.65f)
+                {
+                    beats.Add(distance);
+                }
+                
                 time += timeStep;
             }
 
             road.Points.Add(new Vector2(distance, height));
+
+            road.Beats = beats;
             
             road.Length = distance;
             
