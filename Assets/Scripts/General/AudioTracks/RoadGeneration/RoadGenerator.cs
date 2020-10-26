@@ -62,9 +62,14 @@ namespace General.AudioTracks.RoadGeneration
                 distance += movement;
                 distanceFromLastPoint += movement;
 
-                if (average >= 0.65f)
+                if (index > 0)
                 {
-                    beats.Add(distance);
+                    float previous = averages[index - 1];
+                    
+                    if (average - previous >= 0.09f)
+                    {
+                        beats.Add(distance);
+                    }
                 }
                 
                 time += timeStep;
