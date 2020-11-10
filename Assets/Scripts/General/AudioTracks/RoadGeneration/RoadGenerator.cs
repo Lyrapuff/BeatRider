@@ -66,7 +66,7 @@ namespace General.AudioTracks.RoadGeneration
                 {
                     float previous = averages[index - 1];
                     
-                    if (average - previous >= 0.09f)
+                    if (average - previous >= Mathf.Lerp(0.05f, 0.13f, average))
                     {
                         beats.Add(distance);
                     }

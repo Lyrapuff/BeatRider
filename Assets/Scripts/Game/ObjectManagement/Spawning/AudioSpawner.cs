@@ -27,8 +27,13 @@ namespace Game.ObjectManagement.Spawning
 
         private void Update()
         {
+            Spawn();
+        }
+        
+        private void Spawn()
+        {
             _offset += _audioAnalyzer.Speed * Time.deltaTime;
-
+            
             float beat = _road.Beats[_indexOffset];
 
             if (_offset >= beat)

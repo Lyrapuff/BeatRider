@@ -1684,7 +1684,6 @@
               <e p="AudioPause.cs" t="Include" />
               <e p="AudioScale.cs" t="Include" />
               <e p="AudioSkyColor.cs" t="Include" />
-              <e p="AudioStatus.cs" t="Include" />
               <e p="SpeedOverTime.cs" t="Include" />
             </e>
             <e p="Camera" t="Include">
@@ -1717,10 +1716,6 @@
               </e>
             </e>
             <e p="Game.asmdef" t="Include" />
-            <e p="GameTracker" t="Include">
-              <e p="GameResult.cs" t="Include" />
-              <e p="ResultTracker.cs" t="Include" />
-            </e>
             <e p="ObjectManagement" t="Include">
               <e p="Pooling" t="Include">
                 <e p="IObjectPool.cs" t="Include" />
@@ -1748,9 +1743,6 @@
                 </e>
                 <e p="TimedSpawner.cs" t="Include" />
               </e>
-            </e>
-            <e p="Player" t="Include">
-              <e p="PointIncrementer.cs" t="Include" />
             </e>
             <e p="RepetitiveGame.cs" t="Include" />
             <e p="Services" t="Include">
@@ -1836,8 +1828,6 @@
               <e p="SceneChanger.cs" t="Include" />
             </e>
             <e p="Storage" t="Include">
-              <e p="GameData.cs" t="Include" />
-              <e p="GameDataStorage.cs" t="Include" />
               <e p="IStorage.cs" t="Include" />
               <e p="Storage.cs" t="Include" />
             </e>
