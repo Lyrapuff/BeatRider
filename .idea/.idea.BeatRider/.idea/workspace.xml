@@ -19,17 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="AudioSpawner">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="eda87458-e228-4a96-b677-b632d83aad4d" name="Default Changelist" comment="Some garbage cleaning">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/UI.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BeatRider/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/CPUGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/CPUGround.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/Forest/TreeLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Game/Forest/TreeLeaves.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources_moved/Materials/Skybox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioStatus.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioStatus.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/AudioSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/AudioSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/RoadGeneration/RoadGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/RoadGeneration/RoadGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Environments/Forest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadConnectorJob.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadConnectorJob.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Environments/Forest/CloudsOffset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Environments/Forest/CloudsOffset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Standard/MusicalRoad.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Standard/MusicalRoad.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +42,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/FloatExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Services/Implementation/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/IAudioTrack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/FloatExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StorageViewerWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/IAudioTrack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Processing/CarouselTrackProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Searching/SearchResults.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadHeight.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Environments/Forest/CloudsOffset.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/PCUI/AudioTracks/Searching/SearchInputField.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Entities/Player/Movement/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,7 +67,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/YoutubeExplode/IYoutubeClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/YoutubeExplode/YoutubeClient.Video.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Compute/RoadGenerator.compute" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/Storage/GameDataStorage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Standard/MusicalRoad.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ObjectManagement/Spawning/Scriptable/RandomSpawnModuleEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/Storage/Storage.cs" root0="FORCE_HIGHLIGHTING" />
@@ -80,10 +80,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/InspectorInterfaces/InterfaceDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FftSharp/Transform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackPCMProcessor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/RoadGeneratorProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Modules/SpawnModule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/RoadGeneratorProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/YoutubeExplode/Internal/Parsers/PlayerResponseParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackDownloadProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackAnalyzeProcessor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.8.5/Runtime/Initialization/InitializationObjectsOperation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/SpawnerState.cs" root0="FORCE_HIGHLIGHTING" />
@@ -92,8 +93,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/InspectorInterfaces/InterfaceContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/StateMachineSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/YouTubeSearch/API/DownloadUrlResolver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/InlineSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/Imeplementation/YouTube/YouTubeTrackSearcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadChunkGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/InlineSpawnerSetting.cs" root0="FORCE_HIGHLIGHTING" />
@@ -102,9 +104,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/IObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/Localization/KeySelectionWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StoredItemDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AnalyzedAudio.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/IObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StoredItemDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovementManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/Localization/LocalizationEditorWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -113,70 +115,20 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/RoadGeneration/RoadGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/AudioColorEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/RoadGeneration/Road.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameTracker/GameResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.8.5/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioPause.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovementJob.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioPause.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioSkyColor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioScale.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/IPlaylist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/AudioScale.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/AudioTracks/SpeedOverTime.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/SpectrumReader.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackProcessor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/AudioTracks/Processing/ProcessignPipelineEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Searching/Imeplementation/YouTube/YouTubeTrackSearcher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/YoutubeExplode/Internal/Parsers/VideoWatchPageParser.cs" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/YoutubeExplode/YoutubeClient.Video.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/InlineSpawnerSetting.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/IObjectPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/InlineSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/SpawnerState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/StateMachine/States/RandomState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Pooling/ObjectPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Shaders/Standard/MusicalRoad.shader" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/AudioColorEffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Effects/MaterialColorEffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/ScriptableSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/ScriptableSpawne.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Modules/SpawnerModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Modules/SpawnModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Objects/PositionModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Objects/SpawnModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Objects/RandomSpawnModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/Modules/RandomSpawnModule.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadConnector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovementEntity.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ObjectManagement/Spawning/Scriptable/RandomSpawnModuleEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovementManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadHeight.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/CPURoad/RoadConnectorJob.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovingEntity.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/ForwardMovementJob.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Entities/Movement/MovementManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ObjectManagement/InspectorInterfaces/ImplementationPickerAttribute.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ObjectManagement/InspectorInterfaces/InterfaceDrawer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/InspectorInterfaces/ImplementationPickerAttribute.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/InspectorInterfaces/InterfaceContainer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/InspectorInterfaces/InterfaceDrawer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/Scriptable/ScriptableSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/IPositionProvider.cs" />
-        <option value="$PROJECT_DIR$/Assets/SmallTail/SmallTail.Localization.Editor/Localization/LocalizationEditorWindow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StoredObjectDrawer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/ProcessingPipeline.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/IStorage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/Storage/Storage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StoredItemDrawer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/Storage/StorageViewerWindow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AudioAnalyzer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Processing/Processors/TrackAnalyzeProcessor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/Analyzing/AnalyzedAudio.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/RoadGeneration/Road.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ObjectManagement/Spawning/AudioSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/General/AudioTracks/RoadGeneration/RoadGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/YouTubeSearch/API/DownloadUrlResolver.cs" />
       </list>
     </option>
   </component>
@@ -334,7 +286,9 @@
       <workItem from="1603314282045" duration="113000" />
       <workItem from="1603747344879" duration="7643000" />
       <workItem from="1603823245418" duration="1975000" />
-      <workItem from="1604997018138" duration="296000" />
+      <workItem from="1604997018138" duration="4266000" />
+      <workItem from="1605158912479" duration="88000" />
+      <workItem from="1605159610932" duration="6230000" />
     </task>
     <task id="LOCAL-00001" summary="Audio processors">
       <created>1597684295436</created>
@@ -665,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603755740833</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Some garbage cleaning">
+      <created>1604997477134</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1604997477134</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +648,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Road. Still WIP." />
     <MESSAGE value="The chunk road works a bit better, but still jittery" />
     <MESSAGE value="Musical road" />
     <MESSAGE value="A minor road improvements" />
@@ -712,7 +672,8 @@
     <MESSAGE value="Storage viewer" />
     <MESSAGE value="Basic beat generation" />
     <MESSAGE value="AudioSpawner" />
-    <option name="LAST_COMMIT_MESSAGE" value="AudioSpawner" />
+    <MESSAGE value="Some garbage cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some garbage cleaning" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="161" key="#Plugins" timestamp="1599830903078">
@@ -739,10 +700,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602874967572" />
-    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2" timestamp="1603755745388">
+    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2" timestamp="1604997480676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603755745388" />
+    <state x="552" y="253" width="816" height="521" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604997480676" />
     <state x="630" y="132" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603070371731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

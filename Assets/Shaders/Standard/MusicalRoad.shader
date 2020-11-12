@@ -94,13 +94,17 @@
                 
                 float height = 0;
                 
-                if (i < _Count - 3)
+                if (i >= _Count - 4)
                 {
-                    height = getPoint(_Points[i].y, _Points[i + 1].y, _Points[i + 2].y, _Points[i + 3].y, t);
+                    height = _Points[_Count - 1].y;
+                }
+                else if (i < 0)
+                {
+                    height = _Points[0].y;
                 }
                 else
                 {
-                    height = getPoint(_Points[_Count - 4].y, _Points[_Count - 3].y, _Points[_Count - 2].y, _Points[_Count - 1].y, t);
+                    height = getPoint(_Points[i].y, _Points[i + 1].y, _Points[i + 2].y, _Points[i + 3].y, t);
                 }
                 
                 v.vertex.y = height;

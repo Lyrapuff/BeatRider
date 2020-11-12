@@ -1712,7 +1712,6 @@
               <e p="Forest" t="Include">
                 <e p="AudioColor.cs" t="Include" />
                 <e p="AudioPatricles.cs" t="Include" />
-                <e p="CloudsOffset.cs" t="Include" />
               </e>
             </e>
             <e p="Game.asmdef" t="Include" />
@@ -1890,6 +1889,7 @@
                 <e p="CurrentTrack.cs" t="Include" />
               </e>
             </e>
+            <e p="UI" t="Include" />
           </e>
         </e>
         <e p="SmallTail" t="Include">

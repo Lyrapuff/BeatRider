@@ -14,7 +14,7 @@ namespace Game.CPURoad
         public NativeArray<Vector2> Points;
         public float Offset;
         public int IndexOffset;
-        
+
         public void Execute(int index)
         {
             MovingEntityData data = Data[index];
